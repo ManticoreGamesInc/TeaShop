@@ -7,8 +7,7 @@ Tags: "SocialHub"
 Tags: "Cute"
 Tags: "Relaxing"
 Tags: "Casual"
-ScreenshotPaths: "C:\\Users\\Zaz\\Documents\\My Games\\Core\\Saved\\Maps\\TeaShop\\Graphics\\Thumbnail.png"
-ScreenshotPaths: "C:\\Users\\Zaz\\Documents\\My Games\\Core\\Saved\\Maps\\TeaShop\\Graphics\\GrandOpening.png"
+ScreenshotPaths: "D:\\Sarah Linkous\\Documents\\My Games\\CORE\\Saved\\Maps\\TeaShop\\Graphics\\Thumbnail.png"
 OwnerId: "3819113b7af34fb786a56960fc08136a"
 SerializationVersion: 2
 PublishedState: Public

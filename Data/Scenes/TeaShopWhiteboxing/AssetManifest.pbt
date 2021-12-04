@@ -152,15 +152,6 @@ Assets {
   }
 }
 Assets {
-  Id: 16193761379246070609
-  Name: "Liquid Decal"
-  PlatformAssetType: 14
-  PrimaryAsset {
-    AssetType: "DecalBlueprintAssetRef"
-    AssetId: "dcl_liquid"
-  }
-}
-Assets {
   Id: 16115905030413172164
   Name: "Metal Basic 01"
   PlatformAssetType: 2
@@ -440,30 +431,12 @@ Assets {
   }
 }
 Assets {
-  Id: 10576701757741742432
-  Name: "Asphalt 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_gen_asphault_001"
-  }
-}
-Assets {
   Id: 10565949065514172707
   Name: "Wood Floor Dark"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_wood_floor_dark_001_uv"
-  }
-}
-Assets {
-  Id: 10520045507815059540
-  Name: "Metal Gold 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_metal_gold_001"
   }
 }
 Assets {
@@ -566,24 +539,6 @@ Assets {
   }
 }
 Assets {
-  Id: 8905075706656320982
-  Name: "Snow Volume VFX"
-  PlatformAssetType: 8
-  PrimaryAsset {
-    AssetType: "VfxBlueprintAssetRef"
-    AssetId: "fxbp_snow_volume"
-  }
-}
-Assets {
-  Id: 8757068560497122517
-  Name: "Plane 4m - One Sided"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_plane_4m_001"
-  }
-}
-Assets {
   Id: 8555511769257053345
   Name: "Ivy 01"
   PlatformAssetType: 1
@@ -626,15 +581,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cube_001"
-  }
-}
-Assets {
-  Id: 7717882994273035562
-  Name: "Basic Material"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_basic_pbr_material_001"
   }
 }
 Assets {
@@ -845,15 +791,6 @@ Assets {
   }
 }
 Assets {
-  Id: 4874634156850684158
-  Name: "Metal Painted 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_metal_painted_new_001_uv"
-  }
-}
-Assets {
   Id: 4798953546912878943
   Name: "Urban Pipe Clamp 03"
   PlatformAssetType: 1
@@ -941,15 +878,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_urban_destruction_debris_plank_01_ref"
-  }
-}
-Assets {
-  Id: 3398852111120375512
-  Name: "Cube - Arched"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cube_arched_001"
   }
 }
 Assets {
@@ -1178,15 +1106,6 @@ Assets {
   }
 }
 Assets {
-  Id: 547262453554816637
-  Name: "Metal Basic Steel"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "steel_001"
-  }
-}
-Assets {
   Id: 447529020133412408
   Name: "Whitebox Wall 01 Half"
   PlatformAssetType: 1
@@ -1220,15 +1139,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_off_desktop_paper_stack_01_ref"
-  }
-}
-Assets {
-  Id: 198353679974341757
-  Name: "Cube - Bottom-Aligned"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cube_001"
   }
 }
 Assets {
