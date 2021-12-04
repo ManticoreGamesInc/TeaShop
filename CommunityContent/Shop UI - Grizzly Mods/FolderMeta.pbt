@@ -1,0 +1,75 @@
+MetaVersion: 1
+MarketplaceDetails {
+  Id: "e071c3fe44fd4a45822395c080e810ed"
+  OwnerAccountId: "842988d2452e48bfad230dd750822d72"
+  OwnerName: "Grizzly2487"
+  Version: "1.0.0"
+}
+AssetIdsOriginalToNew {
+  key: 2183170120407880660
+  value: 6497815284448939382
+}
+AssetIdsOriginalToNew {
+  key: 5752520816838397827
+  value: 6440799968449707456
+}
+AssetIdsOriginalToNew {
+  key: 6296643983338426041
+  value: 1160993634978909355
+}
+AssetIdsOriginalToNew {
+  key: 7774432262456152589
+  value: 15916092843063079184
+}
+AssetIdsOriginalToNew {
+  key: 8420792830571957342
+  value: 15761517581290686459
+}
+AssetIdsOriginalToNew {
+  key: 8779235781073814487
+  value: 4966192602512751954
+}
+AssetIdsOriginalToNew {
+  key: 8909423447452175487
+  value: 15945438730871329290
+}
+AssetIdsOriginalToNew {
+  key: 8949054361887113379
+  value: 4362249734509054198
+}
+AssetIdsOriginalToNew {
+  key: 9270501256392163147
+  value: 6171440066149148750
+}
+AssetIdsOriginalToNew {
+  key: 10514564869162251183
+  value: 4792318821732682309
+}
+AssetIdsOriginalToNew {
+  key: 11272370380782785357
+  value: 6376212468248148487
+}
+AssetIdsOriginalToNew {
+  key: 15525254298570521400
+  value: 9039035972438369839
+}
+AssetIdsOriginalToNew {
+  key: 15985978184565317044
+  value: 7046155104103178681
+}
+AssetIdsOriginalToNew {
+  key: 16491352729806410210
+  value: 74929384905310752
+}
+AssetIdsOriginalToNew {
+  key: 16686963253356313670
+  value: 352518892875426227
+}
+AssetIdsOriginalToNew {
+  key: 17942197072077358752
+  value: 11338426626975423844
+}
+AssetIdsOriginalToNew {
+  key: 18428863674282800739
+  value: 17480318819996101186
+}
