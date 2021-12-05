@@ -1,6 +1,40 @@
 Name: "Interactive Objects"
 RootId: 1005977451243031848
 Objects {
+  Id: 16322492120352221105
+  Name: "Photo Mode by varglbargl"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1005977451243031848
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 14575232348162154817
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Photo Mode by varglbargl"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16887067915690527544
+    }
+  }
+}
+Objects {
   Id: 7779958723119707746
   Name: "DJ Table"
   Transform {

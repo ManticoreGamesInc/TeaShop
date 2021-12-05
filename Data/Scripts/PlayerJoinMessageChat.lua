@@ -19,6 +19,7 @@ Game.playerJoinedEvent:Connect(function(player)
 		local index = math.random(1, #messages)
 		local msg = messages[index]
 		msg = msg:gsub("{0}", player.name)
-		Chat.BroadcastMessage(msg)
+		Events.BroadcastToAllPlayers("BroadcastChatMessage", msg)
+		-- Chat.BroadcastMessage(msg)
 	end
 end)

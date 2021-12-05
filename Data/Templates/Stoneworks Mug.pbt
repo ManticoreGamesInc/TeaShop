@@ -38,9 +38,9 @@ Assets {
         Name: "Group"
         Transform {
           Location {
-            X: 0.096836105
-            Y: -11.7011824
-            Z: -11.1176662
+            X: 0.0968322754
+            Y: -13.8076782
+            Z: -11.1176643
           }
           Rotation {
           }
@@ -51,6 +51,7 @@ Assets {
           }
         }
         ParentId: 4034529475239897146
+        ChildIds: 5177601641366653124
         ChildIds: 17549978601380453020
         ChildIds: 2840365714388341190
         ChildIds: 11553996697897501546
@@ -58,6 +59,8 @@ Assets {
         ChildIds: 14599015804242361215
         ChildIds: 9080148049590623721
         ChildIds: 16003104212487720344
+        ChildIds: 9107146932755789338
+        ChildIds: 11354250610900172837
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -72,6 +75,71 @@ Assets {
         }
         Folder {
           IsGroup: true
+        }
+      }
+      Objects {
+        Id: 5177601641366653124
+        Name: "Urban Interior - Oil Lantern 02 - Handle 01"
+        Transform {
+          Location {
+            X: -0.947967529
+            Y: 8.09912109
+            Z: 7.32616806
+          }
+          Rotation {
+            Yaw: 180
+            Roll: -90
+          }
+          Scale {
+            X: 0.0508994795
+            Y: 0.0243245065
+            Z: 0.0182337686
+          }
+        }
+        ParentId: 17414381925453563457
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 18424275563021461026
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              G: 0.0456953198
+              B: 0.149999976
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 17401404339565138464
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
         }
       }
       Objects {
@@ -495,7 +563,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 2515482473098859965
+              Id: 18424275563021461026
             }
           }
           Overrides {
@@ -509,6 +577,14 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:vtile"
             Float: 0.5
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              G: 0.0456953198
+              B: 0.149999976
+              A: 1
+            }
           }
         }
         Collidable_v2 {
@@ -539,6 +615,144 @@ Assets {
             BoundsScale: 1
           }
         }
+      }
+      Objects {
+        Id: 9107146932755789338
+        Name: "Decal Fantasy Carved 01"
+        Transform {
+          Location {
+            X: 10.2085724
+            Y: 2.96282959
+            Z: 8.89840317
+          }
+          Rotation {
+            Pitch: -20.2137737
+            Yaw: -71.3032761
+            Roll: 75.4889755
+          }
+          Scale {
+            X: 0.0415161029
+            Y: 0.0415161029
+            Z: 0.0415161029
+          }
+        }
+        ParentId: 17414381925453563457
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Shape Index"
+            Int: 1
+          }
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              G: 0.153840944
+              B: 0.505
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "bp:Sort Order"
+            Int: 10
+          }
+          Overrides {
+            Name: "bp:Color Emissive"
+            Color {
+              R: 0.197916687
+              G: 0.243901551
+              B: 1
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 192482046032647572
+          }
+          TeamSettings {
+          }
+          DecalBP {
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:medium"
+        }
+      }
+      Objects {
+        Id: 11354250610900172837
+        Name: "Decal Bullet Damage Metal"
+        Transform {
+          Location {
+            X: -1.14028931
+            Y: 11.2012939
+            Z: 23.102932
+          }
+          Rotation {
+            Pitch: 1.63160229
+            Yaw: 27.2200413
+            Roll: 26.7257252
+          }
+          Scale {
+            X: 0.0415161029
+            Y: 0.0415161029
+            Z: 0.0415161029
+          }
+        }
+        ParentId: 17414381925453563457
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              G: 0.153840944
+              B: 0.505
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 3508978612752446955
+          }
+          TeamSettings {
+          }
+          DecalBP {
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:medium"
+        }
+      }
+    }
+    Assets {
+      Id: 17401404339565138464
+      Name: "Arch Fancy 3m"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_arch_fancy_3m_001"
       }
     }
     Assets {
@@ -593,6 +807,24 @@ Assets {
       PrimaryAsset {
         AssetType: "VfxBlueprintAssetRef"
         AssetId: "fxbp_steam_volume_vfx"
+      }
+    }
+    Assets {
+      Id: 192482046032647572
+      Name: "Decal Fantasy Carved 01"
+      PlatformAssetType: 14
+      PrimaryAsset {
+        AssetType: "DecalBlueprintAssetRef"
+        AssetId: "bp_decal_fantasy_carved_001"
+      }
+    }
+    Assets {
+      Id: 3508978612752446955
+      Name: "Decal Bullet Damage Metal"
+      PlatformAssetType: 14
+      PrimaryAsset {
+        AssetType: "DecalBlueprintAssetRef"
+        AssetId: "bp_decal_bullet_metal_001"
       }
     }
     PrimaryAssetId {
