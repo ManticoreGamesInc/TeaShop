@@ -311,7 +311,6 @@ Assets {
           Value: "mc:eindicatorvisibility:alwaysvisible"
         }
         Trigger {
-          Interactable: true
           InteractionLabel: "Sit"
           TeamSettings {
             IsTeamCollisionEnabled: true

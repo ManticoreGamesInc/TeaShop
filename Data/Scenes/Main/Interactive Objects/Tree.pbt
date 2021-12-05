@@ -1,6 +1,40 @@
 Name: "Interactive Objects"
 RootId: 17832993586013553019
 Objects {
+  Id: 9646469144337040389
+  Name: "Beach Chair"
+  Transform {
+    Location {
+      X: -270.6
+      Y: -314.537292
+      Z: 5
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17832993586013553019
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
   Id: 5927654634283812255
   Name: "Beach Chair"
   Transform {
@@ -1773,23 +1807,6 @@ Objects {
             Yaw: 0.73199296
             Roll: 0.92644465
           }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 16009078327658919335
-      value {
-        Overrides {
-          Name: "Interactable"
-          Bool: false
         }
       }
     }

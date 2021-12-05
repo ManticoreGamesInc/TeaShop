@@ -7,5 +7,6 @@ aliases["sport"] = "0980b4/sport"
 aliases["dragonport"] = "3d0ff6/dragon-port"
 aliases["marioushub"] = "530289/marioussocialhub"
 aliases["deathwall"] = "bd2536/the-death-wall"
+aliases["coffeeshop"] = "97a9ce/coffee-shop"
 
 return aliases

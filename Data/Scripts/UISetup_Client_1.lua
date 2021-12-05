@@ -1,7 +1,4 @@
-UI.SetCursorVisible(true)
-UI.SetCanCursorInteractWithUI(true)
 
-local ITALIC_FONT = script:GetCustomProperty("RobotoItalic")
 
 -- Component Root Properties
 local ROOT = script:GetCustomProperty("ComponentRoot"):WaitForObject()

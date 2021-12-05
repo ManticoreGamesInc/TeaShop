@@ -1,0 +1,99 @@
+MetaVersion: 1
+MarketplaceDetails {
+  Id: "d33c6599ccbe48f99f9d012ee88d5138"
+  OwnerAccountId: "7e2dd115eee3420fa10f73c1fe4e0155"
+  OwnerName: "Chompigator"
+  Version: "1.0.0"
+}
+AssetIdsOriginalToNew {
+  key: 647276618544682252
+  value: 3728769445121859317
+}
+AssetIdsOriginalToNew {
+  key: 1106907843088999693
+  value: 6264450422192782379
+}
+AssetIdsOriginalToNew {
+  key: 2697088699983237160
+  value: 15165691540681525732
+}
+AssetIdsOriginalToNew {
+  key: 3907233814816662964
+  value: 16343833555167711907
+}
+AssetIdsOriginalToNew {
+  key: 4998445982610392906
+  value: 8821148950881629841
+}
+AssetIdsOriginalToNew {
+  key: 6391377948038618662
+  value: 9643182107443153507
+}
+AssetIdsOriginalToNew {
+  key: 6922035720414927051
+  value: 5305832121907361494
+}
+AssetIdsOriginalToNew {
+  key: 7061137668011053822
+  value: 12153930178280093244
+}
+AssetIdsOriginalToNew {
+  key: 7322429551789990844
+  value: 9851944661376749002
+}
+AssetIdsOriginalToNew {
+  key: 8162266057127480152
+  value: 14090690359875697845
+}
+AssetIdsOriginalToNew {
+  key: 8174688869725667776
+  value: 51846220252518596
+}
+AssetIdsOriginalToNew {
+  key: 8420965762923533713
+  value: 9602943361007360918
+}
+AssetIdsOriginalToNew {
+  key: 8989630512987198656
+  value: 8272656384031414097
+}
+AssetIdsOriginalToNew {
+  key: 9845831741962375901
+  value: 855951314874822871
+}
+AssetIdsOriginalToNew {
+  key: 10836471198989304794
+  value: 14608471042026400543
+}
+AssetIdsOriginalToNew {
+  key: 11138251384735078803
+  value: 3997470976395160034
+}
+AssetIdsOriginalToNew {
+  key: 11186520418608260544
+  value: 12192581889715983022
+}
+AssetIdsOriginalToNew {
+  key: 11385510314537018361
+  value: 9441889964748586361
+}
+AssetIdsOriginalToNew {
+  key: 12447882285625066399
+  value: 12233357590584247642
+}
+AssetIdsOriginalToNew {
+  key: 12735505539326258570
+  value: 3193102739492486824
+}
+AssetIdsOriginalToNew {
+  key: 13561287811749289368
+  value: 3901360437471508901
+}
+AssetIdsOriginalToNew {
+  key: 15072234951920677453
+  value: 13436295855423632802
+}
+AssetIdsOriginalToNew {
+  key: 15333533634248538528
+  value: 819323000125829908
+}

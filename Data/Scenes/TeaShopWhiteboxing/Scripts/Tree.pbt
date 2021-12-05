@@ -1,6 +1,50 @@
 Name: "Scripts"
 RootId: 13893858550619667414
 Objects {
+  Id: 3898064104918005129
+  Name: "TeaLeaderboard_Server"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13893858550619667414
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:TopTeaDrinkers"
+      NetReference {
+        Key: "ECC0A05BC3123B7E"
+        Type {
+          Value: "mc:enetreferencetype:leaderboard"
+        }
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 4760998559690950946
+    }
+  }
+}
+Objects {
   Id: 12910452877730870969
   Name: "SpawnPortalFromChat"
   Transform {

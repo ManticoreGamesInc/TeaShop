@@ -254,7 +254,7 @@ Assets {
               Value: "mc:etextjustify:left"
             }
             Font {
-              Id: 18305181429646832465
+              Id: 2554622994243110543
             }
             VerticalJustification {
               Value: "mc:everticaljustification:center"
@@ -341,7 +341,7 @@ Assets {
               Value: "mc:etextjustify:left"
             }
             Font {
-              Id: 18305181429646832465
+              Id: 15315424746058787896
             }
             VerticalJustification {
               Value: "mc:everticaljustification:center"
@@ -497,7 +497,7 @@ Assets {
               Value: "mc:etextjustify:left"
             }
             Font {
-              Id: 18305181429646832465
+              Id: 15315424746058787896
             }
             VerticalJustification {
               Value: "mc:everticaljustification:center"
@@ -581,7 +581,7 @@ Assets {
               Value: "mc:etextjustify:left"
             }
             Font {
-              Id: 18305181429646832465
+              Id: 15315424746058787896
             }
             VerticalJustification {
               Value: "mc:everticaljustification:center"
@@ -830,12 +830,21 @@ Assets {
       }
     }
     Assets {
-      Id: 18305181429646832465
-      Name: "Baloo 2 Extra Bold"
+      Id: 2554622994243110543
+      Name: "Amarante"
       PlatformAssetType: 28
       PrimaryAsset {
         AssetType: "FontAssetRef"
-        AssetId: "Baloo2ExtraBold_ref"
+        AssetId: "AmaranteRegular_ref"
+      }
+    }
+    Assets {
+      Id: 15315424746058787896
+      Name: "Roboto Slab"
+      PlatformAssetType: 28
+      PrimaryAsset {
+        AssetType: "FontAssetRef"
+        AssetId: "RobotoSlabRegular_ref"
       }
     }
     Assets {

@@ -18,6 +18,7 @@ Objects {
   ChildIds: 4282620061341822978
   ChildIds: 17890896660001401432
   ChildIds: 2522544622353355839
+  ChildIds: 1167050887843434993
   ChildIds: 17832993586013553019
   ChildIds: 7798052427219841836
   ChildIds: 14369113271519861109
@@ -189,6 +190,80 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Interactive Objects"
+  }
+}
+Objects {
+  Id: 1167050887843434993
+  Name: "Chair Logic"
+  Transform {
+    Location {
+      X: 15114.6504
+      Y: -7312.38574
+      Z: 6014.85645
+    }
+    Rotation {
+      Pitch: -15.3098755
+      Yaw: -158.943527
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 14418205449374406163
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Chair Logic"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -270.6
+            Y: -314.537292
+            Z: 15.6856441
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: 33.6270943
+            Yaw: 0.73199296
+            Roll: 0.92644459
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 16009078327658919335
+      value {
+        Overrides {
+          Name: "Interactable"
+          Bool: false
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 3599235406971010506
+    }
   }
 }
 Objects {

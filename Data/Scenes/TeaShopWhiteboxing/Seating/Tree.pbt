@@ -1,0 +1,790 @@
+Name: "Seating"
+RootId: 6947938321132415831
+Objects {
+  Id: 3071474344804771158
+  Name: "Chair Logic"
+  Transform {
+    Location {
+      X: 560
+      Y: -290
+      Z: 140
+    }
+    Rotation {
+      Yaw: -179.999985
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6947938321132415831
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 14418205449374406163
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Chair Logic"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -930
+            Y: -350
+            Z: 70
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -179.999969
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 3599235406971010506
+    }
+  }
+}
+Objects {
+  Id: 17044499653707680126
+  Name: "Chair Logic"
+  Transform {
+    Location {
+      X: 822.972656
+      Y: -300
+      Z: 80
+    }
+    Rotation {
+      Yaw: 89.9999542
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6947938321132415831
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 14418205449374406163
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Chair Logic"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -930
+            Y: -420
+            Z: 70
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 180
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 3599235406971010506
+    }
+  }
+}
+Objects {
+  Id: 9375013110155307664
+  Name: "Chair Logic"
+  Transform {
+    Location {
+      X: 1640
+      Y: 630
+      Z: 66.9898453
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6947938321132415831
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 14418205449374406163
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Chair Logic"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 130
+            Y: 100
+            Z: -3.01015472
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -179.999954
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 3599235406971010506
+    }
+  }
+}
+Objects {
+  Id: 10866915364074636570
+  Name: "Chair Logic"
+  Transform {
+    Location {
+      X: 1640
+      Y: 422.181763
+      Z: 66.9898453
+    }
+    Rotation {
+      Yaw: -179.999985
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6947938321132415831
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 14418205449374406163
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Chair Logic"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 130
+            Y: -107.818237
+            Z: -3.01015472
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -179.999954
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 3599235406971010506
+    }
+  }
+}
+Objects {
+  Id: 6922658010506042710
+  Name: "Chair Logic"
+  Transform {
+    Location {
+      X: 1640
+      Y: -300
+      Z: 80
+    }
+    Rotation {
+      Yaw: 89.9999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6947938321132415831
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 14418205449374406163
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Chair Logic"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -460
+            Y: -430
+            Z: 10
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 89.9999619
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 3599235406971010506
+    }
+  }
+}
+Objects {
+  Id: 14905093270181198343
+  Name: "Chair Logic"
+  Transform {
+    Location {
+      X: 1540.38025
+      Y: -300
+      Z: 80
+    }
+    Rotation {
+      Yaw: 89.9999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6947938321132415831
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 14418205449374406163
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Chair Logic"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -559.619751
+            Y: -430
+            Z: 10
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 89.9999619
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 3599235406971010506
+    }
+  }
+}
+Objects {
+  Id: 11534919112605541268
+  Name: "Chair Logic"
+  Transform {
+    Location {
+      X: 1432.97266
+      Y: -300
+      Z: 80
+    }
+    Rotation {
+      Yaw: 89.9999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6947938321132415831
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 14418205449374406163
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Chair Logic"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -667.027344
+            Y: -430
+            Z: 10
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 89.9999619
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 3599235406971010506
+    }
+  }
+}
+Objects {
+  Id: 760333637208547375
+  Name: "Chair Logic"
+  Transform {
+    Location {
+      X: 1640
+      Y: 630
+      Z: 66.9898453
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6947938321132415831
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 14418205449374406163
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Chair Logic"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 150
+            Y: -430
+            Z: 10
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 89.9999847
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 3599235406971010506
+    }
+  }
+}
+Objects {
+  Id: 12811052155470433193
+  Name: "Chair Logic"
+  Transform {
+    Location {
+      X: 1640
+      Y: 530
+      Z: 66.9898453
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6947938321132415831
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 14418205449374406163
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Chair Logic"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 50.380249
+            Y: -430
+            Z: 10
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 89.9999847
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 3599235406971010506
+    }
+  }
+}
+Objects {
+  Id: 18274954750937287982
+  Name: "Chair Logic"
+  Transform {
+    Location {
+      X: 1640
+      Y: 422.181763
+      Z: 66.9898453
+    }
+    Rotation {
+      Yaw: -179.999985
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6947938321132415831
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 14418205449374406163
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Chair Logic"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -57.0273438
+            Y: -430
+            Z: 10
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 89.9999847
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 3599235406971010506
+    }
+  }
+}
+Objects {
+  Id: 17071863376876958453
+  Name: "Chair Logic"
+  Transform {
+    Location {
+      X: 1650
+      Y: 530
+      Z: 66.9898453
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6947938321132415831
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 14418205449374406163
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Chair Logic"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 150
+            Y: 500
+            Z: -3.01015472
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -179.999954
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 3599235406971010506
+    }
+  }
+}
+Objects {
+  Id: 6955962221486653774
+  Name: "Chair Logic"
+  Transform {
+    Location {
+      X: 1650
+      Y: 422.181763
+      Z: 66.9898453
+    }
+    Rotation {
+      Yaw: -179.999985
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6947938321132415831
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 14418205449374406163
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Chair Logic"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 150
+            Y: 400
+            Z: -3.01015472
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -179.999954
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 3599235406971010506
+    }
+  }
+}
+Objects {
+  Id: 13514416390950815324
+  Name: "Chair Logic"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6947938321132415831
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 14418205449374406163
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Chair Logic"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 150
+            Y: 292.181763
+            Z: -3.01015472
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -179.999969
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 3599235406971010506
+    }
+  }
+}
+Objects {
+  Id: 8781300856029453121
+  Name: "Sit Ground Logic"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6947938321132415831
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 5527460207137417370
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Sit Ground Logic"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 805.071289
+            Y: 1420.85278
+            Z: 49.3886108
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -0.312528938
+            Yaw: -84.8653793
+            Roll: 3.47318077
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 6523764611414215470
+      value {
+        Overrides {
+          Name: "Interactable"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 11285518291372594801
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Cube"
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 6687639425075067324
+    }
+  }
+}

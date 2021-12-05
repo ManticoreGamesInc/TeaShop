@@ -1511,4 +1511,5 @@ Assets {
     }
   }
   SerializationVersion: 101
+  DirectlyPublished: true
 }
