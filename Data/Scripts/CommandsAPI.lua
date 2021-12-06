@@ -81,6 +81,13 @@ COMMANDS["party"] = {
     end
 }
 
+COMMANDS["totalplayers"] = {
+    rank = _G.RANKS.MOD,
+    action = function(speaker)
+        Events.Broadcast("PrintTotalPlayers", speaker)
+    end
+}
+
 
 
 --     if message[1] == "/resetme" then
@@ -147,11 +154,6 @@ function ResetPlayer(player)
     for _, e in ipairs(player:GetEquipment()) do
         e:Destroy()
     end
-    player.serverUserData.hasDrink = false
-    player.serverUserData.finishedDrink = false
-    player:SetResource("alcohol", 0)
-    player:SetResource("sips", 0)
-
 end
 
 return COMMANDS

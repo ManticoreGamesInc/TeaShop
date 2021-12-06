@@ -1004,12 +1004,13 @@ Objects {
   Name: "Ledge Logic"
   Transform {
     Location {
-      X: 8.98956299
-      Y: -26.868866
-      Z: 54.0545654
+      X: 45.1582947
+      Y: -83.7980881
+      Z: 27.2947693
     }
     Rotation {
-      Yaw: 120.663071
+      Pitch: 4.7712965
+      Yaw: 120.663193
     }
     Scale {
       X: 1
@@ -1355,7 +1356,7 @@ Objects {
     }
     Overrides {
       Name: "cs:SittingStance"
-      String: "unarmed_sit_ground_ledge"
+      String: "unarmed_sit_spaceship_bentleg"
     }
   }
   Collidable_v2 {
@@ -4572,7 +4573,6 @@ Objects {
     }
   }
   ParentId: 3631948163741704229
-  ChildIds: 12685929265334762914
   ChildIds: 8615601936108799121
   WantsNetworking: true
   Collidable_v2 {
@@ -4612,6 +4612,7 @@ Objects {
   ParentId: 5776518866451042625
   ChildIds: 15776890246917274807
   ChildIds: 705736042195097765
+  ChildIds: 12685929265334762914
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -4637,350 +4638,16 @@ Objects {
   }
 }
 Objects {
-  Id: 705736042195097765
-  Name: "ClientContext"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 8615601936108799121
-  ChildIds: 4132601455762265927
-  ChildIds: 4658750893003707037
-  ChildIds: 7038192510866122533
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  NetworkContext {
-  }
-  InstanceHistory {
-    SelfId: 705736042195097765
-    SubobjectId: 9089776306393696182
-    InstanceId: 16312423862533757012
-    TemplateId: 7449992736907826705
-  }
-}
-Objects {
-  Id: 7038192510866122533
-  Name: "SitTrigger"
-  Transform {
-    Location {
-      X: 69.35466
-      Y: 1.71661377e-05
-      Z: -45.5670166
-    }
-    Rotation {
-    }
-    Scale {
-      X: 0.476830095
-      Y: 0.0572012067
-      Z: 0.476830095
-    }
-  }
-  ParentId: 705736042195097765
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:alwaysvisible"
-  }
-  Trigger {
-    InteractionLabel: "Sit"
-    TeamSettings {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    TriggerShape_v2 {
-      Value: "mc:etriggershape:box"
-    }
-  }
-  InstanceHistory {
-    SelfId: 7038192510866122533
-    SubobjectId: 1604045183741868086
-    InstanceId: 16312423862533757012
-    TemplateId: 7449992736907826705
-  }
-}
-Objects {
-  Id: 4658750893003707037
-  Name: "OuterTrigger"
-  Transform {
-    Location {
-      X: 72.2731628
-      Y: 2.28881836e-05
-      Z: -45.5670166
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1.24003482
-      Y: 0.672337
-      Z: 1.24003482
-    }
-  }
-  ParentId: 705736042195097765
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:alwaysvisible"
-  }
-  Trigger {
-    TeamSettings {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    TriggerShape_v2 {
-      Value: "mc:etriggershape:box"
-    }
-  }
-  InstanceHistory {
-    SelfId: 4658750893003707037
-    SubobjectId: 3983764917510753678
-    InstanceId: 16312423862533757012
-    TemplateId: 7449992736907826705
-  }
-}
-Objects {
-  Id: 4132601455762265927
-  Name: "ChairClient"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 705736042195097765
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Root"
-      ObjectReference {
-        SelfId: 8615601936108799121
-      }
-    }
-    Overrides {
-      Name: "cs:OuterTrigger"
-      ObjectReference {
-        SelfId: 4658750893003707037
-      }
-    }
-    Overrides {
-      Name: "cs:SitTrigger"
-      ObjectReference {
-        SelfId: 7038192510866122533
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Script {
-    ScriptAsset {
-      Id: 11442475187611604727
-    }
-  }
-  InstanceHistory {
-    SelfId: 4132601455762265927
-    SubobjectId: 5672261139322996820
-    InstanceId: 16312423862533757012
-    TemplateId: 7449992736907826705
-  }
-}
-Objects {
-  Id: 15776890246917274807
-  Name: "ServerContext"
-  Transform {
-    Location {
-      X: 73.0855713
-      Z: 43.2832642
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 8615601936108799121
-  ChildIds: 7458849417453729884
-  ChildIds: 12086404118181673594
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  NetworkContext {
-    Type: Server
-  }
-  InstanceHistory {
-    SelfId: 15776890246917274807
-    SubobjectId: 12474089451174585252
-    InstanceId: 16312423862533757012
-    TemplateId: 7449992736907826705
-  }
-}
-Objects {
-  Id: 12086404118181673594
-  Name: "Guide Cube"
-  Transform {
-    Location {
-      X: -3.63951707
-      Y: 3.57627869e-07
-      Z: -95.291626
-    }
-    Rotation {
-    }
-    Scale {
-      X: 0.0435556397
-      Y: 0.813191473
-      Z: 0.0435556397
-    }
-  }
-  ParentId: 15776890246917274807
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12095835209017042614
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  InstanceHistory {
-    SelfId: 12086404118181673594
-    SubobjectId: 15012064184632878441
-    InstanceId: 16312423862533757012
-    TemplateId: 7449992736907826705
-  }
-}
-Objects {
-  Id: 7458849417453729884
-  Name: "ChairServer"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 15776890246917274807
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Root"
-      ObjectReference {
-        SelfId: 8615601936108799121
-      }
-    }
-    Overrides {
-      Name: "cs:SittingStance"
-      String: "unarmed_sit_ground_ledge"
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Script {
-    ScriptAsset {
-      Id: 14287183517268683398
-    }
-  }
-  InstanceHistory {
-    SelfId: 7458849417453729884
-    SubobjectId: 1183655406519723855
-    InstanceId: 16312423862533757012
-    TemplateId: 7449992736907826705
-  }
-}
-Objects {
   Id: 12685929265334762914
   Name: "ClientContext"
   Transform {
     Location {
+      X: 27.6966896
+      Y: -5.97016716
+      Z: -54.0545654
     }
     Rotation {
+      Yaw: -120.663071
     }
     Scale {
       X: 1
@@ -4988,7 +4655,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5776518866451042625
+  ParentId: 8615601936108799121
   ChildIds: 14295238137463886923
   WantsNetworking: true
   Collidable_v2 {
@@ -8146,5 +7813,343 @@ Objects {
     SubobjectId: 17831571126197423394
     InstanceId: 4391950814194652681
     TemplateId: 11371426444860190748
+  }
+}
+Objects {
+  Id: 705736042195097765
+  Name: "ClientContext"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8615601936108799121
+  ChildIds: 4132601455762265927
+  ChildIds: 4658750893003707037
+  ChildIds: 7038192510866122533
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  NetworkContext {
+  }
+  InstanceHistory {
+    SelfId: 705736042195097765
+    SubobjectId: 9089776306393696182
+    InstanceId: 16312423862533757012
+    TemplateId: 7449992736907826705
+  }
+}
+Objects {
+  Id: 7038192510866122533
+  Name: "SitTrigger"
+  Transform {
+    Location {
+      X: 69.35466
+      Y: 1.71661377e-05
+      Z: -45.5670166
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.476830095
+      Y: 0.0572012067
+      Z: 0.476830095
+    }
+  }
+  ParentId: 705736042195097765
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:alwaysvisible"
+  }
+  Trigger {
+    InteractionLabel: "Sit"
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+  InstanceHistory {
+    SelfId: 7038192510866122533
+    SubobjectId: 1604045183741868086
+    InstanceId: 16312423862533757012
+    TemplateId: 7449992736907826705
+  }
+}
+Objects {
+  Id: 4658750893003707037
+  Name: "OuterTrigger"
+  Transform {
+    Location {
+      X: 72.2731628
+      Y: 2.28881836e-05
+      Z: -45.5670166
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.24003482
+      Y: 0.672337
+      Z: 1.24003482
+    }
+  }
+  ParentId: 705736042195097765
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:alwaysvisible"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+  InstanceHistory {
+    SelfId: 4658750893003707037
+    SubobjectId: 3983764917510753678
+    InstanceId: 16312423862533757012
+    TemplateId: 7449992736907826705
+  }
+}
+Objects {
+  Id: 4132601455762265927
+  Name: "ChairClient"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 705736042195097765
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Root"
+      ObjectReference {
+        SelfId: 8615601936108799121
+      }
+    }
+    Overrides {
+      Name: "cs:OuterTrigger"
+      ObjectReference {
+        SelfId: 4658750893003707037
+      }
+    }
+    Overrides {
+      Name: "cs:SitTrigger"
+      ObjectReference {
+        SelfId: 7038192510866122533
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 11442475187611604727
+    }
+  }
+  InstanceHistory {
+    SelfId: 4132601455762265927
+    SubobjectId: 5672261139322996820
+    InstanceId: 16312423862533757012
+    TemplateId: 7449992736907826705
+  }
+}
+Objects {
+  Id: 15776890246917274807
+  Name: "ServerContext"
+  Transform {
+    Location {
+      X: 73.0855713
+      Z: 43.2832642
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8615601936108799121
+  ChildIds: 7458849417453729884
+  ChildIds: 12086404118181673594
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  NetworkContext {
+    Type: Server
+  }
+  InstanceHistory {
+    SelfId: 15776890246917274807
+    SubobjectId: 12474089451174585252
+    InstanceId: 16312423862533757012
+    TemplateId: 7449992736907826705
+  }
+}
+Objects {
+  Id: 12086404118181673594
+  Name: "Guide Cube"
+  Transform {
+    Location {
+      X: -3.63951707
+      Y: 3.57627869e-07
+      Z: -95.291626
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.0435556397
+      Y: 0.813191473
+      Z: 0.0435556397
+    }
+  }
+  ParentId: 15776890246917274807
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 12086404118181673594
+    SubobjectId: 15012064184632878441
+    InstanceId: 16312423862533757012
+    TemplateId: 7449992736907826705
+  }
+}
+Objects {
+  Id: 7458849417453729884
+  Name: "ChairServer"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15776890246917274807
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Root"
+      ObjectReference {
+        SelfId: 8615601936108799121
+      }
+    }
+    Overrides {
+      Name: "cs:SittingStance"
+      String: "unarmed_sit_ground_ledge"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 14287183517268683398
+    }
+  }
+  InstanceHistory {
+    SelfId: 7458849417453729884
+    SubobjectId: 1183655406519723855
+    InstanceId: 16312423862533757012
+    TemplateId: 7449992736907826705
   }
 }

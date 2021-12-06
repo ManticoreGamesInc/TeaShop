@@ -1,6 +1,6 @@
 Assets {
   Id: 2515482473098859965
-  Name: "Custom Composite Mask Blend_1"
+  Name: "Stoneworks Ceramic Paint"
   PlatformAssetType: 13
   SerializationVersion: 101
   CustomMaterialAsset {
@@ -23,12 +23,8 @@ Assets {
       Overrides {
         Name: "cmp:Material2"
         AssetReference {
-          Id: 13523525395839477263
+          Id: 8874862767328478400
         }
-      }
-      Overrides {
-        Name: "rotate_material2"
-        Float: 90
       }
       Overrides {
         Name: "invert_height"
@@ -36,7 +32,7 @@ Assets {
       }
       Overrides {
         Name: "blend_amount"
-        Float: 0.382674575
+        Float: 0.364210188
       }
       Overrides {
         Name: "cmpc:Material2"
@@ -48,11 +44,11 @@ Assets {
       }
       Overrides {
         Name: "u_tiles2"
-        Float: 5.18974113
+        Float: 0
       }
       Overrides {
         Name: "v_tiles2"
-        Float: 2.43239355
+        Float: 10.3105288
       }
       Overrides {
         Name: "gradient_color"
@@ -70,6 +66,10 @@ Assets {
       Overrides {
         Name: "gradient_falloff"
         Float: 0.505770445
+      }
+      Overrides {
+        Name: "u_tiles"
+        Float: 0.70827812
       }
     }
     Assets {
@@ -91,12 +91,12 @@ Assets {
       }
     }
     Assets {
-      Id: 13523525395839477263
-      Name: "Metal Corrugated 03"
+      Id: 8874862767328478400
+      Name: "Stone Foundation 01"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "mi_mil_metal_corrugated_metal_003_uv_ref"
+        AssetId: "mi_stone_foundation_001_uv_ref"
       }
     }
   }

@@ -836,6 +836,15 @@ Assets {
   }
 }
 Assets {
+  Id: 4005999326339477952
+  Name: "Modern Damaged Stairs Railing 01 - Straight 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_mod_stairs_railing_straight_001_damaged_02_ref"
+  }
+}
+Assets {
   Id: 3998716367353445583
   Name: "Curtain Rod 01"
   PlatformAssetType: 1

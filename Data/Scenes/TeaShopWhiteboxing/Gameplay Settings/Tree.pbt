@@ -68,7 +68,6 @@ Objects {
   Name: "Third Person Camera"
   Transform {
     Location {
-      Z: 500
     }
     Rotation {
     }
@@ -97,10 +96,10 @@ Objects {
     UseAsDefault: true
     AttachToLocalPlayer: true
     InitialDistance: 400
-    MinDistance: 300
-    MaxDistance: 600
+    IsDistanceAdjustable: true
+    MinDistance: 100
+    MaxDistance: 1000
     PositionOffset {
-      Y: 60
     }
     RotationOffset {
     }
@@ -169,6 +168,7 @@ Objects {
       LookAtCursorProjectionPlane {
         Value: "mc:eprojectionplane:xy"
       }
+      LookAtCursorProjectionPlaneOffset: 100
       MountedMaxAcceleration: 1800
       MountedWalkSpeed: 1280
       MountedJumpMaxCount: 1
@@ -185,7 +185,6 @@ Objects {
         Value: "mc:eabilityaimmode:viewrelative"
       }
       AppearanceChannelingTime: 2
-      MountChannelingTime: 2
       FlipOnMultiJump: true
       CanMoveUp: true
       CanMoveDown: true
@@ -265,6 +264,7 @@ Objects {
       ChatMode {
         Value: "mc:echatmode:teamandall"
       }
+      EnablePlayModeProfiler: true
       ChatSettings {
         ChatMode {
         }
@@ -302,6 +302,7 @@ Objects {
           HighDistance: 9000
         }
       }
+      EnableInGameSocialUI: true
       VoiceChatSettings {
         VoiceChatMode {
           Value: "mc:evoicechatmode:all"
@@ -332,11 +333,13 @@ Objects {
           Value: "mc:ecoreverticalflow:toptobottom"
         }
       }
-      PlayerInteractDistance: 500
+      PlayerInteractDistance: 250
       PlayerInteractAngleDeg: 50
       PlayerStorageMode {
         Value: "mc:eplayerstoragemode:none"
       }
+      EnableConcurrentPlayerStorage: true
+      EnableConcurrentCreatorStorage: true
     }
   }
 }

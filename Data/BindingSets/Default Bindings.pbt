@@ -37,7 +37,7 @@ Assets {
             Value: "mc:ebindingkeyboard:leftcontrol"
           }
           KeyboardSecondary {
-            Value: "mc:ebindingkeyboard:c"
+            Value: "mc:ebindingkeyboard:none"
           }
           Controller {
             Value: "mc:ebindinggamepad:b"
@@ -241,7 +241,7 @@ Assets {
             Value: "mc:ebindingkeyboard:mouseup"
           }
           KeyboardSecondary {
-            Value: "mc:ebindingkeyboard:none"
+            Value: "mc:ebindingkeyboard:up"
           }
           Controller {
             Value: "mc:ebindinggamepad:rightstickup"
@@ -252,7 +252,7 @@ Assets {
             Value: "mc:ebindingkeyboard:mouseleft"
           }
           KeyboardSecondary {
-            Value: "mc:ebindingkeyboard:none"
+            Value: "mc:ebindingkeyboard:left"
           }
           Controller {
             Value: "mc:ebindinggamepad:rightstickleft"
@@ -263,7 +263,7 @@ Assets {
             Value: "mc:ebindingkeyboard:mousedown"
           }
           KeyboardSecondary {
-            Value: "mc:ebindingkeyboard:none"
+            Value: "mc:ebindingkeyboard:down"
           }
           Controller {
             Value: "mc:ebindinggamepad:rightstickdown"
@@ -274,7 +274,7 @@ Assets {
             Value: "mc:ebindingkeyboard:mouseright"
           }
           KeyboardSecondary {
-            Value: "mc:ebindingkeyboard:none"
+            Value: "mc:ebindingkeyboard:right"
           }
           Controller {
             Value: "mc:ebindinggamepad:rightstickright"

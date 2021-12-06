@@ -121,9 +121,11 @@ function hideControls()
   if controlsVisible then
     CONTROLS.visibility = Visibility.FORCE_OFF
     controlsVisible = false
+    Events.Broadcast("HideAllUI")
   else
     CONTROLS.visibility = Visibility.INHERIT
     controlsVisible = true
+    Events.Broadcast("ShowAllUI")
   end
 
   sfx:Play()

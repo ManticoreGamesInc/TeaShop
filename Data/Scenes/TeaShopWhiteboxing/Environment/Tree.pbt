@@ -1,61 +1,6 @@
 Name: "Environment"
 RootId: 4510811365617189565
 Objects {
-  Id: 1344241922925047871
-  Name: "Plane 4m - One Sided"
-  Transform {
-    Location {
-      X: -350
-      Y: 500
-      Z: 225
-    }
-    Rotation {
-    }
-    Scale {
-      X: 100
-      Y: 100
-      Z: 1
-    }
-  }
-  ParentId: 4510811365617189565
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 10576701757741742432
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 8757068560497122517
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-}
-Objects {
   Id: 6326599446951273426
   Name: "Environment VFX"
   Transform {

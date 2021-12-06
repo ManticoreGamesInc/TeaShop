@@ -34,7 +34,7 @@ Objects {
 }
 Objects {
   Id: 4834257072595777884
-  Name: "UI Container"
+  Name: "AFK Resource Container"
   Transform {
     Location {
     }

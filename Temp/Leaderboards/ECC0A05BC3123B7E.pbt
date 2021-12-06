@@ -1,8 +1,14 @@
 GlobalEntries {
   Id: "3819113b7af34fb786a56960fc08136a"
   Name: "coreslinkous"
-  ScoreFormatted: "7.0"
-  DateTime: "2021-12-05T04:30:32.362Z"
+  ScoreFormatted: "10.0"
+  DateTime: "2021-12-06T01:38:50.694Z"
+}
+GlobalEntries {
+  Id: "BOT_Bot2"
+  Name: "Bot2"
+  ScoreFormatted: "1.0"
+  DateTime: "2021-12-05T05:08:00.976Z"
 }
 Config {
   SortType {

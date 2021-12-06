@@ -35,15 +35,6 @@ Assets {
   }
 }
 Assets {
-  Id: 18033389860248816225
-  Name: "Craftsman Interior Door 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_urb_sub_craftsman_door_002"
-  }
-}
-Assets {
   Id: 17882896792933737184
   Name: "Main Street Trim 01"
   PlatformAssetType: 1
@@ -104,15 +95,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_urb_dtn_mst_pillar_001_ref"
-  }
-}
-Assets {
-  Id: 16630259605395466384
-  Name: "Frosted Glass"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "fxma_frosted_glass"
   }
 }
 Assets {
@@ -185,15 +167,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_sub_craftsman_stairs_001_straight"
-  }
-}
-Assets {
-  Id: 15614794363849386760
-  Name: "Urban Door Steel 02"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_urb_dtn_door_steel_002_ref"
   }
 }
 Assets {
@@ -626,15 +599,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_crescent_003"
-  }
-}
-Assets {
-  Id: 9246394684961412836
-  Name: "Main Street Door Shopfront 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_urb_dtn_mst_door_001_ref"
   }
 }
 Assets {
@@ -1202,15 +1166,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_brick_sandstone_wall_face_001"
-  }
-}
-Assets {
-  Id: 1104198953447072835
-  Name: "Object Domestic Doors & Creaks Set 01 SFX"
-  PlatformAssetType: 10
-  PrimaryAsset {
-    AssetType: "AudioBlueprintAssetRef"
-    AssetId: "sfxabp_object_domestic_door_ref"
   }
 }
 Assets {

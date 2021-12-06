@@ -37,7 +37,6 @@ Objects {
   ChildIds: 14201229553397561019
   ChildIds: 8289569903536695892
   ChildIds: 6710773566516883727
-  ChildIds: 12194857309545375204
   ChildIds: 11753643732720542017
   ChildIds: 14289644979527589282
   ChildIds: 6748720284450696122
@@ -49,7 +48,6 @@ Objects {
   ChildIds: 14980611353181590822
   ChildIds: 813204437448987926
   ChildIds: 14665728347936624787
-  ChildIds: 5674944856275783181
   ChildIds: 8477577029729384766
   ChildIds: 4413890428374137510
   ChildIds: 8329609326077524604
@@ -198,6 +196,8 @@ Objects {
   ChildIds: 18254936829320268921
   ChildIds: 3524973985380708447
   ChildIds: 7440750828100037571
+  ChildIds: 7779740340652366726
+  ChildIds: 11914125028699610592
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -212,6 +212,102 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 11914125028699610592
+  Name: "Japanese Futon - Mattress 01"
+  Transform {
+    Location {
+      X: 400
+      Y: -123.076782
+      Z: 1299.99988
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 351444627740904
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10447342554861957697
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 7779740340652366726
+  Name: "Japanese Futon - Mattress 01"
+  Transform {
+    Location {
+      X: 400
+      Y: -123.076782
+      Z: 1549.99988
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 351444627740904
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10447342554861957697
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
   }
 }
 Objects {
@@ -11452,11 +11548,11 @@ Objects {
   Transform {
     Location {
       X: 1064.69336
-      Y: -784.839294
+      Y: -800
       Z: 458.996033
     }
     Rotation {
-      Yaw: -59.692524
+      Yaw: -59.6925354
     }
     Scale {
       X: 1
@@ -12367,8 +12463,8 @@ Objects {
   Transform {
     Location {
       X: 1050
-      Y: -100
-      Z: 1300
+      Y: 292.307709
+      Z: 1299.99988
     }
     Rotation {
       Yaw: 89.9999619
@@ -12415,8 +12511,8 @@ Objects {
   Transform {
     Location {
       X: 1050
-      Y: -100
-      Z: 1550
+      Y: 292.307709
+      Z: 1549.99988
     }
     Rotation {
       Yaw: 89.9999542
@@ -12463,8 +12559,8 @@ Objects {
   Transform {
     Location {
       X: 550
-      Y: -100
-      Z: 1300
+      Y: 292.307709
+      Z: 1299.99988
     }
     Rotation {
       Yaw: 89.9999619
@@ -12511,8 +12607,8 @@ Objects {
   Transform {
     Location {
       X: 550
-      Y: -100
-      Z: 1550
+      Y: 292.307709
+      Z: 1549.99988
     }
     Rotation {
       Yaw: 89.9999542
@@ -12559,8 +12655,8 @@ Objects {
   Transform {
     Location {
       X: 1050
-      Y: 50
-      Z: 1300
+      Y: 446.153839
+      Z: 1299.99988
     }
     Rotation {
     }
@@ -12606,8 +12702,8 @@ Objects {
   Transform {
     Location {
       X: 250
-      Y: 50
-      Z: 1300
+      Y: 446.153839
+      Z: 1299.99988
     }
     Rotation {
     }
@@ -15560,7 +15656,6 @@ Objects {
     }
   }
   ParentId: 351444627740904
-  ChildIds: 11996109379159041622
   ChildIds: 18317322554530200367
   ChildIds: 363453936695353968
   Collidable_v2 {
@@ -15661,64 +15756,6 @@ Objects {
       AssetReference {
         Id: 2860892148779997472
       }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 1758388402481224558
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-}
-Objects {
-  Id: 11996109379159041622
-  Name: "Cube - Polished"
-  Transform {
-    Location {
-      X: 58.3333435
-      Y: -161.066895
-    }
-    Rotation {
-    }
-    Scale {
-      X: 6
-      Y: 1
-      Z: 2
-    }
-  }
-  ParentId: 1996620585653063769
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 2860892148779997472
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:smart"
-      Bool: true
     }
   }
   Collidable_v2 {
@@ -19821,8 +19858,8 @@ Objects {
   Transform {
     Location {
       X: -314.230591
-      Y: -0.000122070312
-      Z: 332.6875
+      Y: -5.52978516
+      Z: 337.201874
     }
     Rotation {
     }
@@ -23610,12 +23647,12 @@ Objects {
   Name: "Modern Stairs Railing 01 - Straight 01"
   Transform {
     Location {
-      X: 1650
+      X: 1446.15393
       Y: 49.9986877
       Z: 675.224182
     }
     Rotation {
-      Yaw: 89.9999542
+      Yaw: -90
     }
     Scale {
       X: 1
@@ -23674,7 +23711,7 @@ Objects {
   }
   CoreMesh {
     MeshAsset {
-      Id: 6773054001165329608
+      Id: 4005999326339477952
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -26037,54 +26074,6 @@ Objects {
   }
 }
 Objects {
-  Id: 5674944856275783181
-  Name: "Main Street Railing 01 - 2m"
-  Transform {
-    Location {
-      X: -253.693298
-      Y: 250
-      Z: 75.7575226
-    }
-    Rotation {
-      Yaw: -179.999969
-    }
-    Scale {
-      X: 1.51515138
-      Y: 1.51515138
-      Z: 0.99999994
-    }
-  }
-  ParentId: 351444627740904
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 17095418994475585998
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-}
-Objects {
   Id: 14665728347936624787
   Name: "Main Street Railing 01 - 2m"
   Transform {
@@ -26703,61 +26692,6 @@ Objects {
     Scale {
       X: 18.1818161
       Y: 29.9242477
-      Z: 0.378787845
-    }
-  }
-  ParentId: 351444627740904
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 1356089093617664294
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 2915731642596610032
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-}
-Objects {
-  Id: 12194857309545375204
-  Name: "Cube - Bottom-Aligned"
-  Transform {
-    Location {
-      X: -530.303
-      Y: 151.515137
-      Z: 37.8787842
-    }
-    Rotation {
-    }
-    Scale {
-      X: 15.9090891
-      Y: 14.0151501
       Z: 0.378787845
     }
   }
@@ -29301,7 +29235,6 @@ Objects {
   ChildIds: 12668641498146761748
   ChildIds: 6520378444431500280
   ChildIds: 5364397278121018044
-  ChildIds: 17564760073229721688
   ChildIds: 14203466437059840833
   ChildIds: 12855517180546323719
   ChildIds: 13354446476385512414
@@ -29329,7 +29262,6 @@ Objects {
   ChildIds: 14060320178135450380
   ChildIds: 14412462807664905525
   ChildIds: 3943615450806794479
-  ChildIds: 5967303382606040221
   ChildIds: 12380801160119659725
   ChildIds: 5283070165164167375
   ChildIds: 13457100010855786506
@@ -29831,117 +29763,6 @@ Objects {
   CoreMesh {
     MeshAsset {
       Id: 13262571254098786704
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-}
-Objects {
-  Id: 5967303382606040221
-  Name: "Japanese Temple Door Shoji 01"
-  Transform {
-    Location {
-      X: 50
-      Y: 600
-      Z: 28.3708878
-    }
-    Rotation {
-      Yaw: 89.9999542
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 15141092544670941844
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_TrimOuter:color"
-      Color {
-        R: 0.234375
-        G: 0.0339932404
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Building_WallInner:id"
-      AssetReference {
-        Id: 5186654808713610005
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_TrimInner:color"
-      Color {
-        R: 0.234375
-        G: 0.0339932404
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Building_WallOuter:id"
-      AssetReference {
-        Id: 5186654808713610005
-      }
-    }
-    Overrides {
-      Name: "ma:Building_WallInner:color"
-      Color {
-        R: 3
-        G: 2.575
-        B: 2.25
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Building_WallOuter:color"
-      Color {
-        R: 3
-        G: 2.575
-        B: 2.25
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Building_WallOuter_Bottom:id"
-      AssetReference {
-        Id: 5186654808713610005
-      }
-    }
-    Overrides {
-      Name: "ma:Building_WallOuter_Bottom:color"
-      Color {
-        R: 3
-        G: 2.575
-        B: 2.25
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 13653543951252471024
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -32497,163 +32318,6 @@ Objects {
         LinearDamping: 0.01
       }
       BoundsScale: 1
-    }
-  }
-}
-Objects {
-  Id: 17564760073229721688
-  Name: "Japanese Temple Wall Interior 01 - Doorway 01 Half"
-  Transform {
-    Location {
-      X: 50
-      Y: 500
-      Z: -6.10351562e-05
-    }
-    Rotation {
-      Yaw: 89.9999542
-    }
-    Scale {
-      X: 1
-      Y: -1
-      Z: 1
-    }
-  }
-  ParentId: 15141092544670941844
-  ChildIds: 4943938088744189411
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_TrimOuter:color"
-      Color {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Building_WallInner:id"
-      AssetReference {
-        Id: 13003254591609387349
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_TrimInner:color"
-      Color {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Building_WallOuter:id"
-      AssetReference {
-        Id: 1927471357999100379
-      }
-    }
-    Overrides {
-      Name: "ma:Building_WallOuter_Bottom:id"
-      AssetReference {
-        Id: 5186654808713610005
-      }
-    }
-    Overrides {
-      Name: "ma:Building_WallOuter_Bottom:color"
-      Color {
-        R: 3
-        G: 2.575
-        B: 2.25
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_TrimOuter:id"
-      AssetReference {
-        Id: 3829010572239272582
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_TrimInner:id"
-      AssetReference {
-        Id: 13003254591609387349
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 6548996511167555593
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-}
-Objects {
-  Id: 4943938088744189411
-  Name: "World Text"
-  Transform {
-    Location {
-      X: 199.999969
-      Y: 50.0000916
-      Z: 350
-    }
-    Rotation {
-      Yaw: 90
-    }
-    Scale {
-      X: 1.25
-      Y: 1.25
-      Z: 1.25
-    }
-  }
-  ParentId: 17564760073229721688
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Text {
-    Text: "Employee\r\nBack Room"
-    FontAsset {
-    }
-    Color {
-      R: 1
-      G: 1
-      B: 1
-      A: 1
-    }
-    HorizontalAlignment {
-      Value: "mc:ecoretexthorizontalalign:center"
-    }
-    VerticalAlignment {
-      Value: "mc:ecoretextverticalalign:center"
     }
   }
 }
