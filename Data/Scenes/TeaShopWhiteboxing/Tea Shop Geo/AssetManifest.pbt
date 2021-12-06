@@ -404,6 +404,15 @@ Assets {
   }
 }
 Assets {
+  Id: 10576701757741742432
+  Name: "Asphalt 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_gen_asphault_001"
+  }
+}
+Assets {
   Id: 10565949065514172707
   Name: "Wood Floor Dark"
   PlatformAssetType: 2
@@ -536,6 +545,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_jpn_lantern_stone_large_pedestal_001_ref"
+  }
+}
+Assets {
+  Id: 8757068560497122517
+  Name: "Plane 4m - One Sided"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_plane_4m_001"
   }
 }
 Assets {

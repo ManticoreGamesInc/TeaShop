@@ -1,100 +1,64 @@
 Assets {
-  Id: 17095418994475585998
-  Name: "Main Street Railing 01 - 2m"
-  PlatformAssetType: 1
+  Id: 18340030779138157511
+  Name: "BG Gradient 001"
+  PlatformAssetType: 9
   PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_urb_dtn_mst_railing_001_ref"
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "BackgroundFlat_020"
   }
 }
 Assets {
-  Id: 13653543951252471024
-  Name: "Japanese Temple Door Shoji 01"
-  PlatformAssetType: 1
+  Id: 16505093125647166232
+  Name: "Gradient Corners"
+  PlatformAssetType: 9
   PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_jpn_tem_door_shoji_01_ref"
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Gradient_Corners"
   }
 }
 Assets {
-  Id: 13003254591609387349
-  Name: "Bricks Concrete Cinder Block 01"
-  PlatformAssetType: 2
+  Id: 16131162377832065945
+  Name: "BG Flat 002"
+  PlatformAssetType: 9
   PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_brick_concrete_001"
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "BackgroundNoOutline_019"
   }
 }
 Assets {
-  Id: 10576701757741742432
-  Name: "Asphalt 01"
-  PlatformAssetType: 2
+  Id: 8614553120768390564
+  Name: "Paper Page Turn Crispy 01 SFX"
+  PlatformAssetType: 7
   PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_gen_asphault_001"
+    AssetType: "AudioAssetRef"
+    AssetId: "sfx_paper_page_turn_crispy_01a_Cue_ref"
   }
 }
 Assets {
-  Id: 8757068560497122517
-  Name: "Plane 4m - One Sided"
-  PlatformAssetType: 1
+  Id: 7800286242664488431
+  Name: "BG Highlighted 002"
+  PlatformAssetType: 9
   PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_plane_4m_001"
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "BackgroundHighlighted_019"
   }
 }
 Assets {
-  Id: 6548996511167555593
-  Name: "Japanese Temple Wall Interior 01 - Doorway 01 Half"
-  PlatformAssetType: 1
+  Id: 2476923059804763046
+  Name: "Frame Outline Thin 002"
+  PlatformAssetType: 9
   PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_jpn_tem_wall_int_001_door_01_half_ref"
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "FrameOutline_019"
   }
 }
 Assets {
-  Id: 5186654808713610005
-  Name: "Brick Multicolor 01"
-  PlatformAssetType: 2
+  Id: 1618952645909236572
+  Name: "Paper Book Open Close Page Heavy 02 SFX"
+  PlatformAssetType: 7
   PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_brick_multicolor_old_001_uv"
-  }
-}
-Assets {
-  Id: 3829010572239272582
-  Name: "Metal Iron 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_metal_iron_001"
-  }
-}
-Assets {
-  Id: 2915731642596610032
-  Name: "Cube - Bottom-Aligned"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cube_001"
-  }
-}
-Assets {
-  Id: 1758388402481224558
-  Name: "Cube - Polished"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cube_hq_test_001"
-  }
-}
-Assets {
-  Id: 1356089093617664294
-  Name: "Concrete Basic 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_gen_concrete_001"
+    AssetType: "AudioAssetRef"
+    AssetId: "sfx_paper_book_open_close_page_heavy_02a_Cue_ref"
   }
 }
 Assets {
