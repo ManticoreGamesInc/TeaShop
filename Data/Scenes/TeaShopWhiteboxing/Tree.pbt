@@ -22,7 +22,8 @@ Objects {
   ChildIds: 8924253713069340268
   ChildIds: 5620121991280473010
   ChildIds: 3493414710245218199
-  ChildIds: 13459124305946161815
+  ChildIds: 2386479650971966281
+  ChildIds: 9460665979285579347
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -35,6 +36,104 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 9460665979285579347
+  Name: "Book UI System"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 13459124305946161815
+  ChildIds: 7116433590083481158
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 7116433590083481158
+  Name: "Book Definitions"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9460665979285579347
+  ChildIds: 11312561418852068358
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 11312561418852068358
+  Name: "Book_DATA"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7116433590083481158
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 2312663086059330949
+    }
   }
 }
 Objects {
@@ -51,7 +150,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 9460665979285579347
   ChildIds: 5605318552821414815
   ChildIds: 15122069480334234892
   ChildIds: 8061800307228581551
@@ -169,6 +268,96 @@ Objects {
       Name: "cs:BookInside"
       ObjectReference {
         SelfId: 11329302068278531680
+      }
+    }
+    Overrides {
+      Name: "cs:OpenCloseSFX"
+      ObjectReference {
+        SelfId: 8061800307228581551
+      }
+    }
+    Overrides {
+      Name: "cs:PageTurnSFX"
+      ObjectReference {
+        SelfId: 8598069836196322667
+      }
+    }
+    Overrides {
+      Name: "cs:BookOpen"
+      SimpleCurve {
+        Keys {
+          Interpolation {
+            Value: "mc:erichcurveinterpmode:rcim_cubic"
+          }
+          TangentMode {
+            Value: "mc:erichcurvetangentmode:rctm_user"
+          }
+          ArriveTangent: 2.5
+          LeaveTangent: 2.5
+        }
+        Keys {
+          Interpolation {
+            Value: "mc:erichcurveinterpmode:rcim_cubic"
+          }
+          TangentMode {
+            Value: "mc:erichcurvetangentmode:rctm_user"
+          }
+          Time: 1
+          Value: 1
+        }
+        PreExtrapolation {
+          Value: "mc:erichcurveextrapolation:rcce_constant"
+        }
+        PostExtrapolation {
+          Value: "mc:erichcurveextrapolation:rcce_constant"
+        }
+        DefaultValue: 3.40282347e+38
+      }
+    }
+    Overrides {
+      Name: "cs:BookOpenDuration"
+      Float: 0.45
+    }
+    Overrides {
+      Name: "cs:BookClose"
+      SimpleCurve {
+        Keys {
+          Interpolation {
+            Value: "mc:erichcurveinterpmode:rcim_cubic"
+          }
+          TangentMode {
+            Value: "mc:erichcurvetangentmode:rctm_user"
+          }
+        }
+        Keys {
+          Interpolation {
+            Value: "mc:erichcurveinterpmode:rcim_cubic"
+          }
+          TangentMode {
+            Value: "mc:erichcurvetangentmode:rctm_user"
+          }
+          Time: 1
+          Value: 1
+          ArriveTangent: 2.5
+          LeaveTangent: 2.5
+        }
+        PreExtrapolation {
+          Value: "mc:erichcurveextrapolation:rcce_constant"
+        }
+        PostExtrapolation {
+          Value: "mc:erichcurveextrapolation:rcce_constant"
+        }
+        DefaultValue: 3.40282347e+38
+      }
+    }
+    Overrides {
+      Name: "cs:BookCloseDuration"
+      Float: 0.45
+    }
+    Overrides {
+      Name: "cs:BookDefinitions"
+      ObjectReference {
+        SelfId: 7116433590083481158
       }
     }
   }
@@ -974,6 +1163,7 @@ Objects {
   }
   ParentId: 5605318552821414815
   ChildIds: 18388625799537534243
+  ChildIds: 14653422129948798676
   ChildIds: 11727686450731170933
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1583,8 +1773,8 @@ Objects {
   }
 }
 Objects {
-  Id: 18388625799537534243
-  Name: "Book Cover"
+  Id: 14653422129948798676
+  Name: "Pages"
   Transform {
     Location {
     }
@@ -1610,6 +1800,9 @@ Objects {
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
   Control {
     Width: 625
     Height: 840
@@ -1620,17 +1813,8 @@ Objects {
     }
     UseParentWidth: true
     UseParentHeight: true
-    Image {
-      Brush {
-        Id: 16131162377832065945
-      }
-      Color {
-        G: 0.049484849
-        B: 0.0690000057
-        A: 1
-      }
-      TeamSettings {
-      }
+    Panel {
+      Opacity: 1
     }
     AnchorLayout {
       SelfAnchor {
@@ -1644,12 +1828,6 @@ Objects {
         }
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 18388625799537534243
-    SubobjectId: 8928997060896696002
-    InstanceId: 1028373094543896120
-    TemplateId: 11918541221321207752
   }
 }
 Objects {
@@ -1666,7 +1844,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 18388625799537534243
+  ParentId: 14653422129948798676
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1734,7 +1912,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 18388625799537534243
+  ParentId: 14653422129948798676
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1802,7 +1980,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 18388625799537534243
+  ParentId: 14653422129948798676
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1870,7 +2048,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 18388625799537534243
+  ParentId: 14653422129948798676
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1922,6 +2100,197 @@ Objects {
     SubobjectId: 955850431989924197
     InstanceId: 1028373094543896120
     TemplateId: 11918541221321207752
+  }
+}
+Objects {
+  Id: 18388625799537534243
+  Name: "Book Cover"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1549526958919669144
+  ChildIds: 14930081186777680971
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Control {
+    Height: -10
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    AddSizeToParentIfUsingParentSize: true
+    UseParentWidth: true
+    UseParentHeight: true
+    Image {
+      Brush {
+        Id: 16131162377832065945
+      }
+      Color {
+        G: 0.049484849
+        B: 0.0690000057
+        A: 1
+      }
+      TeamSettings {
+      }
+      ShadowColor {
+        A: 0.56
+      }
+      ShadowOffset {
+        X: 3
+        Y: 5
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 18388625799537534243
+    SubobjectId: 8928997060896696002
+    InstanceId: 1028373094543896120
+    TemplateId: 11918541221321207752
+  }
+}
+Objects {
+  Id: 14930081186777680971
+  Name: "Book Cover"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 18388625799537534243
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Control {
+    Width: 75
+    Height: 10
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    AddSizeToParentIfUsingParentSize: true
+    UseParentHeight: true
+    Image {
+      Brush {
+        Id: 16131162377832065945
+      }
+      Color {
+        G: 0.0448232293
+        B: 0.0625
+        A: 1
+      }
+      TeamSettings {
+      }
+      ShadowColor {
+        A: 0.56
+      }
+      ShadowOffset {
+        X: 3
+        Y: 5
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 18388625799537534243
+    SubobjectId: 8928997060896696002
+    InstanceId: 1028373094543896120
+    TemplateId: 11918541221321207752
+  }
+}
+Objects {
+  Id: 2386479650971966281
+  Name: "Message Banner"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 11168525500713847895
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Message Banner"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 995942677887715500
+    }
   }
 }
 Objects {
