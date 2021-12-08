@@ -19,7 +19,6 @@ Objects {
     }
   }
   ParentId: 10100376027100830952
-  ChildIds: 11630273563979858962
   ChildIds: 18208769503129108623
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -199,55 +198,6 @@ Objects {
   Script {
     ScriptAsset {
       Id: 13945467246658966396
-    }
-  }
-}
-Objects {
-  Id: 11630273563979858962
-  Name: "Collider"
-  Transform {
-    Location {
-      X: 55.8704224
-      Y: -151.557709
-      Z: 42.3335495
-    }
-    Rotation {
-      Pitch: 90
-      Roll: 90.0000076
-    }
-    Scale {
-      X: 0.884922862
-      Y: 3.01185703
-      Z: 3.01185703
-    }
-  }
-  ParentId: 9142097411843256099
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:forceoff"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 8438362470094797992
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
     }
   }
 }

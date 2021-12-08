@@ -17,6 +17,15 @@ Assets {
   }
 }
 Assets {
+  Id: 14409204687880097374
+  Name: "BG Flat 001"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "BackgroundNoOutline_020"
+  }
+}
+Assets {
   Id: 13896271786203219126
   Name: "Japanese Frame 003"
   PlatformAssetType: 9
@@ -62,21 +71,21 @@ Assets {
   }
 }
 Assets {
+  Id: 9334007068806665543
+  Name: "Germania One"
+  PlatformAssetType: 28
+  PrimaryAsset {
+    AssetType: "FontAssetRef"
+    AssetId: "GermaniaOneRegular_ref"
+  }
+}
+Assets {
   Id: 8892506612724139126
   Name: "Metamorphous"
   PlatformAssetType: 28
   PrimaryAsset {
     AssetType: "FontAssetRef"
     AssetId: "MetamorphousRegular_ref"
-  }
-}
-Assets {
-  Id: 5925157552449067831
-  Name: "BG Flat 003"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "BackgroundNoOutline_21"
   }
 }
 Assets {

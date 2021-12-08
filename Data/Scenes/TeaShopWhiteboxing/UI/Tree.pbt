@@ -1673,7 +1673,7 @@ Objects {
         Value: "mc:etextjustify:left"
       }
       Font {
-        Id: 18305181429646832465
+        Id: 15315424746058787896
       }
       VerticalJustification {
         Value: "mc:everticaljustification:center"
@@ -2211,7 +2211,7 @@ Objects {
     UseParentHeight: true
     Image {
       Brush {
-        Id: 5925157552449067831
+        Id: 14409204687880097374
       }
       Color {
         R: 1
@@ -3133,7 +3133,7 @@ Objects {
         Value: "mc:etextjustify:center"
       }
       Font {
-        Id: 8892506612724139126
+        Id: 9334007068806665543
       }
       VerticalJustification {
         Value: "mc:everticaljustification:center"
@@ -3357,7 +3357,7 @@ Objects {
     UseParentHeight: true
     Image {
       Brush {
-        Id: 5925157552449067831
+        Id: 14409204687880097374
       }
       Color {
         R: 1
