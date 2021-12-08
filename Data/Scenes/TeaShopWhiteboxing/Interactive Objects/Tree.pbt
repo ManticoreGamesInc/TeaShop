@@ -11132,8 +11132,8 @@ Objects {
   Name: "Hanging Chairs"
   Transform {
     Location {
-      X: 440
-      Y: -150
+      X: 710
+      Y: 130
       Z: 450
     }
     Rotation {

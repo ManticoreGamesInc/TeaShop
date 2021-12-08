@@ -12,3 +12,16 @@ LeaderboardConfigs {
   }
 }
 MainScene: "TeaShopWhiteboxing"
+StreamSources {
+  Entries {
+    StreamIdentifier: "test-stream"
+    SourceType {
+      Value: "mc:estreamsourcetype:none"
+    }
+  }
+  Entries {
+    SourceType {
+      Value: "mc:estreamsourcetype:none"
+    }
+  }
+}
