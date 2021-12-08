@@ -551,7 +551,7 @@ Objects {
 }
 Objects {
   Id: 4314388866833285447
-  Name: "PageNumberLeft"
+  Name: "Page Number"
   Transform {
     Location {
     }
@@ -621,7 +621,7 @@ Objects {
 }
 Objects {
   Id: 15458369080407381636
-  Name: "ChapterTitleLeft"
+  Name: "Chapter Title"
   Transform {
     Location {
     }
@@ -688,7 +688,7 @@ Objects {
 }
 Objects {
   Id: 5947346074450274545
-  Name: "HalfPageLeft"
+  Name: "Half Page"
   Transform {
     Location {
     }
@@ -755,7 +755,7 @@ Objects {
 }
 Objects {
   Id: 14017889229799920864
-  Name: "FullPageLeft"
+  Name: "Full Page"
   Transform {
     Location {
     }
@@ -878,7 +878,7 @@ Objects {
 }
 Objects {
   Id: 10036939456958796491
-  Name: "PageNumberRIght"
+  Name: "Page Number"
   Transform {
     Location {
     }
@@ -948,7 +948,7 @@ Objects {
 }
 Objects {
   Id: 12221918292579788121
-  Name: "ChapterTitleRight"
+  Name: "Chapter Title"
   Transform {
     Location {
     }
@@ -1015,7 +1015,7 @@ Objects {
 }
 Objects {
   Id: 8569954714150946176
-  Name: "HalfPageRight"
+  Name: "Half Page"
   Transform {
     Location {
     }
@@ -1082,7 +1082,7 @@ Objects {
 }
 Objects {
   Id: 14131828496024835380
-  Name: "FullPageRight"
+  Name: "Full Page"
   Transform {
     Location {
     }

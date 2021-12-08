@@ -26,8 +26,22 @@ end
 local currentBook = _G.BOOKS[1]
 
 function SetUpNewBook(book)
-    local covers = bookCover:FindChildrenByName("BookCover")
+    local covers = bookCover:FindDescendantsByName("Book Cover")
+    for _, cover in ipairs(covers) do
+        cover:SetColor(book.CoverColor)
+    end
+    local allTexts = bookInside:FindDescendantsByType("UIText")
+    for _, text in ipairs(allTexts) do
+        text:SetFont(book.MainTextFont)
+    end
+    local chapterTitles = bookInside:FindDescendantsByName("Chapter Title")
+    for _, title in ipairs(chapterTitles) do
+        title:SetFont(book.ChapterTitleFont)
+    end
+
 end
+
+SetUpNewBook(currentBook)
 
 function OpenBook()
     if isOpen then return end
