@@ -1,6 +1,39 @@
 Name: "Tea Shop Geo"
 RootId: 3493414710245218199
 Objects {
+  Id: 4149197258732228308
+  Name: "Lights"
+  Transform {
+    Location {
+      X: 113.451416
+      Y: 5.9487915
+      Z: 499.805237
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3493414710245218199
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  NetworkContext {
+  }
+}
+Objects {
   Id: 11996109379159041622
   Name: "Cube - Polished"
   Transform {
@@ -656,7 +689,6 @@ Objects {
   ChildIds: 8480270800410563396
   ChildIds: 3188883799699084958
   ChildIds: 13598168139592872675
-  ChildIds: 17232757750834784764
   ChildIds: 8917057257198629808
   ChildIds: 3980649874011790628
   ChildIds: 592305938956968152
@@ -4938,7 +4970,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:forceoff"
@@ -11255,73 +11287,6 @@ Objects {
   Blueprint {
     BlueprintAsset {
       Id: 5643092716944048016
-    }
-    TeamSettings {
-    }
-    DecalBP {
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:medium"
-  }
-}
-Objects {
-  Id: 17232757750834784764
-  Name: "Glow Shape Decal"
-  Transform {
-    Location {
-      X: -909.44165
-      Y: -1119.07715
-      Z: 398.162201
-    }
-    Rotation {
-      Yaw: -3.05175763e-05
-      Roll: 89.9999771
-    }
-    Scale {
-      X: 1
-      Y: 2.22861671
-      Z: 1.00000012
-    }
-  }
-  ParentId: 351444627740904
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Shape Index"
-      Int: 4
-    }
-    Overrides {
-      Name: "bp:Emissive Boost"
-      Float: 1
-    }
-    Overrides {
-      Name: "bp:Shape Fill"
-      Float: 0.845814168
-    }
-    Overrides {
-      Name: "bp:Color"
-      Color {
-        R: 1
-        G: 0.216667175
-        A: 0.227000013
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 1111611363030124672
     }
     TeamSettings {
     }
@@ -34172,104 +34137,6 @@ Objects {
         LinearDamping: 0.01
       }
       BoundsScale: 1
-    }
-  }
-}
-Objects {
-  Id: 4149197258732228308
-  Name: "Lights"
-  Transform {
-    Location {
-      X: 113.451416
-      Y: 5.9487915
-      Z: 499.805237
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 3493414710245218199
-  ChildIds: 11369515342547697539
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  NetworkContext {
-  }
-}
-Objects {
-  Id: 11369515342547697539
-  Name: "Spotlight"
-  Transform {
-    Location {
-      X: -672.839966
-      Y: -688.497192
-      Z: -52.0101929
-    }
-    Rotation {
-      Pitch: -49.4926147
-      Yaw: 134.373322
-      Roll: -140.947372
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4149197258732228308
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Light {
-    Intensity: 32.7705536
-    Color {
-      R: 1
-      G: 1
-      B: 1
-      A: 1
-    }
-    VolumetricIntensity: 5
-    TeamSettings {
-    }
-    Light {
-      Temperature: 6500
-      LocalLight {
-        AttenuationRadius: 1000
-        SpotLight {
-          SourceRadius: 20
-          SoftSourceRadius: 20
-          FallOffExponent: 8
-          InnerConeAngle: 30
-          OuterConeAngle: 40
-          Profile {
-            Value: "mc:espotlightprofile:basicspotlight"
-          }
-        }
-      }
-      MaxDrawDistance: 5000
-      MaxDistanceFadeRange: 1000
     }
   }
 }

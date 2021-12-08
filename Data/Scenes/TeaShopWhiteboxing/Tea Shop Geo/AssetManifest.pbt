@@ -1088,15 +1088,6 @@ Assets {
   }
 }
 Assets {
-  Id: 1111611363030124672
-  Name: "Glow Shape Decal"
-  PlatformAssetType: 14
-  PrimaryAsset {
-    AssetType: "DecalBlueprintAssetRef"
-    AssetId: "bp_decal_glow"
-  }
-}
-Assets {
   Id: 1052911169318280622
   Name: "Wood Planks"
   PlatformAssetType: 2
