@@ -535,7 +535,7 @@ Objects {
           Name: "Position"
           Vector {
             X: 150
-            Y: 500
+            Y: 833.760742
             Z: -3.01015472
           }
         }
@@ -591,7 +591,7 @@ Objects {
           Name: "Position"
           Vector {
             X: 150
-            Y: 400
+            Y: 733.760742
             Z: -3.01015472
           }
         }
@@ -639,7 +639,7 @@ Objects {
           Name: "Position"
           Vector {
             X: 150
-            Y: 292.181763
+            Y: 625.942505
             Z: -3.01015472
           }
         }

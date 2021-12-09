@@ -305,15 +305,6 @@ Assets {
   }
 }
 Assets {
-  Id: 12452727220991311643
-  Name: "Rubber Old 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_mil_rubber_old_001_uv_ref"
-  }
-}
-Assets {
   Id: 12366918150586639471
   Name: "Fantasy Book Open 01"
   PlatformAssetType: 1
@@ -635,15 +626,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_jpn_lantern_paper_simple_003_ref"
-  }
-}
-Assets {
-  Id: 7010613210059286005
-  Name: "Ring - Beveled"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ring_faceted_001"
   }
 }
 Assets {
@@ -1031,6 +1013,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_fantasy_bookshelf_middle_001_ref"
+  }
+}
+Assets {
+  Id: 1898254054744612492
+  Name: "Japanese Temple Wall 01 - Doorway 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_jpn_tem_wall_001_door_01_ref"
   }
 }
 Assets {

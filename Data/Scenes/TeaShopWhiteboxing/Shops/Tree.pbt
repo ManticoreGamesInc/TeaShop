@@ -5,8 +5,8 @@ Objects {
   Name: "Tea Counter"
   Transform {
     Location {
-      X: -1385.98169
-      Y: -548.486572
+      X: -1378.04785
+      Y: -979.163452
       Z: 4
     }
     Rotation {

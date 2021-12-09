@@ -456,9 +456,6 @@ Objects {
     Volume: 1
     Falloff: 800
     Radius: 800
-    EnableOcclusion: true
-    IsSpatializationEnabled: true
-    IsAttenuationEnabled: true
     StreamAudio {
       StreamSourceReference {
         Key: "0"
@@ -933,11 +930,35 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "bp:Ray Width"
-      Float: 30
+      Float: 19.9907551
     }
     Overrides {
       Name: "bp:Ray Height"
-      Float: 30
+      Float: 16.7410069
+    }
+    Overrides {
+      Name: "bp:Ray Appearance"
+      Enum {
+        Value: "mc:erayappearance:newenumerator0"
+      }
+    }
+    Overrides {
+      Name: "bp:Mote Brightness"
+      Float: 2
+    }
+    Overrides {
+      Name: "bp:Ray Speed"
+      Float: 1.40491688
+    }
+    Overrides {
+      Name: "bp:Ray Color Method"
+      Enum {
+        Value: "mc:eraycoloringoptions:newenumerator0"
+      }
+    }
+    Overrides {
+      Name: "bp:Emissive Brightness"
+      Float: 2.10162854
     }
   }
   Collidable_v2 {
@@ -1274,8 +1295,8 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: -144.299133
-      Y: 260.106018
+      X: -205.66095
+      Y: 652.914612
       Z: 98.0036
     }
     Rotation {
