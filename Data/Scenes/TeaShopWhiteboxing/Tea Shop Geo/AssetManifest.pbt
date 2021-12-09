@@ -161,6 +161,15 @@ Assets {
   }
 }
 Assets {
+  Id: 14693062525446870102
+  Name: "Fantasy Castle Wall 01 - Doorway 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_fan_cas_wall_001_door_02"
+  }
+}
+Assets {
   Id: 14339486225520025760
   Name: "Fantasy Book Pile 04"
   PlatformAssetType: 1
@@ -1013,15 +1022,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_fantasy_bookshelf_middle_001_ref"
-  }
-}
-Assets {
-  Id: 1898254054744612492
-  Name: "Japanese Temple Wall 01 - Doorway 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_jpn_tem_wall_001_door_01_ref"
   }
 }
 Assets {

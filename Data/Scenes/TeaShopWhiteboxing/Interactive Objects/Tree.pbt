@@ -11164,60 +11164,6 @@ Objects {
   }
 }
 Objects {
-  Id: 15149160785582657637
-  Name: "RP Chat"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 1005977451243031848
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 9170005780700033821
-      value {
-        Overrides {
-          Name: "Name"
-          String: "RP Chat Container"
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 18215187958015036149
-      value {
-        Overrides {
-          Name: "Name"
-          String: "RP Chat"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            Z: 97.7156372
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 2599387198948269098
-    }
-  }
-}
-Objects {
   Id: 10151168425888097255
   Name: "Upcoming Events Bulletin Board"
   Transform {
