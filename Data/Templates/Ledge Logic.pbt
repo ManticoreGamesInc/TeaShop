@@ -252,8 +252,9 @@ Assets {
         Name: "OuterTrigger"
         Transform {
           Location {
-            X: 40.9888916
-            Z: 18.7627411
+            X: 85.0925751
+            Y: 4.57763672e-05
+            Z: -29.6007843
           }
           Rotation {
           }
@@ -291,8 +292,9 @@ Assets {
         Name: "SitTrigger"
         Transform {
           Location {
-            X: 38.0703735
-            Z: 18.7627411
+            X: 82.174118
+            Y: 4.57763672e-05
+            Z: -29.6007843
           }
           Rotation {
           }

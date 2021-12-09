@@ -690,9 +690,6 @@ Objects {
   ChildIds: 9689199500309828380
   ChildIds: 7180570938230716406
   ChildIds: 16974925835884973421
-  ChildIds: 6780687412054228201
-  ChildIds: 18346032158804790330
-  ChildIds: 10533004996756001600
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -707,354 +704,6 @@ Objects {
   }
   Folder {
     IsGroup: true
-  }
-}
-Objects {
-  Id: 10533004996756001600
-  Name: "Craftsman Dining Table"
-  Transform {
-    Location {
-      X: -543.45166
-      Y: 494.389465
-      Z: 75.7575684
-    }
-    Rotation {
-      Yaw: -114.186951
-    }
-    Scale {
-      X: 0.8
-      Y: 0.8
-      Z: 0.8
-    }
-  }
-  ParentId: 351444627740904
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 440162531222177861
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.0230000019
-        G: 0.00633065496
-        B: 0.00227699429
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_Detail1:id"
-      AssetReference {
-        Id: 10834721096210249140
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_Detail1:color"
-      Color {
-        R: 0.296875
-        G: 0.12321382
-        B: 0.0542803928
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 2404498542443364598
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-}
-Objects {
-  Id: 18346032158804790330
-  Name: "Sittable Fancy Chair"
-  Transform {
-    Location {
-      X: -793.752258
-      Y: 523.329529
-      Z: 76.9230804
-    }
-    Rotation {
-      Yaw: -139.176193
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 351444627740904
-  ChildIds: 2471319742779008015
-  ChildIds: 2804119443044074107
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 2804119443044074107
-  Name: "Chair Logic"
-  Transform {
-    Location {
-      X: 822.972656
-      Y: -300
-      Z: 80
-    }
-    Rotation {
-      Yaw: 89.9999771
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 18346032158804790330
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 14418205449374406163
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Chair Logic"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            Y: 43.8461533
-            Z: 81.5384827
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: 89.9999542
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1.53846157
-            Y: 1.53846157
-            Z: 1.53846157
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 3599235406971010506
-    }
-  }
-}
-Objects {
-  Id: 2471319742779008015
-  Name: "Fancy Chair"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 18346032158804790330
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 17358894698933735196
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Fancy DIning Chair With Cushion"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -2.14167666
-            Y: -2.13801455
-            Z: -1.96117699
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1.5
-            Y: 1.5
-            Z: 1.5
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 15661791658501836356
-    }
-  }
-}
-Objects {
-  Id: 6780687412054228201
-  Name: "Sittable Fancy Chair"
-  Transform {
-    Location {
-      X: -289.675018
-      Y: 449.641113
-      Z: 76.9230804
-    }
-    Rotation {
-      Yaw: 95.8133545
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 351444627740904
-  ChildIds: 8655040566697798935
-  ChildIds: 4928022124107931518
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 4928022124107931518
-  Name: "Chair Logic"
-  Transform {
-    Location {
-      X: 822.972656
-      Y: -300
-      Z: 80
-    }
-    Rotation {
-      Yaw: 89.9999771
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 6780687412054228201
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 14418205449374406163
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Chair Logic"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            Y: 43.8461533
-            Z: 81.5384827
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: 89.9999542
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1.53846157
-            Y: 1.53846157
-            Z: 1.53846157
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 3599235406971010506
-    }
-  }
-}
-Objects {
-  Id: 8655040566697798935
-  Name: "Fancy Chair"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 6780687412054228201
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 17358894698933735196
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Fancy DIning Chair With Cushion"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -2.14167666
-            Y: -2.13801455
-            Z: -1.96117699
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1.5
-            Y: 1.5
-            Z: 1.5
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 15661791658501836356
-    }
   }
 }
 Objects {
@@ -1700,9 +1349,9 @@ Objects {
   Name: "ClientContext"
   Transform {
     Location {
-      X: -5.7890873
-      Y: 0.954068
-      Z: -19.9999924
+      X: -5.78918171
+      Y: 523.615
+      Z: -19.9967766
     }
     Rotation {
       Roll: 179.999954
@@ -4323,7 +3972,7 @@ Objects {
   Transform {
     Location {
       X: 1384.61536
-      Y: 784.615417
+      Y: 1588.70874
       Z: 676.923096
     }
     Rotation {
@@ -17489,7 +17138,7 @@ Objects {
   Transform {
     Location {
       X: -1341.41626
-      Y: 301.804016
+      Y: -352.87149
       Z: 243.721222
     }
     Rotation {
@@ -24436,7 +24085,7 @@ Objects {
   Transform {
     Location {
       X: 1450
-      Y: 750
+      Y: 1554.09253
       Z: 675.224182
     }
     Rotation {
