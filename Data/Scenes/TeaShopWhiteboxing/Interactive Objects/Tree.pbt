@@ -40,7 +40,7 @@ Objects {
   Transform {
     Location {
       X: -469.507812
-      Y: 323.02655
+      Y: 810.612305
     }
     Rotation {
       Yaw: 90.4517
@@ -10754,6 +10754,7 @@ Objects {
   Name: "Focus Object"
   Transform {
     Location {
+      Y: 800
       Z: 180
     }
     Rotation {
@@ -11133,7 +11134,7 @@ Objects {
   Transform {
     Location {
       X: 710
-      Y: 130
+      Y: 515.337646
       Z: 450
     }
     Rotation {
@@ -11244,6 +11245,7 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
+            Y: 524.834534
           }
         }
         Overrides {
@@ -11353,7 +11355,7 @@ Objects {
   Transform {
     Location {
       X: 1740
-      Y: -10
+      Y: 556.295593
       Z: 690
     }
     Rotation {
