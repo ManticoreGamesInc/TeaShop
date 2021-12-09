@@ -24,6 +24,9 @@ Objects {
   ChildIds: 3493414710245218199
   ChildIds: 1210004592487311881
   ChildIds: 5202646584242506801
+  ChildIds: 11346883730170473131
+  ChildIds: 14205967334622130567
+  ChildIds: 15451202029656042186
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -36,6 +39,157 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 15451202029656042186
+  Name: "Ledge Logic"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 35707760520698754
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Ledge Logic"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 918.067749
+            Y: 224.30571
+            Z: 166.029861
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 90
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 1183655406519723855
+      value {
+      }
+    }
+    ParameterOverrideMap {
+      key: 1604045183741868086
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 48.4454575
+            Y: 3.81469727e-06
+            Z: -29.6007843
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 3983764917510753678
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 51.3639183
+            Z: -29.6007843
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 7449992736907826705
+    }
+  }
+}
+Objects {
+  Id: 14205967334622130567
+  Name: "FHD_Barstool"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 566810623899842696
+      value {
+        Overrides {
+          Name: "Name"
+          String: "FHD_Barstool"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 919.676147
+            Y: 310.810638
+            Z: -0.757581711
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 5295275545790367186
+    }
+  }
+}
+Objects {
+  Id: 11346883730170473131
+  Name: "Table Assembled"
+  Transform {
+    Location {
+      X: 1006.36426
+      Y: 491.508331
+      Z: -0.757507324
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13987462481610386893
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
   }
 }
 Objects {
@@ -485,7 +639,6 @@ Objects {
   }
   ParentId: 1210004592487311881
   ChildIds: 11369515342547697539
-  ChildIds: 4153970882215381887
   ChildIds: 11925483412056708561
   ChildIds: 3579645179985477419
   ChildIds: 14860896953464028424
@@ -843,9 +996,9 @@ Objects {
       Roll: -179.999969
     }
     Scale {
-      X: 0.538457215
-      Y: 0.538457215
-      Z: 0.538457215
+      X: 0.519661188
+      Y: 0.519661188
+      Z: 0.519661188
     }
   }
   ParentId: 15241459141117031560
@@ -976,49 +1129,6 @@ Objects {
   Blueprint {
     BlueprintAsset {
       Id: 5103887919392490747
-    }
-    TeamSettings {
-    }
-    Vfx {
-      AutoPlay: true
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:medium"
-  }
-}
-Objects {
-  Id: 4153970882215381887
-  Name: "Dust Motes Volume VFX"
-  Transform {
-    Location {
-      Y: -106.060486
-      Z: -29.5644531
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 15241459141117031560
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 17833626763416789540
     }
     TeamSettings {
     }

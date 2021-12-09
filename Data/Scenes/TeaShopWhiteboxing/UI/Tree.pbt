@@ -1,6 +1,60 @@
 Name: "UI"
 RootId: 505108241651655820
 Objects {
+  Id: 15149160785582657637
+  Name: "RP Chat"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 505108241651655820
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 9170005780700033821
+      value {
+        Overrides {
+          Name: "Name"
+          String: "RP Chat Container"
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 18215187958015036149
+      value {
+        Overrides {
+          Name: "Name"
+          String: "RP Chat"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            Z: 97.7156372
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 2599387198948269098
+    }
+  }
+}
+Objects {
   Id: 4569690359023733163
   Name: "Buy Confirmation Dialog"
   Transform {

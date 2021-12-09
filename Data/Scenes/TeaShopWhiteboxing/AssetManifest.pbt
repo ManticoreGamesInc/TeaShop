@@ -1,13 +1,4 @@
 Assets {
-  Id: 17833626763416789540
-  Name: "Dust Motes Volume VFX"
-  PlatformAssetType: 8
-  PrimaryAsset {
-    AssetType: "VfxBlueprintAssetRef"
-    AssetId: "fxbp_dust_motes"
-  }
-}
-Assets {
   Id: 16162729772816849670
   Name: "Cylinder - Rounded"
   PlatformAssetType: 1
@@ -32,6 +23,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_basic_pbr_material_001"
+  }
+}
+Assets {
+  Id: 13987462481610386893
+  Name: "Table Assembled"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_table_001"
   }
 }
 Assets {

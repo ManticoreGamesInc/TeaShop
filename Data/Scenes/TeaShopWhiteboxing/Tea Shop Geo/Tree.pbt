@@ -714,12 +714,12 @@ Objects {
   Name: "Craftsman Dining Table"
   Transform {
     Location {
-      X: -563.878296
-      Y: -254.310074
+      X: -543.45166
+      Y: 494.389465
       Z: 75.7575684
     }
     Rotation {
-      Yaw: 72.2424088
+      Yaw: -114.186951
     }
     Scale {
       X: 0.8
@@ -794,12 +794,12 @@ Objects {
   Name: "Sittable Fancy Chair"
   Transform {
     Location {
-      X: -311.911499
-      Y: -255.040482
+      X: -793.752258
+      Y: 523.329529
       Z: 76.9230804
     }
     Rotation {
-      Yaw: 47.2533226
+      Yaw: -139.176193
     }
     Scale {
       X: 1
@@ -928,12 +928,12 @@ Objects {
   Name: "Sittable Fancy Chair"
   Transform {
     Location {
-      X: -821.069885
-      Y: -238.25975
+      X: -289.675018
+      Y: 449.641113
       Z: 76.9230804
     }
     Rotation {
-      Yaw: -77.7574463
+      Yaw: 95.8133545
     }
     Scale {
       X: 1
@@ -30577,6 +30577,8 @@ Objects {
   ChildIds: 18251749655527526252
   ChildIds: 16909601380779877035
   ChildIds: 5700249450577743244
+  ChildIds: 17784617931387305431
+  ChildIds: 984270474554381087
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -30594,13 +30596,127 @@ Objects {
   }
 }
 Objects {
+  Id: 984270474554381087
+  Name: "Cube - Bottom-Aligned"
+  Transform {
+    Location {
+      X: -1584.61536
+      Y: 373.410278
+      Z: 691.115601
+    }
+    Rotation {
+      Yaw: 89.9999542
+    }
+    Scale {
+      X: 23.9546585
+      Y: 0.326361507
+      Z: 4.69086742
+    }
+  }
+  ParentId: 15141092544670941844
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 5731050753564181120
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2915731642596610032
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    DisableCastShadows: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 17784617931387305431
+  Name: "Japanese Temple Door Shoji 01"
+  Transform {
+    Location {
+      X: -1549.99988
+      Y: 496.638489
+      Z: 31.1178513
+    }
+    Rotation {
+      Yaw: 90.4627533
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15141092544670941844
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:id"
+      AssetReference {
+        Id: 3601737160093357391
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13653543951252471024
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    DisableReceiveDecals: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
   Id: 5700249450577743244
   Name: "Japanese Temple Wall 01 - Window 01 Half"
   Transform {
     Location {
       X: -1549.99976
       Y: -301.517029
-      Z: 10.3383656
+      Z: 25.758
     }
     Rotation {
       Yaw: 89.999939
@@ -30761,7 +30877,7 @@ Objects {
     Location {
       X: -1549.99976
       Y: 100
-      Z: 10.5444641
+      Z: 25.758
     }
     Rotation {
       Yaw: 89.9999542
@@ -30843,7 +30959,7 @@ Objects {
   }
   CoreMesh {
     MeshAsset {
-      Id: 1898254054744612492
+      Id: 14693062525446870102
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -30866,7 +30982,7 @@ Objects {
     Location {
       X: -1549.99976
       Y: 95.3439331
-      Z: 613.774658
+      Z: 625
     }
     Rotation {
       Yaw: 89.9999542
@@ -31875,16 +31991,16 @@ Objects {
   Transform {
     Location {
       X: -1549.99988
-      Y: 414.498199
+      Y: 300.758545
       Z: 31.1178513
     }
     Rotation {
-      Yaw: 89.9999542
+      Yaw: 90.4627609
     }
     Scale {
-      X: 0.845382512
-      Y: 0.845382512
-      Z: 0.845382512
+      X: 1
+      Y: 1
+      Z: 1
     }
   }
   ParentId: 15141092544670941844
@@ -34402,7 +34518,7 @@ Objects {
     Location {
       X: -1549.99976
       Y: -291.903503
-      Z: 609.626465
+      Z: 625
     }
     Rotation {
       Yaw: 89.9999542
@@ -34504,9 +34620,9 @@ Objects {
   Name: "Japanese Temple Wall 01 "
   Transform {
     Location {
-      X: -1550
+      X: -1549.99976
       Y: -1094.07739
-      Z: 25.7575531
+      Z: 25.758
     }
     Rotation {
       Yaw: 89.9999542
@@ -34918,7 +35034,7 @@ Objects {
     Location {
       X: -1549.99976
       Y: -1084.4635
-      Z: 612.348572
+      Z: 625
     }
     Rotation {
       Yaw: 89.9999542
