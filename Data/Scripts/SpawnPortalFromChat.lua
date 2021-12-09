@@ -12,13 +12,13 @@ function searchAliases(message)
     return false
 end
 
-function InterpretPortalCommand(player, params)
-    local message = {CoreString.Split(string.lower(params.message))}
-    if message[1] == "/portal" then
-        Events.BroadcastToServer(message[2])
-    end
-    params.message = ""
-end
+-- function InterpretPortalCommand(player, params)
+--     local message = {CoreString.Split(string.lower(params.message))}
+--     if message[1] == "/portal" then
+--         Events.BroadcastToServer(message[2])
+--     end
+--     params.message = ""
+-- end
 
 function SummonPortal(player, target)
     
@@ -42,7 +42,9 @@ function SummonPortal(player, target)
 end
 
 Events.ConnectForPlayer("SummonPortal", SummonPortal)
-Events.Connect("SummonPortal", SummonPortal)
+
+-- Events.Connect("SummonPortal", SummonPortal)
+
 -- Chat.receiveMessageHook:Connect(InterpretPortalCommand)
 
 function checkGameInfo(idString, portal, player)
@@ -60,33 +62,3 @@ function checkGameInfo(idString, portal, player)
 end
 
 Events.Connect("Check ID", checkGameInfo)
-
--- function BroadcastPortalIntro(player)
---     -- Chat.BroadcastMessage("Summon a portal, wherever you are!", {players = player})
---     local message = ""
---     if ALIASES ~= {} then 
---         -- Chat.BroadcastMessage("Try /portal with any of these keys: " , {players = player})
---         message = message .. "\n" .. "Try /portal with a key: "
---         local i = 0
---         local samplekeys = ""
---         for key, value in pairs(ALIASES) do
---             samplekeys = samplekeys .. key .."\n"
---             i = i + 1
---             if i > 2 then
---                 message = message .. "\n" .. samplekeys
---                 Events.BroadcastToPlayer(player, "BroadcastChatMessage", message)
---                 return
---             end
---         end
---     end
-    
--- end
--- Events.ConnectForPlayer("BroadcastPortalIntro", BroadcastPortalIntro)
-
--- if introducePortalCommand then
---     Game.playerJoinedEvent:Connect(function(player)
---         print("Tell player about portals")
---         Task.Wait(2)
---         BroadcastPortalIntro(player)
---     end)
--- end

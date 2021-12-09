@@ -26,6 +26,15 @@ Assets {
   }
 }
 Assets {
+  Id: 8892506612724139126
+  Name: "Metamorphous"
+  PlatformAssetType: 28
+  PrimaryAsset {
+    AssetType: "FontAssetRef"
+    AssetId: "MetamorphousRegular_ref"
+  }
+}
+Assets {
   Id: 8614553120768390564
   Name: "Paper Page Turn Crispy 01 SFX"
   PlatformAssetType: 7
@@ -41,6 +50,33 @@ Assets {
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "BackgroundHighlighted_019"
+  }
+}
+Assets {
+  Id: 4500307152883487918
+  Name: "Londrina Solid Black"
+  PlatformAssetType: 28
+  PrimaryAsset {
+    AssetType: "FontAssetRef"
+    AssetId: "LondrinaSolidBlack_ref"
+  }
+}
+Assets {
+  Id: 3812804431887748140
+  Name: "Londrina Solid Light"
+  PlatformAssetType: 28
+  PrimaryAsset {
+    AssetType: "FontAssetRef"
+    AssetId: "LondrinaSolidLight_ref"
+  }
+}
+Assets {
+  Id: 2897442304362713904
+  Name: "Fantasy Book 007"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Equip_Book_007"
   }
 }
 Assets {

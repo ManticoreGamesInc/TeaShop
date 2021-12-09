@@ -2,6 +2,7 @@
 -- Custom 
 local bookCover = script:GetCustomProperty("BookCover"):WaitForObject()
 local bookInside = script:GetCustomProperty("BookInside"):WaitForObject()
+
 local openCloseSFX = script:GetCustomProperty("OpenCloseSFX"):WaitForObject()
 local pageTurnSFX = script:GetCustomProperty("PageTurnSFX"):WaitForObject()
 
@@ -14,16 +15,7 @@ local OPEN_DURATION = script:GetCustomProperty("BookOpenDuration")
 local CLOSE_CURVE = script:GetCustomProperty("BookClose")
 local CLOSE_DURATION = script:GetCustomProperty("BookCloseDuration")
 
--- Book Database Stuff
-local bookDefinitions = script:GetCustomProperty("BookDefinitions"):WaitForObject():GetChildren()
 
-_G.BOOKS = {}
-
-for _, book in ipairs(bookDefinitions) do
-    table.insert(_G.BOOKS, book:GetCustomProperties())
-end
-
-local currentBook = _G.BOOKS[1]
 
 function SetUpNewBook(book)
     local covers = bookCover:FindDescendantsByName("Book Cover")
@@ -40,8 +32,6 @@ function SetUpNewBook(book)
     end
 
 end
-
-SetUpNewBook(currentBook)
 
 function OpenBook()
     if isOpen then return end
@@ -82,6 +72,20 @@ function CloseBook()
 end
 
 -- DEBUG STUFF
+
+while not _G.BOOKS do
+    Task.Wait()
+end
+
+
+local currentBook 
+
+if #_G.BOOKS >= 1 then
+    currentBook = _G.BOOKS[math.random(#_G.BOOKS)]
+    SetUpNewBook(currentBook)
+end
+
+
 
 Game.GetLocalPlayer().bindingPressedEvent:Connect(function(player, binding)
         if binding == "ability_extra_46" then -- up arrow key

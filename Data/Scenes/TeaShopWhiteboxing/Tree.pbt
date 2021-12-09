@@ -55,6 +55,8 @@ Objects {
   ParentId: 4781671109827199097
   ChildIds: 13459124305946161815
   ChildIds: 7116433590083481158
+  ChildIds: 11625481764304203434
+  ChildIds: 18006941953824131571
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -69,6 +71,112 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 18006941953824131571
+  Name: "PlayerBookProgress_Server"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9460665979285579347
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 14980082228297055819
+    }
+  }
+}
+Objects {
+  Id: 11625481764304203434
+  Name: "ServerContext"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9460665979285579347
+  ChildIds: 9817338676720354430
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  NetworkContext {
+    Type: Server
+  }
+}
+Objects {
+  Id: 9817338676720354430
+  Name: "BookDatabase_Server"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11625481764304203434
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:BookDefinitions"
+      ObjectReference {
+        SelfId: 7116433590083481158
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 3895050815537900264
+    }
   }
 }
 Objects {
@@ -87,6 +195,9 @@ Objects {
   }
   ParentId: 9460665979285579347
   ChildIds: 11312561418852068358
+  ChildIds: 17215446921545632485
+  ChildIds: 16118030617474401366
+  ChildIds: 3904201711091793077
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -104,6 +215,200 @@ Objects {
   }
 }
 Objects {
+  Id: 3904201711091793077
+  Name: "Book_DATA"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7116433590083481158
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Title"
+      String: "Modular Coding When You Want IT"
+    }
+    Overrides {
+      Name: "cs:Author"
+      String: "Slinkous"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 2312663086059330949
+    }
+  }
+}
+Objects {
+  Id: 16118030617474401366
+  Name: "Book_DATA"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7116433590083481158
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:CoverColor"
+      Color {
+        R: 0.114583336
+        G: 0.058995083
+        B: 0.028049048
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:ChapterTitleFont"
+      AssetReference {
+        Id: 8892506612724139126
+      }
+    }
+    Overrides {
+      Name: "cs:MainTextFont"
+      AssetReference {
+        Id: 3812804431887748140
+      }
+    }
+    Overrides {
+      Name: "cs:PageNumberFont"
+      AssetReference {
+        Id: 4500307152883487918
+      }
+    }
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 2897442304362713904
+      }
+    }
+    Overrides {
+      Name: "cs:Title"
+      String: "Tips and Tricks to Live BY"
+    }
+    Overrides {
+      Name: "cs:Author"
+      String: "Tedathor"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 2312663086059330949
+    }
+  }
+}
+Objects {
+  Id: 17215446921545632485
+  Name: "Book_DATA"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7116433590083481158
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:CoverColor"
+      Color {
+        R: 0.513940573
+        B: 0.830000043
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:ChapterTitleFont"
+      AssetReference {
+        Id: 8892506612724139126
+      }
+    }
+    Overrides {
+      Name: "cs:MainTextFont"
+      AssetReference {
+        Id: 3812804431887748140
+      }
+    }
+    Overrides {
+      Name: "cs:PageNumberFont"
+      AssetReference {
+        Id: 4500307152883487918
+      }
+    }
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 2897442304362713904
+      }
+    }
+    Overrides {
+      Name: "cs:Title"
+      String: "The Care and Keeping of Damageable Objects"
+    }
+    Overrides {
+      Name: "cs:Author"
+      String: "CommanderFoo"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 2312663086059330949
+    }
+  }
+}
+Objects {
   Id: 11312561418852068358
   Name: "Book_DATA"
   Transform {
@@ -118,6 +423,48 @@ Objects {
     }
   }
   ParentId: 7116433590083481158
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:CoverColor"
+      Color {
+        R: 0.0916887596
+        G: 0.195000052
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:ChapterTitleFont"
+      AssetReference {
+        Id: 8892506612724139126
+      }
+    }
+    Overrides {
+      Name: "cs:MainTextFont"
+      AssetReference {
+        Id: 3812804431887748140
+      }
+    }
+    Overrides {
+      Name: "cs:PageNumberFont"
+      AssetReference {
+        Id: 4500307152883487918
+      }
+    }
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 2897442304362713904
+      }
+    }
+    Overrides {
+      Name: "cs:Title"
+      String: "Lua API\'s and You!"
+    }
+    Overrides {
+      Name: "cs:Author"
+      String: "Stanzilla"
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -155,6 +502,7 @@ Objects {
   ChildIds: 15122069480334234892
   ChildIds: 8061800307228581551
   ChildIds: 8598069836196322667
+  ChildIds: 14319317469999580817
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -168,6 +516,47 @@ Objects {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
   NetworkContext {
+  }
+}
+Objects {
+  Id: 14319317469999580817
+  Name: "BookDatabase_Client"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13459124305946161815
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:BookDefinitions"
+      ObjectReference {
+        SelfId: 7116433590083481158
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 6314894894753797599
+    }
   }
 }
 Objects {
@@ -353,12 +742,6 @@ Objects {
     Overrides {
       Name: "cs:BookCloseDuration"
       Float: 0.45
-    }
-    Overrides {
-      Name: "cs:BookDefinitions"
-      ObjectReference {
-        SelfId: 7116433590083481158
-      }
     }
   }
   Collidable_v2 {

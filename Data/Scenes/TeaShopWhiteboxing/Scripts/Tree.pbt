@@ -449,6 +449,16 @@ Objects {
     }
   }
   ParentId: 4489347806467890610
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:CommandSymbol"
+      String: "/"
+    }
+    Overrides {
+      Name: "cs:CommandSymbol:tooltip"
+      String: "The symbol that designates this as a command"
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
