@@ -172,6 +172,7 @@ end
 function ResetPlayer(player)
     print("Resetting " .. player.name)
     -- player:SetWorldPosition(spawn:GetWorldPosition())
+    Events.Broadcast("GetUp", player)
     player:Despawn()
     player:Spawn()
     -- player.movementControlMode = MovementControlMode.LOOK_RELATIVE
@@ -184,5 +185,7 @@ function ResetPlayer(player)
         e:Destroy()
     end
 end
+
+Events.Connect("ResetPlayer", ResetPlayer)
 
 return COMMANDS
