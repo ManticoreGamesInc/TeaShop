@@ -192,7 +192,7 @@ Objects {
 }
 Objects {
   Id: 18001891815920442520
-  Name: "Moderator"
+  Name: "Speaker"
   Transform {
     Location {
     }

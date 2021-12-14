@@ -195,6 +195,16 @@ CommandParser.AddCommand("party", function(sender, params, status)
 	end
 end)
 
+--[[
+	CommandDefinitionScript
+		- command: string ("party")
+		- broadcastMessage: string ("SpawnPartyMaterials")
+		- target: Boolean (false) ~> Need a way to signal to the user to expect this in their own function
+		- extraParams: Integer
+			e.g. /portal 9de324/coffe-shop
+			In my version, we covert param1 to a player before broadcasting
+]]
+
 -- /dj playername
 CommandParser.AddCommand("dj", function(sender, params, status)
 	if CommandParser.HasRank(sender, CommandParser.RANKS.MODERATOR) then
