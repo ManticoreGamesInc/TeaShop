@@ -47,3 +47,5 @@ function ModPlayer(player)
 end
 
 Events.Connect("ModPlayer", ModPlayer)
+
+Events.Broadcast("RanksLoaded")

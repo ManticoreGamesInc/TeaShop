@@ -1160,6 +1160,15 @@ Assets {
   }
 }
 Assets {
+  Id: 289473406665184095
+  Name: "Cafe Table"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_urb_table_cafe_001"
+  }
+}
+Assets {
   Id: 121291649896979657
   Name: "Bush 02"
   PlatformAssetType: 1

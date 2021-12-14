@@ -8,8 +8,11 @@
 
 
 local COMMANDS = {}
+local ranksLoaded = false
 
-while not _G.RANKS do
+Events.Connect("RanksLoaded", function() ranksLoaded = true end)
+
+while not ranksLoaded do
     Task.Wait()
 end
 
@@ -88,6 +91,19 @@ COMMANDS["totalplayers"] = {
     end
 }
 
+COMMANDS["spawnprojector"] = {
+    rank = _G.RANKS.MOD,
+    action = function(speaker)
+        Events.Broadcast("SpawnProjector")
+    end
+}
+
+COMMANDS["destroyprojector"] = {
+    rank = _G.RANKS.MOD,
+    action = function(speaker)
+        Events.Broadcast("DestroyProjector")
+    end
+}
 
 
 --     if message[1] == "/resetme" then
@@ -114,14 +130,14 @@ COMMANDS["totalplayers"] = {
 --         params.message = ""
 --     end
 
-function GrantItem(speaker, commandInfo)
-    print("Granting something ...", message[2])
-    local item = commandInfo[2]
-    if item == "greenmug" then
-        print("It's the green mug!")
-        Events.Broadcast("GrantGreenMug", player)
-    end
-end
+-- function GrantItem(speaker, commandInfo)
+--     print("Granting something ...", message[2])
+--     local item = commandInfo[2]
+--     if item == "greenmug" then
+--         print("It's the green mug!")
+--         Events.Broadcast("GrantGreenMug", player)
+--     end
+-- end
 
 function FindPlayerByName(name)
     for _, player in ipairs(Game.GetPlayers()) do

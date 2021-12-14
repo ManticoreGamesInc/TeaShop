@@ -683,13 +683,16 @@ Objects {
   ChildIds: 13078526846028022386
   ChildIds: 14816405259409850390
   ChildIds: 18254936829320268921
-  ChildIds: 3524973985380708447
+  ChildIds: 14879412721413426358
   ChildIds: 7440750828100037571
   ChildIds: 7779740340652366726
   ChildIds: 11914125028699610592
   ChildIds: 9689199500309828380
   ChildIds: 7180570938230716406
   ChildIds: 16974925835884973421
+  ChildIds: 12870037230145783399
+  ChildIds: 269803782676467422
+  ChildIds: 1817596428182879271
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -704,6 +707,358 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 1817596428182879271
+  Name: "Craftsman Dining Table"
+  Transform {
+    Location {
+      X: -457.122681
+      Y: -810.635132
+      Z: 178.79245
+    }
+    Rotation {
+      Yaw: 93.915062
+    }
+    Scale {
+      X: 1.50032759
+      Y: 1.50032759
+      Z: 1.24397767
+    }
+  }
+  ParentId: 351444627740904
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 440162531222177861
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.0230000019
+        G: 0.00633065496
+        B: 0.00227699429
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:id"
+      AssetReference {
+        Id: 16156250697729197485
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.296875
+        G: 0.12321382
+        B: 0.0542803928
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:utile"
+      Float: 2.26852202
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 289473406665184095
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 269803782676467422
+  Name: "Sittable Fancy Chair"
+  Transform {
+    Location {
+      X: -224.839569
+      Y: -831.761047
+      Z: 174.009293
+    }
+    Rotation {
+      Yaw: 43.6586456
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 351444627740904
+  ChildIds: 3156839452954726614
+  ChildIds: 14027524858214700506
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 14027524858214700506
+  Name: "Chair Logic"
+  Transform {
+    Location {
+      X: 822.972656
+      Y: -300
+      Z: 80
+    }
+    Rotation {
+      Yaw: 89.9999771
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 269803782676467422
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 14418205449374406163
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Chair Logic"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            Y: 43.8461533
+            Z: 81.5384827
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 89.9999542
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1.53846157
+            Y: 1.53846157
+            Z: 1.53846157
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 3599235406971010506
+    }
+  }
+}
+Objects {
+  Id: 3156839452954726614
+  Name: "Fancy Chair"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 269803782676467422
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 17358894698933735196
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Fancy DIning Chair With Cushion"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -2.14167666
+            Y: -2.13801455
+            Z: -1.96117699
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1.5
+            Y: 1.5
+            Z: 1.5
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 15661791658501836356
+    }
+  }
+}
+Objects {
+  Id: 12870037230145783399
+  Name: "Sittable Fancy Chair"
+  Transform {
+    Location {
+      X: -682.214294
+      Y: -831.761047
+      Z: 174.009293
+    }
+    Rotation {
+      Yaw: -44.4345093
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 351444627740904
+  ChildIds: 5401999994596735429
+  ChildIds: 18251053823619409512
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 18251053823619409512
+  Name: "Chair Logic"
+  Transform {
+    Location {
+      X: 822.972656
+      Y: -300
+      Z: 80
+    }
+    Rotation {
+      Yaw: 89.9999771
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12870037230145783399
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 14418205449374406163
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Chair Logic"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            Y: 43.8461533
+            Z: 81.5384827
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 89.9999542
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1.53846157
+            Y: 1.53846157
+            Z: 1.53846157
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 3599235406971010506
+    }
+  }
+}
+Objects {
+  Id: 5401999994596735429
+  Name: "Fancy Chair"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12870037230145783399
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 17358894698933735196
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Fancy DIning Chair With Cushion"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -2.14167666
+            Y: -2.13801455
+            Z: -1.96117699
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1.5
+            Y: 1.5
+            Z: 1.5
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 15661791658501836356
+    }
   }
 }
 Objects {
@@ -1197,6 +1552,98 @@ Objects {
   }
 }
 Objects {
+  Id: 14879412721413426358
+  Name: "Sittable ArmChair"
+  Transform {
+    Location {
+      X: 1672.28918
+      Y: 267.540558
+      Z: 63.6658897
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 351444627740904
+  ChildIds: 3524973985380708447
+  ChildIds: 17044499653707680126
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 17044499653707680126
+  Name: "Chair Logic"
+  Transform {
+    Location {
+      X: 822.972656
+      Y: -300
+      Z: 80
+    }
+    Rotation {
+      Yaw: 89.9999542
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14879412721413426358
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 14418205449374406163
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Chair Logic"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -71.7681427
+            Y: 15.6357985
+            Z: 123.076927
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -179.999969
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1.53846157
+            Y: 1.53846157
+            Z: 1.53846157
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 3599235406971010506
+    }
+  }
+}
+Objects {
   Id: 3524973985380708447
   Name: "Cozy Beige Arm Chair"
   Transform {
@@ -1206,7 +1653,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 351444627740904
+  ParentId: 14879412721413426358
   TemplateInstance {
     ParameterOverrideMap {
       key: 12955034821514971454
@@ -1218,15 +1665,12 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 87.1527557
-            Y: -946.024353
-            Z: 169.230774
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: 89.9999924
+            Yaw: 89.9999847
           }
         }
         Overrides {
@@ -4083,14 +4527,15 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -1184.61536
-            Y: 1297.86169
-            Z: 169.230774
+            X: -463.794952
+            Y: -850.09375
+            Z: 314.328796
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
+            Yaw: -78.9437866
           }
         }
         Overrides {
@@ -4099,6 +4544,97 @@ Objects {
             X: 0.453424603
             Y: 0.453424603
             Z: 0.453424603
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 857150099301618427
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 0.0775827542
+            G: 0.164999962
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 2420809264031684494
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 0.0775827542
+            G: 0.164999962
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 4486092509452498581
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 0.0775827393
+            G: 0.164999962
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 8459929916830356019
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 0.0775827393
+            G: 0.164999962
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 10852351106202864916
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 0.0775827393
+            G: 0.164999962
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 11540146545770216579
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 0.0775827393
+            G: 0.164999962
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 12133997827917005647
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 0.0775827542
+            G: 0.164999962
+            A: 1
           }
         }
       }
@@ -27292,7 +27828,6 @@ Objects {
     }
   }
   ParentId: 351444627740904
-  ChildIds: 6748720284450696122
   ChildIds: 14778188751141329110
   ChildIds: 9687673629994072153
   Collidable_v2 {
@@ -27396,85 +27931,6 @@ Objects {
   Transform {
     Location {
       X: 172.727341
-      Y: 6.0605092
-      Z: 681.818115
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1.5
-      Y: 1.5
-      Z: 1.5
-    }
-  }
-  ParentId: 11264781524866443385
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 440162531222177861
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.0230000019
-        G: 0.00633065496
-        B: 0.00227699429
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_Detail1:id"
-      AssetReference {
-        Id: 10834721096210249140
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_Detail1:color"
-      Color {
-        R: 0.296875
-        G: 0.12321382
-        B: 0.0542803928
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 2404498542443364598
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-}
-Objects {
-  Id: 6748720284450696122
-  Name: "Craftsman Dining Table"
-  Transform {
-    Location {
-      X: -471.211975
       Y: 6.0605092
       Z: 681.818115
     }
@@ -34907,6 +35363,38 @@ Objects {
   ChildIds: 15973132896425788502
   ChildIds: 17295662720087002310
   ChildIds: 6081775008793956476
+  ChildIds: 9876797185096047815
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 9876797185096047815
+  Name: "Interview 2 Person"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7753585570916991656
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

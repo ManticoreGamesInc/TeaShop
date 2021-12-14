@@ -1,8 +1,8 @@
 Name: "Scripts"
 RootId: 13893858550619667414
 Objects {
-  Id: 7419880391237001001
-  Name: "ClientContext"
+  Id: 16377291256912999481
+  Name: "StageThings"
   Transform {
     Location {
     }
@@ -15,54 +15,12 @@ Objects {
     }
   }
   ParentId: 13893858550619667414
-  ChildIds: 7064681299111560581
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  NetworkContext {
-  }
-}
-Objects {
-  Id: 7064681299111560581
-  Name: "ToggleHUDUI_Client"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 7419880391237001001
-  ChildIds: 6333119527317258756
   UnregisteredParameters {
     Overrides {
-      Name: "cs:EventToHide"
-      String: "HideAllUI"
-    }
-    Overrides {
-      Name: "cs:EventToShow"
-      String: "ShowAllUI"
-    }
-    Overrides {
-      Name: "cs:EventToHide:tooltip"
-      String: "The event that, when broadcasted, should hide all UI"
-    }
-    Overrides {
-      Name: "cs:EventToShow:tooltip"
-      String: "The event that when broadcasted, should make the UI visible again"
+      Name: "cs:StageArea"
+      ObjectReference {
+        SelfId: 7753585570916991656
+      }
     }
   }
   Collidable_v2 {
@@ -79,13 +37,13 @@ Objects {
   }
   Script {
     ScriptAsset {
-      Id: 12255748336926166018
+      Id: 7840945841363637230
     }
   }
 }
 Objects {
-  Id: 6333119527317258756
-  Name: "ToggleableUI_DATA"
+  Id: 18112790568552468593
+  Name: "StreamingMaterialsSpawn"
   Transform {
     Location {
     }
@@ -97,26 +55,21 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7064681299111560581
+  ParentId: 13893858550619667414
   UnregisteredParameters {
     Overrides {
-      Name: "cs:RPChatContainer"
-      ObjectReference {
-        SelfId: 18063084652043424357
-        SubObjectId: 9170005780700033821
-        InstanceId: 15149160785582657637
-        TemplateId: 2599387198948269098
+      Name: "cs:ProjectStreamingProps"
+      AssetReference {
+        Id: 9781935520255405379
       }
     }
     Overrides {
-      Name: "cs:AFKResourceContainer"
-      ObjectReference {
-        SelfId: 4834257072595777884
-      }
+      Name: "cs:SpawnEventName"
+      String: "SpawnProjector"
     }
     Overrides {
-      Name: "cs:Nameplates"
-      String: "SocialKitNameplate"
+      Name: "cs:DestroyEventName"
+      String: "DestroyProjector"
     }
   }
   Collidable_v2 {
@@ -131,9 +84,10 @@ Objects {
   EditorIndicatorVisibility {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "ToggleableUI_DATA"
+  Script {
+    ScriptAsset {
+      Id: 8555933360657474910
+    }
   }
 }
 Objects {
@@ -465,5 +419,142 @@ Objects {
     ScriptAsset {
       Id: 17018116029519829138
     }
+  }
+}
+Objects {
+  Id: 7419880391237001001
+  Name: "ClientContext"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Yaw: 2.04905664e-05
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13893858550619667414
+  ChildIds: 7064681299111560581
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  NetworkContext {
+  }
+}
+Objects {
+  Id: 7064681299111560581
+  Name: "ToggleHUDUI_Client"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7419880391237001001
+  ChildIds: 6333119527317258756
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:EventToHide"
+      String: "HideAllUI"
+    }
+    Overrides {
+      Name: "cs:EventToShow"
+      String: "ShowAllUI"
+    }
+    Overrides {
+      Name: "cs:EventToHide:tooltip"
+      String: "The event that, when broadcasted, should hide all UI"
+    }
+    Overrides {
+      Name: "cs:EventToShow:tooltip"
+      String: "The event that when broadcasted, should make the UI visible again"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 12255748336926166018
+    }
+  }
+}
+Objects {
+  Id: 6333119527317258756
+  Name: "ToggleableUI_DATA"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7064681299111560581
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:RPChatContainer"
+      ObjectReference {
+        SelfId: 18063084652043424357
+        SubObjectId: 9170005780700033821
+        InstanceId: 15149160785582657637
+        TemplateId: 2599387198948269098
+      }
+    }
+    Overrides {
+      Name: "cs:AFKResourceContainer"
+      ObjectReference {
+        SelfId: 4834257072595777884
+      }
+    }
+    Overrides {
+      Name: "cs:Nameplates"
+      String: "SocialKitNameplate"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "ToggleableUI_DATA"
   }
 }
