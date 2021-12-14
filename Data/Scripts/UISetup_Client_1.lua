@@ -1,11 +1,13 @@
+
+
 -- Component Root Properties
 local ROOT = script:GetCustomProperty("ComponentRoot"):WaitForObject()
 local FONT = ROOT:GetCustomProperty("Font")
 local ITALIC_FONT = ROOT:GetCustomProperty("ItalicFont")
 local SYSTEM_COLOR = ROOT:GetCustomProperty("SystemColor")
 local FONT_SIZE = ROOT:GetCustomProperty("FontSize")
-local HELP_COLOR = ROOT:GetCustomProperty("HelpColor")
-local HELP_FONT_SIZE = ROOT:GetCustomProperty("HelpFontSize")
+
+
 
 local TEXT_HEIGHT = 30
 local FONT_MAX = 48
@@ -18,6 +20,8 @@ local propChatDisplay = script:GetCustomProperty("ChatDisplay"):WaitForObject()
 local propFontSizeUpButton = script:GetCustomProperty("FontSizeUpButton"):WaitForObject()
 local propFontSizeDownButton = script:GetCustomProperty("FontSizeDownButton"):WaitForObject()
 
+
+
 local BG_COLORS = {ROOT:GetCustomProperty("BackgroundColor1"), ROOT:GetCustomProperty("BackgroundColor2")}
 local lastColor = 1
 
@@ -27,22 +31,20 @@ local FONT_MIN = 8
 -- scrollPanel.position = scrollPanel.contentLength
 
 local linesNeeded = 1
-local localPlayer = Game.GetLocalPlayer()
 
 local WELCOME_MESSAGE = "Welcome to RP Chat! Type /help to learn what commands you can use."
 
-while(_G.CHAT_HELP_MESSAGE == nil) do
-    Task.Wait()
-end
+local HELP_MESSAGE = [[
+    /me - Format message like you are doing something
+    /spoof - Write an anonymous message
+    /wh playerName - Whisper a message to another player
+]]
 
-local function addChatCommandHelpLine(msg)
-    addText("\t" .. msg,nil, true, HELP_COLOR, HELP_FONT_SIZE)
-end
 
 function ChatCommands(speaker, params)
     local message = params.message
     local shortName = string.sub(speaker.name, 1, 4)
-    --print("chat hook on client")
+    print("chat hook on client")
     if string.sub(message, 1, 1) == "/" then
         Task.Spawn(function()
             handleCommands(speaker, message)
@@ -83,11 +85,7 @@ function handleCommands(speaker, message)
             handleReceivedWhisper(message, speaker)
         end
     elseif command == "/help" then
-        addText("Commands:",nil, true, SYSTEM_COLOR)
-
-        for i, m in ipairs(_G.CHAT_HELP_MESSAGE) do
-            addChatCommandHelpLine(m)
-        end
+        handleSystemOutput(HELP_MESSAGE)
     elseif command == "/portal" then
         
         if string.len(message) == 0 then
@@ -148,7 +146,7 @@ function formatSpeech(playerName, text)
     return message
 end
 
-function addText(message, speaker, italics, color, fontSize)
+function addText(message, speaker, italics, color)
     italics = italics or false
     color = color or Color.WHITE
 
@@ -159,13 +157,7 @@ function addText(message, speaker, italics, color, fontSize)
     else
         textBox:SetFont(FONT)
     end
-
-    if fontSize ~= nil then
-        textBox.fontSize = fontSize
-    else
-        textBox.fontSize = FONT_SIZE
-    end
-
+    textBox.fontSize = FONT_SIZE
     local speakerButton = textBox:FindChildByName("UI Button")
     if speaker then
         speakerButton.text = speaker
@@ -260,3 +252,4 @@ end
 Events.Connect("BroadcastChatMessage", handleSystemOutput)
 
 handleSystemOutput(WELCOME_MESSAGE)
+

@@ -3,7 +3,7 @@ Entries {
     StringVar: "rank"
   }
   SimpleValue {
-    IntVar: 0
+    IntVar: 2
   }
 }
 Entries {
@@ -11,14 +11,6 @@ Entries {
     StringVar: "Coins"
   }
   SimpleValue {
-    IntVar: 15
-  }
-}
-Entries {
-  Key {
-    StringVar: "totalTeas"
-  }
-  SimpleValue {
-    IntVar: 1
+    IntVar: 10
   }
 }

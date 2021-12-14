@@ -27,7 +27,7 @@ function updateDestination()
 	DESTINATION_GAME = COMPONENT_ROOT:GetCustomProperty("DestinationGame")
 end
 
-COMPONENT_ROOT.customPropertyChangedEvent:Connect(updateDestination)
+COMPONENT_ROOT.networkedPropertyChangedEvent:Connect(updateDestination)
 
 -- Check user properties
 if string.len(DESTINATION_GAME) < 8 then

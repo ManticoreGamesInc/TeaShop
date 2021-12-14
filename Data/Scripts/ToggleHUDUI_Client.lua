@@ -9,10 +9,10 @@ local uiToHide = {}
 
 for _, prop in pairs(uiToHideData:GetCustomProperties()) do
     if Object.IsValid(prop) then
-       --print(type(prop))
+        print(type(prop))
         table.insert(uiToHide, prop)
     elseif type(prop) == "string" then
-        --print("this is a string")
+        print("this is a string")
         local uis = World.FindObjectsByName(prop)
         for _, ui in ipairs(uis) do
             table.insert(uiToHide, ui)
