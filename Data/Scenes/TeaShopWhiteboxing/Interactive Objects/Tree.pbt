@@ -11173,16 +11173,13 @@ Objects {
     }
   }
   ParentId: 1005977451243031848
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:forceon"
+  }
   TemplateInstance {
-    ParameterOverrideMap {
-      key: 9170005780700033821
-      value {
-        Overrides {
-          Name: "Name"
-          String: "RP Chat Container"
-        }
-      }
-    }
     ParameterOverrideMap {
       key: 18215187958015036149
       value {
@@ -11199,14 +11196,6 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
           }
         }
       }

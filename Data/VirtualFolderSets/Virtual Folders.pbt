@@ -27,5 +27,13 @@ Assets {
       VirtualFolderPath: "Dependencies"
       PlatformAssetType: 5
     }
+    Folders {
+      VirtualFolderPath: "Old Chat Commands"
+      PlatformAssetType: 3
+    }
+    Folders {
+      VirtualFolderPath: "New Chat Commands"
+      PlatformAssetType: 3
+    }
   }
 }

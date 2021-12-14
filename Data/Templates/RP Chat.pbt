@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 4781671109827199097
+        ParentId: 1005977451243031848
         ChildIds: 9170005780700033821
         ChildIds: 9783834523512601221
         ChildIds: 10987954434248309343
@@ -57,6 +57,17 @@ Assets {
             Color {
               A: 0.101960793
             }
+          }
+          Overrides {
+            Name: "cs:HelpColor"
+            Color {
+              G: 0.742708385
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "cs:HelpFontSize"
+            Int: 13
           }
           Overrides {
             Name: "cs:SystemColor:isrep"
@@ -108,7 +119,7 @@ Assets {
       }
       Objects {
         Id: 9170005780700033821
-        Name: "UI Container"
+        Name: "RP Chat Container"
         Transform {
           Location {
           }

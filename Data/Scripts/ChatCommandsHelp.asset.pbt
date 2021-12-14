@@ -1,11 +1,11 @@
 Assets {
-  Id: 7607239935963632500
-  Name: "CommandsAPI"
+  Id: 16368379319352390172
+  Name: "ChatCommandsHelp"
   PlatformAssetType: 3
   TextAsset {
     CustomParameters {
     }
   }
   SerializationVersion: 101
-  VirtualFolderPath: "Old Chat Commands"
+  VirtualFolderPath: "New Chat Commands"
 }

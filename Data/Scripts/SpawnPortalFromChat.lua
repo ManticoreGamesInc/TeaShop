@@ -26,7 +26,7 @@ function SummonPortal(player, target)
         BroadcastPortalIntro()
         return
     end
-    target = CoreString.Trim(target)
+    target = CoreString.Trim(target or "")
     if searchAliases(target) then 
         target = searchAliases(target)
     else
