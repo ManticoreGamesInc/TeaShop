@@ -14,7 +14,7 @@ _G.CHAT_HELP_MESSAGE = {
 	"/spoof - Write an anonymous message.",
 	"/totalplayers - Prints the total players.",
 	"/unspeaker - Clears the speaker.",
-	"voice [mute, unmute] [all, player] - Voice muting.",
+	"/voice [mute, unmute] [all, player] - Voice muting.",
 	"/wh playerName - Whisper a message to another player.",
 
 }

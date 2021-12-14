@@ -40,6 +40,8 @@ CommandParser.AddCommand("closeserver", function(sender, params, status)
 	end
 end)
 
+
+
 -- /grantrp all
 -- /grantrp all amount
 -- /grantrp playername
@@ -97,6 +99,17 @@ CommandParser.AddCommand("invisible", {
 
 
 --------- MOD COMMANDS ---------
+
+-- /lockstage
+CommandParser.AddCommand("lockstage", function(sender, params, status)
+	if CommandParser.HasRank(sender, CommandParser.RANKS.MODERATOR) then
+		Events.Broadcast("LockStage")
+		status.success = true
+		status.senderMessage = "Server closed."
+	else
+		status.senderMessage = CommandParser.error.NO_PERMISSION
+	end
+end)
 
 -- /reset playername
 CommandParser.AddCommand("reset", function(sender, params, status)

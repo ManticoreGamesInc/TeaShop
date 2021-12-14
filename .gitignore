@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 UserSettings/
 Temp/
 Temp/Storage/BOT_Bot1.pbt
 Temp/Storage/BOT_Bot2.pbt
+=======
+
+.vscode/settings.json
+>>>>>>> parent of 10a928e (Revert "Added new chat command parser")

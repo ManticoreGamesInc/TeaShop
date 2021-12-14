@@ -6,7 +6,8 @@ local LOCKED = false
 function OnBeginOverlap(whichTrigger, other)
 	if not LOCKED then return end
 	if other:IsA("Player") then
-		if other.serverUserData.rank < _G.RANKS.MOD then
+		print(other:GetResource("cmdr"))
+		if other:GetResource("cmdr") >= 10 then
 			other:SetWorldPosition(SPAWN:GetWorldPosition())
 		end
 	end

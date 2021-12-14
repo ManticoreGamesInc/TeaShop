@@ -85,6 +85,7 @@ CommandParser.GetPlayer = function(receiver)
 	return nil
 end
 
+
 CommandParser.SetRank = function(player, rank)
 	rank = CommandParser.GetRank(rank)
 
@@ -124,6 +125,23 @@ CommandParser.GetRank = function(rank)
 	end
 
 	return nil
+end
+
+CommandParser.GetSenderRank = function(sender)
+	local senderRankNumber = sender:GetResource(CommandParser.storageKey)
+	for _, rank in pairs(CommandParser.RANKS) do
+		if senderRankNumber == rank.RankIndex then 
+			return rank
+		end
+	end
+end
+
+CommandParser.GetRankFromName = function(name)
+	for _, rank in pairs(CommandParser.RANKS) do
+		if string.lower(name) == string.lower(rank.UniqueKey) then 
+			return rank
+		end
+	end
 end
 
 CommandParser.ParamIsValid = function(param, lower)
@@ -285,6 +303,13 @@ CommandParser.init = function()
 
 			if data[CommandParser.storageKey] ~= nil then
 				player:SetResource(CommandParser.storageKey, data[CommandParser.storageKey])
+			else
+				player:SetResource(CommandParser.storageKey, 99)
+				for _, owner in ipairs(CommandParser.owners) do
+					if player.name == owner then
+						player:SetResource(CommandParser.storageKey, 1)
+					end
+				end
 			end
 		end)
 	end
@@ -295,15 +320,22 @@ CommandParser.init()
 if Environment.IsServer() then
 	-- /promote player uniquekey
 	CommandParser.AddCommand("promote", function(sender, params, status)
-		if CommandParser.HasRank(sender, CommandParser.RANKS.CREATOR) then
+		if CommandParser.HasRank(sender, CommandParser.RANKS.MODERATOR) then
 			local promotePlayer = CommandParser.GetPlayer(params[2])
 
 			if promotePlayer ~= nil then
-				if CommandParser.SetRank(promotePlayer, params[3]) then
-					status.success = true
-					status.senderMessage = promotePlayer.name .. " was successfully promoted."
+				local senderRank = CommandParser.GetSenderRank(sender)
+				local targetRank = CommandParser.GetRankFromName(params[3])
+				print(senderRank, senderRank.RankIndex, targetRank, targetRank.RankIndex)
+				if senderRank and targetRank and senderRank.RankIndex < targetRank.RankIndex then
+					if CommandParser.SetRank(promotePlayer, params[3]) then
+						status.success = true
+						status.senderMessage = promotePlayer.name .. " was successfully promoted."
+					else
+						status.senderMessage = CommandParser.error.INVALID_RANK
+					end
 				else
-					status.senderMessage = CommandParser.error.INVALID_RANK
+					status.senderMessage = CommandParser.error.NO_PERMISSION
 				end
 			else
 				status.senderMessage = CommandParser.error.INVALID_PLAYER
