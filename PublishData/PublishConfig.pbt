@@ -3,7 +3,7 @@ ClientVersion: "1.0.224-prod-s"
 Name: "Tea Shop - Private Event"
 Description: "Private publish of Cozy Tea Shop"
 Tags: "Experimental"
-ScreenshotPaths: "D:/Projects/Core/TeaShop/Screenshots/Screenshot0003.png"
+ScreenshotPaths: "D:/Sarah Linkous/Documents/My Games/CORE/Saved/Maps/TeaShop/Screenshots/Screenshot0004.png"
 OwnerId: "3819113b7af34fb786a56960fc08136a"
 SerializationVersion: 2
 SceneNameToSceneIdMap {
