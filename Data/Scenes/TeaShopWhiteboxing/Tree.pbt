@@ -41,6 +41,7 @@ Objects {
   ChildIds: 10335800472152166537
   ChildIds: 203350044852283577
   ChildIds: 9509550002555562061
+  ChildIds: 13171140908307388801
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -1926,6 +1927,48 @@ Objects {
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 13171140908307388801
+  Name: "Chat Commands"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:OwnerName"
+      String: "CommanderFoo1"
+    }
+    Overrides {
+      Name: "cs:AddLocalBot1"
+      Bool: true
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Chat Commands"
   }
 }
 Objects {

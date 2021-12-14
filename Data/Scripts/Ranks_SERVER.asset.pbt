@@ -6,5 +6,6 @@ Assets {
     CustomParameters {
     }
   }
-  SerializationVersion: 103
+  SerializationVersion: 101
+  VirtualFolderPath: "Old Chat Commands"
 }
