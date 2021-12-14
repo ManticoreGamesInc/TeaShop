@@ -2,10 +2,6 @@
 
 local COMMANDS = require(script:GetCustomProperty("CommandsAPI"))
 
-for name, command in pairs(COMMANDS) do
-    print(name, command.rank)
-end
-
 function ReceiveCommand(speaker, params)
     local message = params.message
     print("Received a message on the server!")

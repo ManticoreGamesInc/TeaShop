@@ -1,6 +1,88 @@
 Name: "Interactive Objects"
 RootId: 1005977451243031848
 Objects {
+  Id: 7009889687442468799
+  Name: "Stage"
+  Transform {
+    Location {
+      X: 208.173737
+      Y: -148.708862
+      Z: 308.477173
+    }
+    Rotation {
+    }
+    Scale {
+      X: 10.3144217
+      Y: 5.37533951
+      Z: 9.28790855
+    }
+  }
+  ParentId: 1005977451243031848
+  ChildIds: 18359936006360909665
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 18359936006360909665
+  Name: "StageLock"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.0969516337
+      Y: 0.186034754
+      Z: 0.107666865
+    }
+  }
+  ParentId: 7009889687442468799
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:SpawnPoint"
+      ObjectReference {
+        SelfId: 16813558807825262224
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 1784453192176731677
+    }
+  }
+}
+Objects {
   Id: 10608162420665280848
   Name: "NPC"
   Transform {

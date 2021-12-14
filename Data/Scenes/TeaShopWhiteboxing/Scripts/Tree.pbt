@@ -22,6 +22,12 @@ Objects {
         SelfId: 7753585570916991656
       }
     }
+    Overrides {
+      Name: "cs:SpawnPoint"
+      ObjectReference {
+        SelfId: 16813558807825262224
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -355,7 +361,7 @@ Objects {
     }
     Overrides {
       Name: "cs:GameModerators"
-      String: "disastronaut"
+      String: "disastronaut\r\nBot1"
     }
     Overrides {
       Name: "cs:GameOwner:tooltip"

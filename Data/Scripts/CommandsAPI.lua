@@ -105,6 +105,19 @@ COMMANDS["destroyprojector"] = {
     end
 }
 
+COMMANDS["lockstage"] = {
+    rank = _G.RANKS.MOD,
+    action = function(speaker)
+        Events.Broadcast("LockStage")
+    end
+}
+
+COMMANDS["unlockstage"] = {
+    rank = _G.RANKS.MOD,
+    action = function(speaker)
+        Events.Broadcast("UnlockStage")
+    end
+}
 
 --     if message[1] == "/resetme" then
 --         resetPlayer(player)
@@ -161,8 +174,8 @@ function ResetPlayer(player)
     -- player:SetWorldPosition(spawn:GetWorldPosition())
     player:Despawn()
     player:Spawn()
-    player.movementControlMode = MovementControlMode.LOOK_RELATIVE
-    player.animationStance = "unarmed_stance"
+    -- player.movementControlMode = MovementControlMode.LOOK_RELATIVE
+    -- player.animationStance = "unarmed_stance"
     DetachAnchors(player)
     for _, obj in ipairs(player:GetAttachedObjects()) do
         obj:Destroy()

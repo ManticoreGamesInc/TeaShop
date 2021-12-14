@@ -31718,6 +31718,12 @@ ObjectSettings {
     }
   }
   ObjectStates {
+    key: 11346883730170473131
+    value {
+      IsHidden: true
+    }
+  }
+  ObjectStates {
     key: 11348107479491986300
     value {
     }

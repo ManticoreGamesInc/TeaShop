@@ -143,6 +143,15 @@ Assets {
   }
 }
 Assets {
+  Id: 15270657237229263167
+  Name: "Teardrop - Truncated"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_truncated_teardrop_001"
+  }
+}
+Assets {
   Id: 15207045394846792321
   Name: "Urban Damaged Wall 02 Half - Horizontal 01"
   PlatformAssetType: 1
@@ -176,6 +185,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_fan_book_pile_004_ref"
+  }
+}
+Assets {
+  Id: 14318631525863639805
+  Name: "Flower Bellflower 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_foliage_gen_flower_bell_002_ref"
   }
 }
 Assets {
@@ -257,6 +275,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_gen_whitebox_wall_001_corner"
+  }
+}
+Assets {
+  Id: 13055412239286064597
+  Name: "Ellipsoid - Truncated"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ellipsoid_truncated_001"
   }
 }
 Assets {
@@ -359,6 +386,15 @@ Assets {
   }
 }
 Assets {
+  Id: 11695249546191317188
+  Name: "Basic Bean Thin Long"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prim_bean_thin_long_001_ref"
+  }
+}
+Assets {
   Id: 11691100420648372282
   Name: "Whitebox Wall 01 Doorway 01"
   PlatformAssetType: 1
@@ -374,6 +410,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_wedge_curved_concave_hq_001"
+  }
+}
+Assets {
+  Id: 11364833899709162211
+  Name: "Broken Porcelain Vase 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_jpn_vase_porcelain_broken_001"
   }
 }
 Assets {
@@ -809,6 +854,15 @@ Assets {
   }
 }
 Assets {
+  Id: 4934897348888558648
+  Name: "Ring - Thick"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_torus_005"
+  }
+}
+Assets {
   Id: 4798953546912878943
   Name: "Urban Pipe Clamp 03"
   PlatformAssetType: 1
@@ -827,6 +881,15 @@ Assets {
   }
 }
 Assets {
+  Id: 4488567583301811988
+  Name: "Lens - Half"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_half_lense_001"
+  }
+}
+Assets {
   Id: 4201245041388752744
   Name: "Cylinder - Bottom-Aligned"
   PlatformAssetType: 1
@@ -842,6 +905,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_fan_book_003_ref"
+  }
+}
+Assets {
+  Id: 4035728356776819875
+  Name: "Cube - Bottom-Aligned"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cube_001"
   }
 }
 Assets {
@@ -950,6 +1022,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cube_001"
+  }
+}
+Assets {
+  Id: 2887966541650210293
+  Name: "Invisible"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_invisible_001"
   }
 }
 Assets {

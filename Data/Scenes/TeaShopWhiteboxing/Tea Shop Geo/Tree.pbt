@@ -679,7 +679,7 @@ Objects {
   ChildIds: 16852165606340727682
   ChildIds: 6878519179254124991
   ChildIds: 11751801615751577122
-  ChildIds: 6736148770649536493
+  ChildIds: 571477033524236962
   ChildIds: 13078526846028022386
   ChildIds: 14816405259409850390
   ChildIds: 18254936829320268921
@@ -4506,141 +4506,702 @@ Objects {
   }
 }
 Objects {
-  Id: 6736148770649536493
+  Id: 571477033524236962
   Name: "Old Blue Teapot"
   Transform {
+    Location {
+      X: -463.794952
+      Y: -850.09375
+      Z: 314.328796
+    }
+    Rotation {
+      Yaw: -78.9437866
+    }
+    Scale {
+      X: 0.4
+      Y: 0.4
+      Z: 0.4
+    }
+  }
+  ParentId: 351444627740904
+  ChildIds: 5226165897707212884
+  ChildIds: 4250899639463537931
+  ChildIds: 18003660509254307885
+  ChildIds: 12455664991089023185
+  ChildIds: 2677256792725965840
+  ChildIds: 1106410599541885285
+  ChildIds: 6122761531385042074
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 571477033524236962
+    SubobjectId: 239179757210175804
+    InstanceId: 6736148770649536493
+    TemplateId: 3032754798564509669
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 6122761531385042074
+  Name: "Bottom Alignment"
+  Transform {
+    Location {
+      Y: 19.5932407
+    }
+    Rotation {
+    }
     Scale {
       X: 1
       Y: 1
       Z: 1
     }
   }
-  ParentId: 351444627740904
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 239179757210175804
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Old Blue Teapot"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -463.794952
-            Y: -850.09375
-            Z: 314.328796
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -78.9437866
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.453424603
-            Y: 0.453424603
-            Z: 0.453424603
-          }
-        }
+  ParentId: 571477033524236962
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 2887966541650210293
       }
     }
-    ParameterOverrideMap {
-      key: 857150099301618427
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.0775827542
-            G: 0.164999962
-            A: 1
-          }
-        }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 4035728356776819875
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    DisableCastShadows: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 6122761531385042074
+    SubobjectId: 5784764599523495684
+    InstanceId: 6736148770649536493
+    TemplateId: 3032754798564509669
+  }
+}
+Objects {
+  Id: 1106410599541885285
+  Name: "Teapot Spout Opening"
+  Transform {
+    Location {
+      Y: -94.606308
+      Z: 83.2169724
+    }
+    Rotation {
+      Pitch: -16.0133362
+      Yaw: -90
+    }
+    Scale {
+      X: 0.601269841
+      Y: 0.801778376
+      Z: 0.761454523
+    }
+  }
+  ParentId: 571477033524236962
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 15749436113364259184
       }
     }
-    ParameterOverrideMap {
-      key: 2420809264031684494
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.0775827542
-            G: 0.164999962
-            A: 1
-          }
-        }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 0.767549634
+        B: 0.73
+        A: 1
       }
     }
-    ParameterOverrideMap {
-      key: 4486092509452498581
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.0775827393
-            G: 0.164999962
-            A: 1
-          }
-        }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 11364833899709162211
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    DisableCastShadows: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 1106410599541885285
+    SubobjectId: 857150099301618427
+    InstanceId: 6736148770649536493
+    TemplateId: 3032754798564509669
+  }
+}
+Objects {
+  Id: 2677256792725965840
+  Name: "Teapot Handle"
+  Transform {
+    Location {
+      Y: 91.3695679
+      Z: 66.451
+    }
+    Rotation {
+      Pitch: 90
+    }
+    Scale {
+      X: 0.815359473
+      Y: 0.628281236
+      Z: 0.732284
+    }
+  }
+  ParentId: 571477033524236962
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 122369447100015273
       }
     }
-    ParameterOverrideMap {
-      key: 8459929916830356019
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.0775827393
-            G: 0.164999962
-            A: 1
-          }
-        }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 0.767549634
+        B: 0.73
+        A: 1
       }
     }
-    ParameterOverrideMap {
-      key: 10852351106202864916
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.0775827393
-            G: 0.164999962
-            A: 1
-          }
-        }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 4934897348888558648
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    DisableCastShadows: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 2677256792725965840
+    SubobjectId: 2420809264031684494
+    InstanceId: 6736148770649536493
+    TemplateId: 3032754798564509669
+  }
+}
+Objects {
+  Id: 12455664991089023185
+  Name: "Teapot Spout"
+  Transform {
+    Location {
+      Y: -51.9057846
+      Z: 33.1145287
+    }
+    Rotation {
+      Roll: 16.6673737
+    }
+    Scale {
+      X: 2.36971498
+      Y: 1.38173473
+      Z: 1.78890431
+    }
+  }
+  ParentId: 571477033524236962
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 122369447100015273
       }
     }
-    ParameterOverrideMap {
-      key: 11540146545770216579
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.0775827393
-            G: 0.164999962
-            A: 1
-          }
-        }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 0.767549634
+        B: 0.73
+        A: 1
       }
     }
-    ParameterOverrideMap {
-      key: 12133997827917005647
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.0775827542
-            G: 0.164999962
-            A: 1
-          }
-        }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 11695249546191317188
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    DisableCastShadows: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 12455664991089023185
+    SubobjectId: 12133997827917005647
+    InstanceId: 6736148770649536493
+    TemplateId: 3032754798564509669
+  }
+}
+Objects {
+  Id: 18003660509254307885
+  Name: "Teapot Lid"
+  Transform {
+    Location {
+      Y: 18.9156971
+      Z: 118.38855
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 571477033524236962
+  ChildIds: 10530748779189081738
+  ChildIds: 11860548241935181597
+  ChildIds: 8203379849786821037
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 18003660509254307885
+    SubobjectId: 18259332544987089843
+    InstanceId: 6736148770649536493
+    TemplateId: 3032754798564509669
+  }
+}
+Objects {
+  Id: 8203379849786821037
+  Name: "Ring - Thick"
+  Transform {
+    Location {
+      Z: -3.87554932
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.03457141
+      Y: 1.03457141
+      Z: 1.03457141
+    }
+  }
+  ParentId: 18003660509254307885
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 122369447100015273
       }
     }
-    TemplateAsset {
-      Id: 3032754798564509669
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 0.854304671
+        B: 0.75
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 4934897348888558648
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    DisableCastShadows: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 8203379849786821037
+    SubobjectId: 8459929916830356019
+    InstanceId: 6736148770649536493
+    TemplateId: 3032754798564509669
+  }
+}
+Objects {
+  Id: 11860548241935181597
+  Name: "Teardrop - Truncated"
+  Transform {
+    Location {
+      Z: 38.9511261
+    }
+    Rotation {
+      Roll: -179.999985
+    }
+    Scale {
+      X: 0.203775913
+      Y: 0.203775942
+      Z: 0.144216895
+    }
+  }
+  ParentId: 18003660509254307885
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 122369447100015273
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 0.854304671
+        B: 0.75
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 15270657237229263167
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    DisableCastShadows: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 11860548241935181597
+    SubobjectId: 11540146545770216579
+    InstanceId: 6736148770649536493
+    TemplateId: 3032754798564509669
+  }
+}
+Objects {
+  Id: 10530748779189081738
+  Name: "Lens - Half"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.892909706
+      Y: 0.892909706
+      Z: 1.06359684
+    }
+  }
+  ParentId: 18003660509254307885
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 122369447100015273
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 0.854304671
+        B: 0.75
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 4488567583301811988
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    DisableCastShadows: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 10530748779189081738
+    SubobjectId: 10852351106202864916
+    InstanceId: 6736148770649536493
+    TemplateId: 3032754798564509669
+  }
+}
+Objects {
+  Id: 4250899639463537931
+  Name: "Teapot Base"
+  Transform {
+    Location {
+      Y: 18.9156971
+      Z: 60.7873077
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.50420213
+      Y: 1.50420213
+      Z: 0.67482084
+    }
+  }
+  ParentId: 571477033524236962
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 122369447100015273
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 0.767549634
+        B: 0.73
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13055412239286064597
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    DisableCastShadows: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 4250899639463537931
+    SubobjectId: 4486092509452498581
+    InstanceId: 6736148770649536493
+    TemplateId: 3032754798564509669
+  }
+}
+Objects {
+  Id: 5226165897707212884
+  Name: "Flower Bellflower 02"
+  Transform {
+    Location {
+      X: -74.0113525
+      Y: 20.2094116
+      Z: 37.4712524
+    }
+    Rotation {
+      Pitch: -0.541778564
+      Yaw: 89.0388718
+      Roll: 1.64024985
+    }
+    Scale {
+      X: 0.522690833
+      Y: -0.00111228297
+      Z: 0.419573665
+    }
+  }
+  ParentId: 571477033524236962
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 16444180240088049156
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 14318631525863639805
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
     }
   }
 }
