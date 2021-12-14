@@ -2,7 +2,7 @@ Assets {
   Id: 2860892148779997472
   Name: "Custom Marble Tiles Octagon Dot 01"
   PlatformAssetType: 13
-  SerializationVersion: 101
+  SerializationVersion: 103
   CustomMaterialAsset {
     BaseMaterialId: 7804066525496604903
     ParameterOverrides {

@@ -2,7 +2,7 @@ Assets {
   Id: 13515828434999808255
   Name: "FHD_Fern Material_1"
   PlatformAssetType: 13
-  SerializationVersion: 101
+  SerializationVersion: 103
   CustomMaterialAsset {
     BaseMaterialId: 5929537681752425121
     ParameterOverrides {

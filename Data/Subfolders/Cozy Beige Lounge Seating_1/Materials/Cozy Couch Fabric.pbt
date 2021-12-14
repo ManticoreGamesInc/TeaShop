@@ -2,7 +2,7 @@ Assets {
   Id: 18226963030593902604
   Name: "Cozy Couch Fabric"
   PlatformAssetType: 13
-  SerializationVersion: 101
+  SerializationVersion: 103
   CustomMaterialAsset {
     BaseMaterialId: 1366723576735561232
     ParameterOverrides {

@@ -35,6 +35,9 @@ Assets {
         Folder {
           IsGroup: true
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 16017120743113384561
@@ -88,6 +91,9 @@ Assets {
             }
             BoundsScale: 1
           }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
@@ -143,6 +149,9 @@ Assets {
             }
             BoundsScale: 1
           }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
@@ -200,6 +209,9 @@ Assets {
             }
             BoundsScale: 1
           }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
@@ -262,6 +274,9 @@ Assets {
             BoundsScale: 1
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
     }
     Assets {
@@ -308,7 +323,7 @@ Assets {
   Marketplace {
     Description: "All the necessary parts for a tea party: 1 tiered plate, 1 dinner plate, 1 creamer, 1 sugar cube bowl, 2 tea cups, 1 saucer, 3 teapots."
   }
-  SerializationVersion: 101
+  SerializationVersion: 103
   DirectlyPublished: true
   VirtualFolderPath: "Community Content Templates"
   VirtualFolderPath: "Full Tea Set"

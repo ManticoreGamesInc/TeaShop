@@ -35,6 +35,9 @@ Assets {
             }
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
     }
     PrimaryAssetId {
@@ -49,5 +52,5 @@ Assets {
     Version: "1.0.0"
     Description: "It\'s a table, the cheap kind you might haul to an event."
   }
-  SerializationVersion: 101
+  SerializationVersion: 103
 }

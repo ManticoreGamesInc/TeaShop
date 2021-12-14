@@ -29,6 +29,9 @@ Assets {
             }
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
     }
     PrimaryAssetId {
@@ -43,5 +46,5 @@ Assets {
     Version: "1.0.0"
     Description: "HAPPY HOLIDAYS from Team Meta. Included in this pack is 1 snowglobe, buildings, benches, light posts, wreaths, presents, a snowman, kinara, menorah, snow piles, ice rink, town square and TONS of lights!!"
   }
-  SerializationVersion: 101
+  SerializationVersion: 103
 }

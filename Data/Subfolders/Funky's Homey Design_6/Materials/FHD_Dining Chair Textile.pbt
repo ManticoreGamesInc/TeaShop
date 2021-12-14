@@ -2,7 +2,7 @@ Assets {
   Id: 2775435930269001146
   Name: "FHD_Dining Chair Textile"
   PlatformAssetType: 13
-  SerializationVersion: 101
+  SerializationVersion: 103
   CustomMaterialAsset {
     BaseMaterialId: 7748636881025698784
     ParameterOverrides {

@@ -29,6 +29,9 @@ Assets {
             }
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
     }
     PrimaryAssetId {
@@ -43,5 +46,5 @@ Assets {
     Version: "1.0.0"
     Description: "A nice  seasonal collection of starter bonsai !\r\n\r\n"
   }
-  SerializationVersion: 101
+  SerializationVersion: 103
 }

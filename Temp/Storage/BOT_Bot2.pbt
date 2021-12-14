@@ -8,17 +8,17 @@ Entries {
 }
 Entries {
   Key {
-    StringVar: "Coins"
-  }
-  SimpleValue {
-    IntVar: 15
-  }
-}
-Entries {
-  Key {
     StringVar: "totalTeas"
   }
   SimpleValue {
     IntVar: 1
+  }
+}
+Entries {
+  Key {
+    StringVar: "Coins"
+  }
+  SimpleValue {
+    IntVar: 23
   }
 }

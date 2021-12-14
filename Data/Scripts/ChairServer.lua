@@ -37,6 +37,7 @@ function GetUp(player)
 end
 
 
+
 function OnBindingPressed(player, action)
 	if action == GET_UP_SECONDARY_BINDING
 	or (action == GET_UP_PRIMARY_BINDING and not getUpFBlocked) then
@@ -77,6 +78,7 @@ end
 
 Events.ConnectForPlayer(SIT_EVENT_ID, OnSit)
 Events.ConnectForPlayer(GET_UP_EVENT_ID, GetUp)
+Events.Connect("GetUp", GetUp)
 
 
 function CleanupListeners()

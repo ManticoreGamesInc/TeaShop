@@ -1,62 +1,6 @@
 Name: "Seating"
 RootId: 6947938321132415831
 Objects {
-  Id: 17044499653707680126
-  Name: "Chair Logic"
-  Transform {
-    Location {
-      X: 822.972656
-      Y: -300
-      Z: 80
-    }
-    Rotation {
-      Yaw: 89.9999542
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 6947938321132415831
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 14418205449374406163
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Chair Logic"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -930
-            Y: -384.752563
-            Z: 70
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: 180
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 3599235406971010506
-    }
-  }
-}
-Objects {
   Id: 9375013110155307664
   Name: "Chair Logic"
   Transform {
@@ -110,6 +54,9 @@ Objects {
     TemplateAsset {
       Id: 3599235406971010506
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -167,6 +114,9 @@ Objects {
       Id: 3599235406971010506
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 6922658010506042710
@@ -222,6 +172,9 @@ Objects {
     TemplateAsset {
       Id: 3599235406971010506
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -279,6 +232,9 @@ Objects {
       Id: 3599235406971010506
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 11534919112605541268
@@ -334,6 +290,9 @@ Objects {
     TemplateAsset {
       Id: 3599235406971010506
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -391,6 +350,9 @@ Objects {
       Id: 3599235406971010506
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 12811052155470433193
@@ -446,6 +408,9 @@ Objects {
     TemplateAsset {
       Id: 3599235406971010506
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -503,6 +468,9 @@ Objects {
       Id: 3599235406971010506
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 17071863376876958453
@@ -558,6 +526,9 @@ Objects {
     TemplateAsset {
       Id: 3599235406971010506
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -615,6 +586,9 @@ Objects {
       Id: 3599235406971010506
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 13514416390950815324
@@ -662,6 +636,9 @@ Objects {
     TemplateAsset {
       Id: 3599235406971010506
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -730,5 +707,8 @@ Objects {
     TemplateAsset {
       Id: 6687639425075067324
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }

@@ -2,7 +2,7 @@ Assets {
   Id: 9441889964748586361
   Name: "Dark Tea Liquid"
   PlatformAssetType: 13
-  SerializationVersion: 101
+  SerializationVersion: 103
   CustomMaterialAsset {
     BaseMaterialId: 3584219768285817002
     ParameterOverrides {

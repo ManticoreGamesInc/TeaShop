@@ -35,6 +35,9 @@ Assets {
         Folder {
           IsGroup: true
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 8768135237325925539
@@ -86,6 +89,9 @@ Assets {
           BlueprintAsset {
             Id: 2224571462023946700
           }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
@@ -243,6 +249,9 @@ Assets {
             Id: 7887238662729938253
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 16180970171577782523
@@ -337,6 +346,9 @@ Assets {
             Id: 16910278292812118833
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 14977169413056414029
@@ -380,6 +392,9 @@ Assets {
           BlueprintAsset {
             Id: 11515840070784317904
           }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
@@ -437,6 +452,9 @@ Assets {
             Id: 12344193518355455075
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
     }
     Assets {
@@ -489,5 +507,5 @@ Assets {
       AssetId: "Sky_Nighttime_01"
     }
   }
-  SerializationVersion: 101
+  SerializationVersion: 103
 }

@@ -1,7 +1,7 @@
 local GOD = script:GetCustomProperty("GameOwner")
-local MODS = {CoreString.Split(script:GetCustomProperty("GameModerators"), "\n\n")}
+local MODS = {CoreString.Split(script:GetCustomProperty("GameModerators"), "\n")}
 
-
+print("Mods: ", #MODS)
 
 _G.RANKS = {
     ALL = 0,
@@ -13,7 +13,7 @@ _G.RANKS = {
 function AssignPlayerRankOnJoin(player)
     local playerName = player.name
     local d = Storage.GetPlayerData(player)
-    if player.name == GOD and d.rank ~= _G.RANKS.GOD then
+    if playerName == GOD and d.rank ~= _G.RANKS.GOD then
         player.serverUserData.rank = _G.RANKS.GOD
         d.rank = _G.RANKS.GOD
         Storage.SetPlayerData(player, d)
@@ -21,7 +21,8 @@ function AssignPlayerRankOnJoin(player)
     end
     
     for _, name in ipairs(MODS) do
-        if player.name == name and d.rank ~= _G.RANKS.MOD then
+        print(name, playerName)
+        if playerName == name and d.rank ~= _G.RANKS.MOD then  
             player.serverUserData.rank = _G.RANKS.MOD
             d.rank = _G.RANKS.MOD
             Storage.SetPlayerData(player, d)
@@ -47,3 +48,5 @@ function ModPlayer(player)
 end
 
 Events.Connect("ModPlayer", ModPlayer)
+
+Events.Broadcast("RanksLoaded")

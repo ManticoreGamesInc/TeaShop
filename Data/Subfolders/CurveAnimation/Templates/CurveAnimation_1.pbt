@@ -394,6 +394,9 @@ Assets {
             Id: 13441845915532246054
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
     }
     PrimaryAssetId {
@@ -404,6 +407,6 @@ Assets {
   Marketplace {
     Description: "Based on the Object Curve Mover, Object Curve Rotator, and Object Curve Scaler of Core Content, this template can be added into the Hierarchy, given an associated object in a custom property, and change that object\'s transforms according to the curves you specify. "
   }
-  SerializationVersion: 101
+  SerializationVersion: 103
   DirectlyPublished: true
 }
