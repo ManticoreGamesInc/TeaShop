@@ -31,6 +31,9 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "Spawn Points"
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 16091997443684347178
@@ -62,6 +65,9 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Level Design"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -96,6 +102,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -199,6 +208,9 @@ Objects {
       Id: 16910278292812118833
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 7155168770677928712
@@ -280,6 +292,9 @@ Objects {
     BlueprintAsset {
       Id: 11515840070784317904
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -413,5 +428,8 @@ Objects {
     BlueprintAsset {
       Id: 7887238662729938253
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }

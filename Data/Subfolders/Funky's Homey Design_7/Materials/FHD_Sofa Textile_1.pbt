@@ -2,7 +2,7 @@ Assets {
   Id: 3429708865308892491
   Name: "FHD_Sofa Textile_1"
   PlatformAssetType: 13
-  SerializationVersion: 101
+  SerializationVersion: 103
   CustomMaterialAsset {
     BaseMaterialId: 14290021292046440653
     ParameterOverrides {

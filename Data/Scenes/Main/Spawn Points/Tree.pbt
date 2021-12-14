@@ -41,6 +41,9 @@ Objects {
     }
     ShouldDecrowdPlayers: true
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 6248166340064717443
@@ -83,6 +86,9 @@ Objects {
     }
     ShouldDecrowdPlayers: true
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 16813558807825262224
@@ -122,5 +128,8 @@ Objects {
       Id: 841534158063459245
     }
     ShouldDecrowdPlayers: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }

@@ -2,7 +2,7 @@ Assets {
   Id: 12044047638228627355
   Name: "LampBase Fabric"
   PlatformAssetType: 13
-  SerializationVersion: 101
+  SerializationVersion: 103
   CustomMaterialAsset {
     BaseMaterialId: 7373745715119749170
     ParameterOverrides {

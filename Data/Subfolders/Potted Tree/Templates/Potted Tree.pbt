@@ -26,6 +26,9 @@ Assets {
             }
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
     }
     PrimaryAssetId {
@@ -40,5 +43,5 @@ Assets {
     Version: "1.0.0"
     Description: "Tree in planter or pot, for home or office decorating"
   }
-  SerializationVersion: 101
+  SerializationVersion: 103
 }

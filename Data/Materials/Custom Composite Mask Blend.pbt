@@ -2,7 +2,7 @@ Assets {
   Id: 1927471357999100379
   Name: "Reddish Damaged Stucco"
   PlatformAssetType: 13
-  SerializationVersion: 101
+  SerializationVersion: 103
   CustomMaterialAsset {
     BaseMaterialId: 2145909769607171170
     ParameterOverrides {

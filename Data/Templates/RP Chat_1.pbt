@@ -26,6 +26,9 @@ Assets {
             }
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
     }
     PrimaryAssetId {
@@ -39,5 +42,5 @@ Assets {
     OwnerName: "coreslinkous"
     Description: "This is an all client-side UI that overrides the normal chat window to create customizable interactions and chat appearance.\r\n\r\nIncludes four commands:\r\n\r\n/me - allows players to write a message as if they are doing an action\r\n/spoof - prints a message anonymously\r\n/wh - whispers a message to another player\r\n/help - prints the above options\r\n\r\nWith the component selected, open properties to see options to customize the font and colors. "
   }
-  SerializationVersion: 101
+  SerializationVersion: 103
 }

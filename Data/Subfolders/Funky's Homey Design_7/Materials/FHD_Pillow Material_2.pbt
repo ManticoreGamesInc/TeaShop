@@ -2,7 +2,7 @@ Assets {
   Id: 1271797177141498141
   Name: "FHD_Pillow Material_2"
   PlatformAssetType: 13
-  SerializationVersion: 101
+  SerializationVersion: 103
   CustomMaterialAsset {
     BaseMaterialId: 10084042074781540527
     ParameterOverrides {

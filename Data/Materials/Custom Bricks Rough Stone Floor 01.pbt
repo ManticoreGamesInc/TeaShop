@@ -2,7 +2,7 @@ Assets {
   Id: 5401769684901406826
   Name: "Custom Bricks Rough Stone Floor 01"
   PlatformAssetType: 13
-  SerializationVersion: 101
+  SerializationVersion: 103
   CustomMaterialAsset {
     BaseMaterialId: 12644528000432833560
     ParameterOverrides {

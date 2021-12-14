@@ -2,7 +2,7 @@ Assets {
   Id: 6447288861156451839
   Name: "FHD_Kitchen Floor"
   PlatformAssetType: 13
-  SerializationVersion: 101
+  SerializationVersion: 103
   CustomMaterialAsset {
     BaseMaterialId: 6241793761311933700
     ParameterOverrides {

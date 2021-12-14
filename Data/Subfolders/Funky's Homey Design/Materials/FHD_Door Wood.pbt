@@ -2,7 +2,7 @@ Assets {
   Id: 13909250579976298352
   Name: "FHD_Door Wood"
   PlatformAssetType: 13
-  SerializationVersion: 101
+  SerializationVersion: 103
   CustomMaterialAsset {
     BaseMaterialId: 2584198119462481458
     ParameterOverrides {

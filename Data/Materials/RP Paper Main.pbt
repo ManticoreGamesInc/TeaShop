@@ -2,7 +2,7 @@ Assets {
   Id: 10625857217298081004
   Name: "RP Paper Main"
   PlatformAssetType: 13
-  SerializationVersion: 101
+  SerializationVersion: 103
   CustomMaterialAsset {
     BaseMaterialId: 10170441417756964934
     ParameterOverrides {

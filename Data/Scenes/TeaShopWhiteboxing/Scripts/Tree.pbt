@@ -46,6 +46,9 @@ Objects {
       Id: 7840945841363637230
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 18112790568552468593
@@ -95,6 +98,9 @@ Objects {
       Id: 8555933360657474910
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 3898064104918005129
@@ -139,6 +145,9 @@ Objects {
       Id: 4760998559690950946
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 12910452877730870969
@@ -175,6 +184,9 @@ Objects {
     ScriptAsset {
       Id: 16583146491093326159
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -213,6 +225,9 @@ Objects {
       Id: 1611458966252994808
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 17034240476428353646
@@ -249,6 +264,9 @@ Objects {
     ScriptAsset {
       Id: 2836408628322412402
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -287,6 +305,9 @@ Objects {
   }
   NetworkContext {
     Type: Server
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -338,6 +359,9 @@ Objects {
       Id: 9886165705538043104
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 9190677458598225915
@@ -361,7 +385,7 @@ Objects {
     }
     Overrides {
       Name: "cs:GameModerators"
-      String: "disastronaut\r\nBot1"
+      String: "disastronaut\r\nBot1\r\nCommanderFoo"
     }
     Overrides {
       Name: "cs:GameOwner:tooltip"
@@ -392,6 +416,9 @@ Objects {
     ScriptAsset {
       Id: 15858755204569160574
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -426,6 +453,9 @@ Objects {
       Id: 17018116029519829138
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 7419880391237001001
@@ -457,6 +487,9 @@ Objects {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
   NetworkContext {
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -510,6 +543,9 @@ Objects {
       Id: 12255748336926166018
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 6333119527317258756
@@ -562,5 +598,8 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "ToggleableUI_DATA"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }

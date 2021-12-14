@@ -31,6 +31,9 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "Shops_1"
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 5498601463534540027
@@ -62,5 +65,8 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Consumables"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }

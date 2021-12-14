@@ -2,7 +2,7 @@ Assets {
   Id: 17989923128591989935
   Name: "Tea"
   PlatformAssetType: 13
-  SerializationVersion: 101
+  SerializationVersion: 103
   CustomMaterialAsset {
     BaseMaterialId: 3947770496926949573
     ParameterOverrides {

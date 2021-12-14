@@ -2,7 +2,7 @@ Assets {
   Id: 18189876411640076460
   Name: "Custom Granite 01"
   PlatformAssetType: 13
-  SerializationVersion: 101
+  SerializationVersion: 103
   CustomMaterialAsset {
     BaseMaterialId: 15123067052650340095
     ParameterOverrides {

@@ -2,7 +2,7 @@ Assets {
   Id: 17084965218771915014
   Name: "FHD_TV Stand Planks"
   PlatformAssetType: 13
-  SerializationVersion: 101
+  SerializationVersion: 103
   CustomMaterialAsset {
     BaseMaterialId: 12996763553129066730
     ParameterOverrides {

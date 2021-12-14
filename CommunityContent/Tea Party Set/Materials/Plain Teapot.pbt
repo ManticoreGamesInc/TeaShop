@@ -2,7 +2,7 @@ Assets {
   Id: 8272656384031414097
   Name: "Plain Teapot"
   PlatformAssetType: 13
-  SerializationVersion: 101
+  SerializationVersion: 103
   CustomMaterialAsset {
     BaseMaterialId: 13085174305471638229
     ParameterOverrides {
