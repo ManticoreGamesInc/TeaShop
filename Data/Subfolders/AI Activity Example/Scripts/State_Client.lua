@@ -1,7 +1,7 @@
 local ai = script:GetCustomProperty("ai"):WaitForObject()
 local rig = script:GetCustomProperty("rig"):WaitForObject()
 
-ai.networkedPropertyChangedEvent:Connect(function(_, prop)
+ai.customPropertyChangedEvent:Connect(function(_, prop)
 	if(prop == "state") then
 		local state = ai:GetCustomProperty("state")
 
