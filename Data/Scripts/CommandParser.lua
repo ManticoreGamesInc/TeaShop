@@ -129,10 +129,14 @@ end
 CommandParser.GetSenderRank = function(sender)
 	local senderRankNumber = sender:GetResource(CommandParser.storageKey)
 	for _, rank in pairs(CommandParser.RANKS) do
-		if senderRankNumber == rank.RankIndex then 
+		if senderRankNumber == rank.RankIndex then
 			return rank
 		end
 	end
+end
+
+CommandParser.GetPlayerRank = function(player)
+	return CommandParser.GetSenderRank(player)
 end
 
 CommandParser.GetRankFromName = function(name)

@@ -120,6 +120,79 @@ CommandParser.AddCommand("unlockstage", function(sender, params, status)
 	end
 end)
 
+CommandParser.AddCommand("speakers", {
+	
+	on = function(sender, params, status)
+		if CommandParser.HasRank(sender, CommandParser.RANKS.MODERATOR) then
+			local hasSpeakers = false
+
+			for _, player in ipairs(Game.GetPlayers()) do
+				local rank = CommandParser.GetPlayerRank(player)
+
+				if rank == nil or rank.RankIndex > 20 then
+					for i, c in pairs(VoiceChat.GetChannels()) do
+						c:MutePlayer(player)
+					end
+				elseif rank.RankIndex == 20 then
+					hasSpeakers = true
+
+					for i, c in pairs(VoiceChat.GetChannels()) do
+						c:UnmutePlayer(player)
+					end
+				end
+			end
+
+			if joinEvent == nil then
+				joinEvent = Game.playerJoinedEvent:Connect(function(p)
+					local data = Storage.GetPlayerData(p)
+					local rankIndex = p[CommandParser.storageKey]
+
+					if rankIndex == nil or rankIndex > 20 then
+						for i, c in pairs(VoiceChat.GetChannels()) do
+							c:MutePlayer(p)
+						end
+					else
+						for i, c in pairs(VoiceChat.GetChannels()) do
+							c:UnmutePlayer(p)
+						end
+					end
+				end)
+			end
+
+			status.success = true
+
+			if hasSpeakers then
+				status.senderMessage = "Mics muted. Only speakers and moderators have their mic enabled."
+			else
+				status.senderMessage = "Mics muted. There are no speakers online."
+			end
+		else
+			status.senderMessage = CommandParser.error.NO_PERMISSION
+		end
+	end,
+
+	off = function(sender, params, status)
+		if CommandParser.HasRank(sender, CommandParser.RANKS.MODERATOR) then
+			for _, player in ipairs(Game.GetPlayers()) do
+				for i, c in pairs(VoiceChat.GetChannels()) do
+					c:UnmutePlayer(player)
+				end
+			end
+
+			if joinEvent ~= nil and joinEvent.isConnected then
+				joinEvent:Disconnect()
+				joinEvent = nil
+			end
+
+			status.success = true
+			status.senderMessage = "All mics unmuted."
+		else
+			status.senderMessage = CommandParser.error.NO_PERMISSION
+		end
+	end
+
+})
+
 -- /showresource player resource
 CommandParser.AddCommand("showresource", function(sender, params, status)
 	if CommandParser.HasRank(sender, CommandParser.RANKS.MODERATOR) then
@@ -354,6 +427,52 @@ CommandParser.AddCommand("voice", {
 	end
 
 })
+
+-- /givecoins player amount
+CommandParser.AddCommand("givecoins", function(sender, params, status)
+	if CommandParser.HasRank(sender, CommandParser.RANKS.MODERATOR) then
+		local who = CommandParser.GetPlayer(params[2])
+	
+		if who ~= nil then
+			local amount = tonumber(params[3])
+
+			if amount > 0 then
+				CommandParser.AddResource(who, "coins", "coins", amount)
+				status.success = true
+				status.senderMessage = "Player given Coins."
+			else
+				status.senderMessage = CommandParser.error.INVALID_VALUE
+			end
+		else
+			status.senderMessage = CommandParser.error.INVALID_PLAYER
+		end
+	else
+		status.senderMessage = CommandParser.error.NO_PERMISSION
+	end
+end)
+
+-- /removecoins player amount
+CommandParser.AddCommand("removecoins", function(sender, params, status)
+	if CommandParser.HasRank(sender, CommandParser.RANKS.MODERATOR) then
+		local who = CommandParser.GetPlayer(params[2])
+	
+		if who ~= nil then
+			local amount = tonumber(params[3])
+
+			if amount > 0 then
+				CommandParser.RemoveResource(who, "coins", "coins", amount)
+				status.success = true
+				status.senderMessage = "Player coins removed."
+			else
+				status.senderMessage = CommandParser.error.INVALID_VALUE
+			end
+		else
+			status.senderMessage = CommandParser.error.INVALID_PLAYER
+		end
+	else
+		status.senderMessage = CommandParser.error.NO_PERMISSION
+	end
+end)
 
 --------- ALL COMMANDS ---------
 
