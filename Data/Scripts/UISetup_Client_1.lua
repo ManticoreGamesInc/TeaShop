@@ -31,10 +31,6 @@ local localPlayer = Game.GetLocalPlayer()
 
 local WELCOME_MESSAGE = "Welcome to RP Chat! Type /help to learn what commands you can use."
 
-while(_G.CHAT_HELP_MESSAGE == nil) do
-    Task.Wait()
-end
-
 local function addChatCommandHelpLine(msg)
     addText("\t" .. msg,nil, true, HELP_COLOR, HELP_FONT_SIZE)
 end
@@ -83,11 +79,11 @@ function handleCommands(speaker, message)
             handleReceivedWhisper(message, speaker)
         end
     elseif command == "/help" then
-        addText("Commands:",nil, true, SYSTEM_COLOR)
+        -- addText("Commands:",nil, true, SYSTEM_COLOR)
 
-        for i, m in ipairs(_G.CHAT_HELP_MESSAGE) do
-            addChatCommandHelpLine(m)
-        end
+        -- for i, m in ipairs(_G.CHAT_HELP_MESSAGE) do
+        --     addChatCommandHelpLine(m)
+        -- end
     elseif command == "/portal" then
         
         if string.len(message) == 0 then
