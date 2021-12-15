@@ -1,4 +1,5 @@
 UserSettings/
 Temp/
-Temp/Storage/BOT_Bot1.pbt
-Temp/Storage/BOT_Bot2.pbt
+.vscode/settings.json
+Data/Scripts/.vscode/settings.json
+UserSettings/coreslinkous.pbt

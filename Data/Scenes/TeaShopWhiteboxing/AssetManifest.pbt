@@ -17,15 +17,6 @@ Assets {
   }
 }
 Assets {
-  Id: 13987462481610386893
-  Name: "Table Assembled"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_table_001"
-  }
-}
-Assets {
   Id: 7982329947889186919
   Name: "Carpet Tile 02"
   PlatformAssetType: 1

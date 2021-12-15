@@ -1,17 +1,17 @@
 Assets {
-  Id: 17018116029519829138
-  Name: "Commands_SERVER"
+  Id: 13763602132604863661
+  Name: "ChatCommandsServer"
   PlatformAssetType: 3
   TextAsset {
     CustomParameters {
       Overrides {
-        Name: "cs:CommandsAPI"
+        Name: "cs:CommandParser"
         AssetReference {
-          Id: 7607239935963632500
+          Id: 4271057883943181036
         }
       }
     }
   }
   SerializationVersion: 103
-  VirtualFolderPath: "Old Chat Commands"
+  VirtualFolderPath: "New Chat Commands"
 }

@@ -18,7 +18,7 @@ local originalJumpCount = 1
 local getUpFBlocked = false
 
 
-function GetUp(player)
+function GetUp(player, ignorePosition)
 	if player ~= sittingPlayer then return end
 	sittingPlayer = nil
 	
@@ -29,7 +29,9 @@ function GetUp(player)
 	player:Detach()
 	_G.StanceStack.Remove(player, STANCE, script.id)
 	
-	player:SetWorldPosition(script:GetWorldPosition() + Vector3.UP * 20)
+	if not ignorePosition then
+		player:SetWorldPosition(script:GetWorldPosition() + Vector3.UP * 20)
+	end
 	
 	CleanupListeners()
 	
