@@ -13,7 +13,8 @@ local CommandParser = {
 	storageKey = "cmdr",
 	RANKS = {},
 	owners = nil,
-
+	help = {},
+	
 	error = {
 
 		INVALID = "Invalid command.",
@@ -244,7 +245,7 @@ CommandParser.ParseMessage = function(speaker, params)
 		end
 
 		if status.success and status.receiverMessage ~= nil and Object.IsValid(status.receiverPlayer) and Environment.IsServer() then
-			Events.BroadcastToPlayer(status.receiverPlayer, "BroadcastChatMessage", status.senderMessage)
+			Events.BroadcastToPlayer(status.receiverPlayer, "BroadcastChatMessage", status.receiverMessage)
 		end
 	end
 end
@@ -263,8 +264,18 @@ CommandParser.GetCommandData = function(key)
 	return CommandParser.data[key]
 end
 
-CommandParser.AddCommand = function(key, command)
+CommandParser.AddCommand = function(key, command, help)
 	CommandParser.commands[key] = command
+
+	if help ~= nil then
+		CommandParser.help[key] = help
+	end
+end
+
+CommandParser.AddHelp = function(key, help)
+	if help ~= nil then
+		CommandParser.help[key] = help
+	end
 end
 
 CommandParser.AddResource = function(player, resourceKey, storageKey, amount)
@@ -338,51 +349,5 @@ CommandParser.init = function()
 end
 
 CommandParser.init()
-
-if Environment.IsServer() then
-	-- /promote player uniquekey
-	CommandParser.AddCommand("promote", function(sender, params, status)
-		if CommandParser.HasRank(sender, CommandParser.RANKS.MODERATOR) then
-			local promotePlayer = CommandParser.GetPlayer(params[2])
-
-			if promotePlayer ~= nil then
-				local senderRank = CommandParser.GetSenderRank(sender)
-				local targetRank = CommandParser.GetRankFromName(params[3])
-
-				if senderRank and targetRank and senderRank.RankIndex < targetRank.RankIndex then
-					if CommandParser.SetRank(promotePlayer, params[3]) then
-						status.success = true
-						status.senderMessage = promotePlayer.name .. " was successfully promoted."
-					else
-						status.senderMessage = CommandParser.error.INVALID_RANK
-					end
-				else
-					status.senderMessage = CommandParser.error.NO_PERMISSION
-				end
-			else
-				status.senderMessage = CommandParser.error.INVALID_PLAYER
-			end
-		else
-			status.senderMessage = CommandParser.error.NO_PERMISSION
-		end
-	end)
-
-	-- /demote player
-	CommandParser.AddCommand("demote", function(sender, params, status)
-		if CommandParser.HasRank(sender, CommandParser.RANKS.CREATOR) then
-			local demotePlayer = CommandParser.GetPlayer(params[2])
-
-			if demotePlayer ~= nil then
-				CommandParser.RemoveRank(demotePlayer)
-				status.success = true
-				status.senderMessage = demotePlayer.name .. " was successfully demoted."
-			else
-				status.senderMessage = CommandParser.error.INVALID_PLAYER
-			end
-		else
-			status.senderMessage = CommandParser.error.NO_PERMISSION
-		end
-	end)
-end
 
 return CommandParser
