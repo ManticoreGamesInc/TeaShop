@@ -1,4 +1,22 @@
 Assets {
+  Id: 18260273647001115627
+  Name: "Japanese Temple Roof 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_jpn_tem_roof_002_ref"
+  }
+}
+Assets {
+  Id: 17095418994475585998
+  Name: "Main Street Railing 01 - 2m"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dtn_mst_railing_001_ref"
+  }
+}
+Assets {
   Id: 16115905030413172164
   Name: "Metal Basic 01"
   PlatformAssetType: 2
@@ -26,6 +44,24 @@ Assets {
   }
 }
 Assets {
+  Id: 10087811991588340227
+  Name: "Japanese Temple Roof 01 - Corner Out"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_jpn_tem_roof_001_co_ref"
+  }
+}
+Assets {
+  Id: 10032399083950057317
+  Name: "Office Carpet Basic 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_urb_office_carpet_004_uv_ref"
+  }
+}
+Assets {
   Id: 7982329947889186919
   Name: "Carpet Tile 02"
   PlatformAssetType: 1
@@ -50,6 +86,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cube_hq_test_001"
+  }
+}
+Assets {
+  Id: 1188502597374742501
+  Name: "Japanese Temple Roof 01 - Cap 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_jpn_tem_roof_001_cap_01_ref"
   }
 }
 Assets {

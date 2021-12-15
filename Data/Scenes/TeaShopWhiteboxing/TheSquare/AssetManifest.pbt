@@ -179,15 +179,6 @@ Assets {
   }
 }
 Assets {
-  Id: 15363960962711120915
-  Name: "Craftsman Floor 01 8m x 8m"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_urb_sub_craftsman_floor_001_8x8"
-  }
-}
-Assets {
   Id: 14797755684488147728
   Name: "Ceramic Tiles Square 01"
   PlatformAssetType: 2
@@ -233,15 +224,6 @@ Assets {
   }
 }
 Assets {
-  Id: 14319590883053587125
-  Name: "Concrete Panels 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_gen_concrete_panels_001"
-  }
-}
-Assets {
   Id: 14231809728886464860
   Name: "Wood Raw White"
   PlatformAssetType: 2
@@ -266,15 +248,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_sub_craftsman_part_stair_001_stringer"
-  }
-}
-Assets {
-  Id: 14031147348977058477
-  Name: "Bricks Wall Flat 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_brick_wall_flat_001"
   }
 }
 Assets {
@@ -458,15 +431,6 @@ Assets {
   }
 }
 Assets {
-  Id: 10888788159873929006
-  Name: "Craftsman Floor 01 4m x 4m"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_urb_sub_craftsman_floor_001_4x4"
-  }
-}
-Assets {
   Id: 10863862208740259149
   Name: "Bricks Mismatched Stone 01"
   PlatformAssetType: 2
@@ -482,15 +446,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_plane_1m_002"
-  }
-}
-Assets {
-  Id: 10766975867019021707
-  Name: "Glass 01 (no distortion)"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_basic_glass_001"
   }
 }
 Assets {
@@ -656,15 +611,6 @@ Assets {
   }
 }
 Assets {
-  Id: 8588053707005770663
-  Name: "Bricks Stone Block 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_bricks_stone_block_001"
-  }
-}
-Assets {
   Id: 8539981025625262831
   Name: "Decal Painted Lines 01"
   PlatformAssetType: 14
@@ -698,15 +644,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_trash_public_001"
-  }
-}
-Assets {
-  Id: 8125012155363092865
-  Name: "Craftsman Wall 02 Window"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_urb_sub_craftsman_wall_002_window"
   }
 }
 Assets {
@@ -797,15 +734,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_brick_red_001"
-  }
-}
-Assets {
-  Id: 6024839797067902776
-  Name: "Whitebox Floor 01 8m x 8m"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_gen_whitebox_floor_001_8x8"
   }
 }
 Assets {
@@ -905,15 +833,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_urb_dtn_mst_railing_001_post_ref"
-  }
-}
-Assets {
-  Id: 4284392322078894749
-  Name: "Craftsman Porch Pillar 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_urb_sub_craftsman_porch_001_pillar"
   }
 }
 Assets {
@@ -1160,30 +1079,12 @@ Assets {
   }
 }
 Assets {
-  Id: 1181578494561575749
-  Name: "Brick Wall Sandstone 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_brick_sandstone_wall_face_001"
-  }
-}
-Assets {
   Id: 897429753597555270
   Name: "Fantasy Castle Bannister 01 - Post"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_fan_cas_bannister_001_post"
-  }
-}
-Assets {
-  Id: 550227170375246561
-  Name: "Plane 4m - Two Sided"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_plane_4m_002"
   }
 }
 Assets {
@@ -1202,15 +1103,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "F8_Text_009"
-  }
-}
-Assets {
-  Id: 183152300358340459
-  Name: "Bricks Concrete Cinder Block 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_brick_concrete_001"
   }
 }
 Assets {

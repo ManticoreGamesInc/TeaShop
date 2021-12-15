@@ -395,15 +395,6 @@ Assets {
   }
 }
 Assets {
-  Id: 11691100420648372282
-  Name: "Whitebox Wall 01 Doorway 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_gen_whitebox_wall_001_doorway"
-  }
-}
-Assets {
   Id: 11397155389836651338
   Name: "Wedge - Concave Polished"
   PlatformAssetType: 1
@@ -464,15 +455,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_wood_floor_dark_001_uv"
-  }
-}
-Assets {
-  Id: 10447342554861957697
-  Name: "Japanese Futon - Mattress 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_jpn_futon_mattress_001_ref"
   }
 }
 Assets {
@@ -1007,15 +989,6 @@ Assets {
   }
 }
 Assets {
-  Id: 3008210951354323315
-  Name: "Whitebox Wall 01 Window Large"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_gen_whitebox_wall_001_windowL"
-  }
-}
-Assets {
   Id: 2915731642596610032
   Name: "Cube - Bottom-Aligned"
   PlatformAssetType: 1
@@ -1130,6 +1103,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_fan_book_collection_001_ref"
+  }
+}
+Assets {
+  Id: 1469151381203591476
+  Name: "Japanese Temple Wall 01 - Doorway 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_jpn_tem_wall_001_door_01_ref"
   }
 }
 Assets {

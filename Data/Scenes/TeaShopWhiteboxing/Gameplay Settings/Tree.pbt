@@ -199,7 +199,6 @@ Objects {
       CanMoveDown: true
       IsMountEnabled: true
       MaxHitpoints: 100
-      PlayerMasterVolumeMultiplier: 1
     }
   }
   NetworkRelevanceDistance {
