@@ -3,6 +3,14 @@ Entries {
     StringVar: "Coins"
   }
   SimpleValue {
-    IntVar: 35
+    IntVar: 36
+  }
+}
+Entries {
+  Key {
+    StringVar: "cmdr"
+  }
+  SimpleValue {
+    IntVar: 1
   }
 }

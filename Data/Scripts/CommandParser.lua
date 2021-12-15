@@ -89,7 +89,7 @@ end
 CommandParser.SetRank = function(player, rank)
 	rank = CommandParser.GetRank(rank)
 
-	if rank ~= nil and rank.RankIndex ~= nil and rank.RankIndex > 1 then
+	if rank ~= nil and rank.RankIndex ~= nil and rank.RankIndex >= 1 then
 		local data = Storage.GetPlayerData(player)
 
 		data[CommandParser.storageKey] = rank.RankIndex
@@ -106,9 +106,9 @@ end
 CommandParser.RemoveRank = function(player)
 	local data = Storage.GetPlayerData(player)
 
-	data[CommandParser.storageKey] = 0
+	data[CommandParser.storageKey] = 99
 
-	player:SetResource(CommandParser.storageKey, 0)
+	player:SetResource(CommandParser.storageKey, 99)
 	Storage.SetPlayerData(player, data)
 
 	return true
@@ -119,7 +119,6 @@ CommandParser.GetRank = function(rank)
 
 	for k, p in pairs(CommandParser.RANKS) do
 		if string.lower(p.UniqueKey) == rank then
-			print("GetRank", p.RankIndex, p.UniqueKey)
 			return p
 		end
 	end
@@ -130,18 +129,38 @@ end
 CommandParser.GetSenderRank = function(sender)
 	local senderRankNumber = sender:GetResource(CommandParser.storageKey)
 	for _, rank in pairs(CommandParser.RANKS) do
-		if senderRankNumber == rank.RankIndex then 
+		if senderRankNumber == rank.RankIndex then
 			return rank
 		end
 	end
 end
 
+CommandParser.GetPlayerRank = function(player)
+	return CommandParser.GetSenderRank(player)
+end
+
 CommandParser.GetRankFromName = function(name)
 	for _, rank in pairs(CommandParser.RANKS) do
-		if string.lower(name) == string.lower(rank.UniqueKey) then 
+		if string.lower(name) == string.lower(rank.UniqueKey) then
 			return rank
 		end
 	end
+end
+
+CommandParser.FindOwnerRank = function()
+	local ownerRank = nil
+
+	for _, rank in pairs(CommandParser.RANKS) do
+		if ownerRank == nil then
+			ownerRank = rank
+		end
+
+		if rank.RankIndex < ownerRank.RankIndex then
+			ownerRank = rank
+		end
+	end
+
+	return ownerRank
 end
 
 CommandParser.ParamIsValid = function(param, lower)
@@ -301,13 +320,16 @@ CommandParser.init = function()
 		Game.playerJoinedEvent:Connect(function(player)
 			local data = Storage.GetPlayerData(player)
 
-			if data[CommandParser.storageKey] ~= nil then
+			if data[CommandParser.storageKey] ~= nil and data[CommandParser.storageKey] > 0 then
 				player:SetResource(CommandParser.storageKey, data[CommandParser.storageKey])
 			else
+				-- Give all players without a rank a default of 99
 				player:SetResource(CommandParser.storageKey, 99)
+
+				-- Check if joining player is in the owners list and give them the creator index
 				for _, owner in ipairs(CommandParser.owners) do
 					if player.name == owner then
-						player:SetResource(CommandParser.storageKey, 1)
+						CommandParser.SetRank(player, CommandParser.FindOwnerRank().UniqueKey)
 					end
 				end
 			end
@@ -326,7 +348,7 @@ if Environment.IsServer() then
 			if promotePlayer ~= nil then
 				local senderRank = CommandParser.GetSenderRank(sender)
 				local targetRank = CommandParser.GetRankFromName(params[3])
-				print(senderRank, senderRank.RankIndex, targetRank, targetRank.RankIndex)
+
 				if senderRank and targetRank and senderRank.RankIndex < targetRank.RankIndex then
 					if CommandParser.SetRank(promotePlayer, params[3]) then
 						status.success = true
