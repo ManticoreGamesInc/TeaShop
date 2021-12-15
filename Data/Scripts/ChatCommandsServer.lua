@@ -40,8 +40,6 @@ CommandParser.AddCommand("closeserver", function(sender, params, status)
 	end
 end)
 
-
-
 -- /grantrp all
 -- /grantrp all amount
 -- /grantrp playername
@@ -105,7 +103,34 @@ CommandParser.AddCommand("lockstage", function(sender, params, status)
 	if CommandParser.HasRank(sender, CommandParser.RANKS.MODERATOR) then
 		Events.Broadcast("LockStage")
 		status.success = true
-		status.senderMessage = "Server closed."
+		status.senderMessage = "Stage has been locked."
+	else
+		status.senderMessage = CommandParser.error.NO_PERMISSION
+	end
+end)
+
+-- /unlockstage
+CommandParser.AddCommand("unlockstage", function(sender, params, status)
+	if CommandParser.HasRank(sender, CommandParser.RANKS.MODERATOR) then
+		Events.Broadcast("UnlockStage")
+		status.success = true
+		status.senderMessage = "Stage has been unlocked."
+	else
+		status.senderMessage = CommandParser.error.NO_PERMISSION
+	end
+end)
+
+-- /showresource player resource
+CommandParser.AddCommand("showresource", function(sender, params, status)
+	if CommandParser.HasRank(sender, CommandParser.RANKS.MODERATOR) then
+		local player = CommandParser.GetPlayer(params[2])
+
+		if player ~= nil then
+			status.success = true
+			status.senderMessage = "Resource " .. params[3] .. " is " .. tostring(player:GetResource(params[3]))
+		else
+			status.senderMessage = CommandParser.error.INVALID_PLAYER
+		end
 	else
 		status.senderMessage = CommandParser.error.NO_PERMISSION
 	end

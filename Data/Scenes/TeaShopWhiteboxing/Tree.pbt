@@ -77,7 +77,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:OwnerName"
-      String: "coreslinkous"
+      String: "CommanderFoo"
     }
     Overrides {
       Name: "cs:AddLocalBot1"
