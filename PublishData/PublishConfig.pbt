@@ -7,7 +7,8 @@ Tags: "SocialHub"
 Tags: "Cute"
 Tags: "Relaxing"
 Tags: "Casual"
-ScreenshotPaths: "D:\\Projects\\Core\\TeaShop\\Graphics\\Thumbnail.png"
+ScreenshotPaths: "D:\\Sarah Linkous\\Documents\\My Games\\CORE\\Saved\\Maps\\TeaShop\\Graphics\\Thumbnail.png"
+ReleaseNotes: "- Added new features for live events! "
 OwnerId: "3819113b7af34fb786a56960fc08136a"
 SerializationVersion: 2
 PublishedState: Public

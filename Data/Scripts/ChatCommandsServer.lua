@@ -473,7 +473,7 @@ end, {
 CommandParser.AddCommand("voice", {
 
 	mute = function(sender, params, status)
-		if CommandParser.HasPermission(sender, CommandParser.RANKS.MODERATOR) then
+		if CommandParser.HasRank(sender, CommandParser.RANKS.MODERATOR) then
 			local who = CommandParser.ParamIsValid(params[3])
 
 			if who ~= nil then
@@ -509,7 +509,7 @@ CommandParser.AddCommand("voice", {
 	end,
 
 	unmute = function(sender, params, status)
-		if CommandParser.HasPermission(sender, CommandParser.RANKS.MODERATOR) then
+		if CommandParser.HasRank(sender, CommandParser.RANKS.MODERATOR) then
 			local who = CommandParser.ParamIsValid(params[3])
 
 			if who ~= nil then
