@@ -2,7 +2,7 @@ Assets {
   Id: 10788058961771556085
   Name: "FHD_Barstool Wood"
   PlatformAssetType: 13
-  SerializationVersion: 103
+  SerializationVersion: 104
   CustomMaterialAsset {
     BaseMaterialId: 2584198119462481458
     ParameterOverrides {

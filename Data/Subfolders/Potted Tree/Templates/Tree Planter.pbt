@@ -432,6 +432,6 @@ Assets {
   Marketplace {
     Description: "Tree in planter or pot, for home or office decorating"
   }
-  SerializationVersion: 103
+  SerializationVersion: 104
   DirectlyPublished: true
 }

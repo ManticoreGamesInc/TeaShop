@@ -399,5 +399,5 @@ Assets {
       AssetId: "Japanese_Futon__Prop_"
     }
   }
-  SerializationVersion: 103
+  SerializationVersion: 104
 }

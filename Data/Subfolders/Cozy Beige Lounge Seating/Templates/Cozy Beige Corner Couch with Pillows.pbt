@@ -944,7 +944,7 @@ Assets {
   Marketplace {
     Description: "One corner couch and one arm chair with decorative pillows. The base is a dark foresty wicker/bamboo material with beige fabric on the cushions. These are oversized for style and can be scaled down as needed."
   }
-  SerializationVersion: 103
+  SerializationVersion: 104
   DirectlyPublished: true
   VirtualFolderPath: "Community Content Templates"
   VirtualFolderPath: "Cozy Beige Lounge Seating"

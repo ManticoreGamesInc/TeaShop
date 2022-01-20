@@ -2,7 +2,7 @@ Assets {
   Id: 7556007095880896122
   Name: "Pillow Material 6"
   PlatformAssetType: 13
-  SerializationVersion: 103
+  SerializationVersion: 104
   CustomMaterialAsset {
     BaseMaterialId: 15041878814260513388
     ParameterOverrides {

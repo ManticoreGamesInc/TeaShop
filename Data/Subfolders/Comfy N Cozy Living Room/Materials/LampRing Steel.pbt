@@ -2,7 +2,7 @@ Assets {
   Id: 11487781558012291984
   Name: "LampRing Steel"
   PlatformAssetType: 13
-  SerializationVersion: 103
+  SerializationVersion: 104
   CustomMaterialAsset {
     BaseMaterialId: 15773703304255408855
     ParameterOverrides {

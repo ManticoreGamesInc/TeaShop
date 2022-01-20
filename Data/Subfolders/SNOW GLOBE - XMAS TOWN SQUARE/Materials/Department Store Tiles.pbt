@@ -2,7 +2,7 @@ Assets {
   Id: 8101121735387680106
   Name: "Department Store Tiles"
   PlatformAssetType: 13
-  SerializationVersion: 103
+  SerializationVersion: 104
   CustomMaterialAsset {
     BaseMaterialId: 16436457243626939192
     ParameterOverrides {

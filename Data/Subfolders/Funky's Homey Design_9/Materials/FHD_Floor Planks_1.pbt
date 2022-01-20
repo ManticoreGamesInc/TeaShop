@@ -2,7 +2,7 @@ Assets {
   Id: 14281672605499073584
   Name: "FHD_Floor Planks_1"
   PlatformAssetType: 13
-  SerializationVersion: 103
+  SerializationVersion: 104
   CustomMaterialAsset {
     BaseMaterialId: 10711945243373915561
     ParameterOverrides {

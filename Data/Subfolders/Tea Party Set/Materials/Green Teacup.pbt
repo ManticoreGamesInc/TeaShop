@@ -2,7 +2,7 @@ Assets {
   Id: 3646131996958901994
   Name: "Green Teacup"
   PlatformAssetType: 13
-  SerializationVersion: 103
+  SerializationVersion: 104
   CustomMaterialAsset {
     BaseMaterialId: 8697636423960157756
     ParameterOverrides {

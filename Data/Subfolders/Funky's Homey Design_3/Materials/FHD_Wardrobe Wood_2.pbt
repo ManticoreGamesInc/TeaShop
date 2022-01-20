@@ -2,7 +2,7 @@ Assets {
   Id: 1031057615615928984
   Name: "FHD_Wardrobe Wood_2"
   PlatformAssetType: 13
-  SerializationVersion: 103
+  SerializationVersion: 104
   CustomMaterialAsset {
     BaseMaterialId: 2584198119462481458
     ParameterOverrides {

@@ -2,7 +2,7 @@ Assets {
   Id: 13637739471605243659
   Name: "FHD_Dining Chair Metal"
   PlatformAssetType: 13
-  SerializationVersion: 103
+  SerializationVersion: 104
   CustomMaterialAsset {
     BaseMaterialId: 15482542269075340086
     ParameterOverrides {

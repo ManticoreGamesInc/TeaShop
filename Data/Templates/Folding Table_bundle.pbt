@@ -52,5 +52,5 @@ Assets {
     Version: "1.0.0"
     Description: "It\'s a table, the cheap kind you might haul to an event."
   }
-  SerializationVersion: 103
+  SerializationVersion: 104
 }

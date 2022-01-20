@@ -440,5 +440,5 @@ Assets {
       AssetId: "Japanese_Temple_Roof_01_-_Corner_Out_Template_01"
     }
   }
-  SerializationVersion: 103
+  SerializationVersion: 104
 }

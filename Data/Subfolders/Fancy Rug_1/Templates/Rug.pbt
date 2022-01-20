@@ -563,6 +563,6 @@ Assets {
   Marketplace {
     Description: "It really ties the room together."
   }
-  SerializationVersion: 103
+  SerializationVersion: 104
   DirectlyPublished: true
 }

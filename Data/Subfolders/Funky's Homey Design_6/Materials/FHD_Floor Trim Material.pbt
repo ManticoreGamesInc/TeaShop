@@ -2,7 +2,7 @@ Assets {
   Id: 14442425376144146739
   Name: "FHD_Floor Trim Material"
   PlatformAssetType: 13
-  SerializationVersion: 103
+  SerializationVersion: 104
   CustomMaterialAsset {
     BaseMaterialId: 12060807051160969188
     ParameterOverrides {

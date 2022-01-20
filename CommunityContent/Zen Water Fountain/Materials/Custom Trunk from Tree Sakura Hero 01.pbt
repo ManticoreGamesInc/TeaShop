@@ -2,7 +2,7 @@ Assets {
   Id: 14486928017773096895
   Name: "Custom Trunk from Tree Sakura Hero 01"
   PlatformAssetType: 13
-  SerializationVersion: 103
+  SerializationVersion: 104
   CustomMaterialAsset {
     BaseMaterialId: 13816402597937997593
     ParameterOverrides {

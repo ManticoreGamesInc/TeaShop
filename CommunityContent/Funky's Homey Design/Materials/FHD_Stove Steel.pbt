@@ -2,7 +2,7 @@ Assets {
   Id: 587014887296426973
   Name: "FHD_Stove Steel"
   PlatformAssetType: 13
-  SerializationVersion: 103
+  SerializationVersion: 104
   CustomMaterialAsset {
     BaseMaterialId: 6777447344140592468
     ParameterOverrides {
