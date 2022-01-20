@@ -8,7 +8,8 @@ API.ADMINS = {
     Ooccoo = true,
     Bot1 = true,
     Kalvothe = true,
-    Tobs = true
+	coreslinkous = true,
+	tobs = true
 }
 
 API.STATES = {
@@ -50,50 +51,48 @@ API.PLAYER_STATE_COLORS = {
 
 API.QUESTIONS = {
     {
-		Name = "What is the name of the main protagonist in Deathloop?",
-		Answer = 5,
-		Options = {
-			"Charlie Montague",
-			"Egor Serling",
-			"Aleksis Dorsey",
-			"Frank Spicer",
-			"Colt Vahn",
-		},
-        GameId = "7ae61b/tga03",
-        Index = 1
-	},
-	{
-		Name = "What is the name of Cody and May's daughter in It Takes Two?",
-		Answer = 4,
-		Options = {
-			"Clare",
-			"Joy",
-			"May",
-			"Rose",
-		},
-	},
-	{
-		Name = "When was the first prototype for Metroid Dread shown?",
+		Name = "What was the first video game in the world called?",
 		Answer = 3,
 		Options = {
-			"2005",
-			"2000",
-			"2009",
-			"2018",
-			"2013",
+			"Mario",
+			"Tetris",
+			"Pong",
+			"Donkey Kong",
+			"Galaga",
 		},
-        GameId = "191c03/tga05",
-        Index = 2
 	},
 	{
-		Name = "At what event was Psychonauts 2 announced?",
-		Answer = 4,
+		Name = "What product did Nintendo release before making video games?",
+		Answer = 2,
 		Options = {
-			"E3",
-			"PAX",
-			"Gamescom",
-			"The Game Awards",
-			"Tokyo Game Show",
+			"Lightbulbs",
+			"Playing Cards",
+			"Automobiles",
+			"Weapons",
+			"Aircraft" 
+		},
+	},
+	{
+		Name = "What's the best selling video game of all time?",
+		Answer = 3,
+		Options = {
+			"Fortnite",
+			"Mario Bros",
+			"Minecraft",
+			"Tetris",
+			"Sonic the Hedgehog",
+		},
+       
+	},
+	{
+		Name = "What year was Nintendo founded?",
+		Answer = 2,
+		Options = {
+			"1974",
+			"1889",
+			"1913",
+			"1980",
+			"1947",
 		},
 	},
 	{
@@ -106,7 +105,21 @@ API.QUESTIONS = {
 			"Helga",
 			"Talwyn ",
 		},
+	},
+	{
+		Name = "What role did the creator of the Game Boy originally hold at Nintendo?",
+		Answer = 3,
+		Options = {
+			"Phone Operator",
+			"Artist",
+			"Janitor",
+			"Engineer",
+			"Voice Actor",
+		},
 	}
+	
+			
 }
+
 
 return API

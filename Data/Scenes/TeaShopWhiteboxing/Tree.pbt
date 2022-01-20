@@ -124,10 +124,23 @@ Objects {
         }
         Overrides {
           Name: "ScaleToFit"
-          Bool: true
+          Bool: false
         }
         Overrides {
           Name: "AutoWrapText"
+          Bool: true
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 12584630232016374116
+      value {
+        Overrides {
+          Name: "AutoWrapText"
+          Bool: false
+        }
+        Overrides {
+          Name: "ScaleToFit"
           Bool: true
         }
       }
