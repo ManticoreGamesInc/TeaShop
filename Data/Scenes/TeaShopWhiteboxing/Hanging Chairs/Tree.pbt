@@ -1105,9 +1105,9 @@ Objects {
   Name: "SitTrigger"
   Transform {
     Location {
-      X: 5.82683563
-      Y: -107.522552
-      Z: -40.2644882
+      X: 69.35466
+      Y: 1.71661377e-05
+      Z: -45.5670166
     }
     Rotation {
     }
@@ -1155,9 +1155,9 @@ Objects {
   Name: "OuterTrigger"
   Transform {
     Location {
-      X: 8.74533081
-      Y: -107.522522
-      Z: -40.264473
+      X: 72.2731628
+      Y: 2.28881836e-05
+      Z: -45.5670166
     }
     Rotation {
     }
@@ -1311,9 +1311,9 @@ Objects {
   Name: "Guide Cube"
   Transform {
     Location {
-      X: -67.1673737
-      Y: -107.522514
-      Z: -89.9890823
+      X: -3.63951707
+      Y: 3.57627869e-07
+      Z: -95.291626
     }
     Rotation {
     }
@@ -1582,8 +1582,8 @@ Objects {
   Name: "Sphere Pinched - Vertical 01"
   Transform {
     Location {
-      X: 77.3649368
-      Y: 20.0606365
+      X: 1.77308142
+      Y: 0.327705473
       Z: 190.196182
     }
     Rotation {
@@ -1653,17 +1653,17 @@ Objects {
   Name: "Sphere Pinched - Vertical 01"
   Transform {
     Location {
-      X: 77.3649368
-      Y: 20.0606365
+      X: 1.77308142
+      Y: 0.327705473
       Z: 121.446182
     }
     Rotation {
       Yaw: 120.000053
     }
     Scale {
-      X: 0.227488115
-      Y: 0.227488115
-      Z: 0.227488115
+      X: 0.227488145
+      Y: 0.227488145
+      Z: 0.227488145
     }
   }
   ParentId: 14680513885819874452
@@ -1724,16 +1724,16 @@ Objects {
   Name: "Sphere Pinched - Vertical 01"
   Transform {
     Location {
-      X: 77.3649368
-      Y: 20.0606365
-      Z: 119.600594
+      X: 1.77307129
+      Y: 0.327713
+      Z: 119.600586
     }
     Rotation {
       Yaw: 120.000008
     }
     Scale {
-      X: 0.0978601351
-      Y: 0.0978601351
+      X: 0.09786015
+      Y: 0.09786015
       Z: 0.0840424746
     }
   }
@@ -1810,16 +1810,16 @@ Objects {
   Name: "Bone Human Femur 01"
   Transform {
     Location {
-      X: 119.943642
-      Y: -5.87364244
-      Z: -11.5400133
+      X: 44.3518066
+      Y: -25.6065826
+      Z: -11.5400238
     }
     Rotation {
       Yaw: 149.999954
     }
     Scale {
-      X: 0.213957638
-      Y: 0.213957638
+      X: 0.213957667
+      Y: 0.213957667
       Z: 0.403344452
     }
   }
@@ -1896,16 +1896,16 @@ Objects {
   Name: "Bone Human Femur 01"
   Transform {
     Location {
-      X: 33.1351852
-      Y: 44.2453423
-      Z: -11.5400133
+      X: -42.456665
+      Y: 24.5124054
+      Z: -11.5400238
     }
     Rotation {
       Yaw: 149.999954
     }
     Scale {
-      X: 0.213957638
-      Y: 0.213957638
+      X: 0.213957667
+      Y: 0.213957667
       Z: 0.403344452
     }
   }
@@ -1982,16 +1982,16 @@ Objects {
   Name: "Bone Human Femur 01"
   Transform {
     Location {
-      X: 101.198418
-      Y: -24.6189289
-      Z: -11.5400133
+      X: 25.6065674
+      Y: -44.3518829
+      Z: -11.5400238
     }
     Rotation {
       Yaw: 120.000008
     }
     Scale {
-      X: 0.213957638
-      Y: 0.213957638
+      X: 0.213957667
+      Y: 0.213957667
       Z: 0.403344452
     }
   }
@@ -2068,16 +2068,16 @@ Objects {
   Name: "Bone Human Femur 01"
   Transform {
     Location {
-      X: 51.079422
-      Y: 62.1896477
-      Z: -11.5400133
+      X: -24.5124512
+      Y: 42.4567108
+      Z: -11.5400238
     }
     Rotation {
       Yaw: 120.000008
     }
     Scale {
-      X: 0.213957638
-      Y: 0.213957638
+      X: 0.213957667
+      Y: 0.213957667
       Z: 0.403344452
     }
   }
@@ -2154,16 +2154,15 @@ Objects {
   Name: "Bone Human Femur 01"
   Transform {
     Location {
-      X: 75.5918503
-      Y: -31.480196
-      Z: -11.5400133
+      Y: -51.2131348
+      Z: -11.5400238
     }
     Rotation {
       Yaw: 89.9999619
     }
     Scale {
-      X: 0.213957638
-      Y: 0.213957638
+      X: 0.213957667
+      Y: 0.213957667
       Z: 0.403344452
     }
   }
@@ -2240,16 +2239,15 @@ Objects {
   Name: "Bone Human Femur 01"
   Transform {
     Location {
-      X: 75.5918274
-      Y: 68.7577133
-      Z: -11.5400133
+      Y: 49.0247955
+      Z: -11.5400238
     }
     Rotation {
       Yaw: 89.9999619
     }
     Scale {
-      X: 0.213957638
-      Y: 0.213957638
+      X: 0.213957667
+      Y: 0.213957667
       Z: 0.403344452
     }
   }
@@ -2326,16 +2324,16 @@ Objects {
   Name: "Bone Human Femur 01"
   Transform {
     Location {
-      X: 49.9853
-      Y: -24.6189308
-      Z: -11.5400133
+      X: -25.6065674
+      Y: -44.3518677
+      Z: -11.5400238
     }
     Rotation {
       Yaw: 59.9999695
     }
     Scale {
-      X: 0.213957638
-      Y: 0.213957638
+      X: 0.213957667
+      Y: 0.213957667
       Z: 0.403344452
     }
   }
@@ -2403,16 +2401,16 @@ Objects {
   Name: "Bone Human Femur 01"
   Transform {
     Location {
-      X: 100.104248
-      Y: 62.1896324
-      Z: -11.5400133
+      X: 24.5124512
+      Y: 42.4567108
+      Z: -11.5400238
     }
     Rotation {
       Yaw: 59.9999695
     }
     Scale {
-      X: 0.213957638
-      Y: 0.213957638
+      X: 0.213957667
+      Y: 0.213957667
       Z: 0.403344452
     }
   }
@@ -2489,16 +2487,16 @@ Objects {
   Name: "Bone Human Femur 01"
   Transform {
     Location {
-      X: 31.2399445
-      Y: -5.87361765
-      Z: -11.5400133
+      X: -44.3519287
+      Y: -25.6065674
+      Z: -11.5400238
     }
     Rotation {
       Yaw: 30.0000191
     }
     Scale {
-      X: 0.213957638
-      Y: 0.213957638
+      X: 0.213957667
+      Y: 0.213957667
       Z: 0.403344452
     }
   }
@@ -2575,16 +2573,16 @@ Objects {
   Name: "Bone Human Femur 01"
   Transform {
     Location {
-      X: 118.048523
-      Y: 44.2453537
-      Z: -11.5400133
+      X: 42.456665
+      Y: 24.5124054
+      Z: -11.5400238
     }
     Rotation {
       Yaw: 30.0000191
     }
     Scale {
-      X: 0.213957638
-      Y: 0.213957638
+      X: 0.213957667
+      Y: 0.213957667
       Z: 0.403344452
     }
   }
@@ -2661,15 +2659,14 @@ Objects {
   Name: "Bone Human Femur 01"
   Transform {
     Location {
-      X: 24.3787193
-      Y: 19.7329273
-      Z: -11.5400133
+      X: -51.2131348
+      Z: -11.5400238
     }
     Rotation {
     }
     Scale {
-      X: 0.213957638
-      Y: 0.213957638
+      X: 0.213957667
+      Y: 0.213957667
       Z: 0.403344452
     }
   }
@@ -2746,15 +2743,14 @@ Objects {
   Name: "Bone Human Femur 01"
   Transform {
     Location {
-      X: 124.616638
-      Y: 19.732954
-      Z: -11.5400133
+      X: 49.0247803
+      Z: -11.5400238
     }
     Rotation {
     }
     Scale {
-      X: 0.213957638
-      Y: 0.213957638
+      X: 0.213957667
+      Y: 0.213957667
       Z: 0.403344452
     }
   }
@@ -2831,8 +2827,8 @@ Objects {
   Name: "Sphere Pinched - Vertical 01"
   Transform {
     Location {
-      X: 119.943642
-      Y: -5.87364244
+      X: 44.3518066
+      Y: -25.6065826
     }
     Rotation {
       Yaw: 149.999969
@@ -2916,8 +2912,8 @@ Objects {
   Name: "Sphere Pinched - Vertical 01"
   Transform {
     Location {
-      X: 33.1351852
-      Y: 44.2453423
+      X: -42.456665
+      Y: 24.5124054
     }
     Rotation {
       Yaw: 149.999969
@@ -3001,8 +2997,8 @@ Objects {
   Name: "Sphere Pinched - Vertical 01"
   Transform {
     Location {
-      X: 101.198418
-      Y: -24.6189289
+      X: 25.6065674
+      Y: -44.3518829
     }
     Rotation {
       Yaw: 120.000008
@@ -3086,8 +3082,8 @@ Objects {
   Name: "Sphere Pinched - Vertical 01"
   Transform {
     Location {
-      X: 51.079422
-      Y: 62.1896477
+      X: -24.5124512
+      Y: 42.4567108
     }
     Rotation {
       Yaw: 120.000008
@@ -3171,8 +3167,7 @@ Objects {
   Name: "Sphere Pinched - Vertical 01"
   Transform {
     Location {
-      X: 75.5918503
-      Y: -31.480196
+      Y: -51.2131348
     }
     Rotation {
       Yaw: 89.9999847
@@ -3256,8 +3251,7 @@ Objects {
   Name: "Sphere Pinched - Vertical 01"
   Transform {
     Location {
-      X: 75.5918274
-      Y: 68.7577133
+      Y: 49.0247955
     }
     Rotation {
       Yaw: 89.9999847
@@ -3341,8 +3335,8 @@ Objects {
   Name: "Sphere Pinched - Vertical 01"
   Transform {
     Location {
-      X: 49.9853
-      Y: -24.6189308
+      X: -25.6065674
+      Y: -44.3518677
     }
     Rotation {
       Yaw: 59.9999847
@@ -3426,8 +3420,8 @@ Objects {
   Name: "Sphere Pinched - Vertical 01"
   Transform {
     Location {
-      X: 100.104248
-      Y: 62.1896324
+      X: 24.5124512
+      Y: 42.4567108
     }
     Rotation {
       Yaw: 59.9999847
@@ -3511,8 +3505,8 @@ Objects {
   Name: "Sphere Pinched - Vertical 01"
   Transform {
     Location {
-      X: 31.2399445
-      Y: -5.87361765
+      X: -44.3519287
+      Y: -25.6065674
     }
     Rotation {
       Yaw: 30.0000095
@@ -3596,8 +3590,8 @@ Objects {
   Name: "Sphere Pinched - Vertical 01"
   Transform {
     Location {
-      X: 118.048523
-      Y: 44.2453537
+      X: 42.456665
+      Y: 24.5124054
     }
     Rotation {
       Yaw: 30.0000095
@@ -3681,8 +3675,7 @@ Objects {
   Name: "Sphere Pinched - Vertical 01"
   Transform {
     Location {
-      X: 24.3787193
-      Y: 19.7329273
+      X: -51.2131348
     }
     Rotation {
     }
@@ -3765,8 +3758,7 @@ Objects {
   Name: "Sphere Pinched - Vertical 01"
   Transform {
     Location {
-      X: 124.616638
-      Y: 19.732954
+      X: 49.0247803
     }
     Rotation {
     }
@@ -3849,9 +3841,9 @@ Objects {
   Name: "Cylinder - Bottom-Aligned"
   Transform {
     Location {
-      X: 122.573967
-      Y: 17.981596
-      Z: 52.4555206
+      X: 46.9821777
+      Y: -1.75132883
+      Z: 52.4555054
     }
     Rotation {
       Pitch: 23.0550022
@@ -3860,7 +3852,7 @@ Objects {
     }
     Scale {
       X: 0.0232499354
-      Y: 0.023250768
+      Y: 0.0232507717
       Z: 0.800046802
     }
   }
@@ -3928,9 +3920,9 @@ Objects {
   Name: "Cylinder - Bottom-Aligned"
   Transform {
     Location {
-      X: 65.1630554
-      Y: -26.5363789
-      Z: 51.3954544
+      X: -10.428812
+      Y: -46.2693367
+      Z: 51.3954468
     }
     Rotation {
       Pitch: -24.8791809
@@ -3939,8 +3931,8 @@ Objects {
     }
     Scale {
       X: 0.0232499354
-      Y: 0.0232507661
-      Z: 0.806649566
+      Y: 0.0232507717
+      Z: 0.806649745
     }
   }
   ParentId: 18149345149045172421
@@ -4007,8 +3999,8 @@ Objects {
   Name: "Cylinder - Bottom-Aligned"
   Transform {
     Location {
-      X: 107.171692
-      Y: -14.630456
+      X: 31.579855
+      Y: -34.363369
       Z: 65.6918335
     }
     Rotation {
@@ -4018,7 +4010,7 @@ Objects {
     }
     Scale {
       X: 0.0232499354
-      Y: 0.023250768
+      Y: 0.0232507717
       Z: 0.679105401
     }
   }
@@ -4086,9 +4078,9 @@ Objects {
   Name: "Cylinder - Bottom-Aligned"
   Transform {
     Location {
-      X: 74.9907761
-      Y: 64.697937
-      Z: 9.07445908
+      X: -0.601071119
+      Y: 44.9650078
+      Z: 9.07446289
     }
     Rotation {
       Pitch: 15.6909313
@@ -4097,8 +4089,8 @@ Objects {
     }
     Scale {
       X: 0.0232499354
-      Y: 0.023250768
-      Z: 1.15660405
+      Y: 0.0232507717
+      Z: 1.15660417
     }
   }
   ParentId: 18149345149045172421
@@ -4165,9 +4157,9 @@ Objects {
   Name: "Cylinder - Bottom-Aligned"
   Transform {
     Location {
-      X: 27.9778671
-      Y: 12.6958609
-      Z: 9.42407608
+      X: -47.6139832
+      Y: -7.03706789
+      Z: 9.42407227
     }
     Rotation {
       Pitch: -19.3991699
@@ -4176,8 +4168,8 @@ Objects {
     }
     Scale {
       X: 0.0232499354
-      Y: 0.023250768
-      Z: 1.15660405
+      Y: 0.0232507717
+      Z: 1.15660417
     }
   }
   ParentId: 18149345149045172421
@@ -4244,17 +4236,17 @@ Objects {
   Name: "Cylinder"
   Transform {
     Location {
-      X: 86.3161621
-      Y: 7.21321583
+      X: 10.7243652
+      Y: -12.5197144
       Z: 45.2308655
     }
     Rotation {
       Yaw: 40.5832405
     }
     Scale {
-      X: 0.696767807
+      X: 0.696768
       Y: 0.665952802
-      Z: 0.234082803
+      Z: 0.234082863
     }
   }
   ParentId: 18149345149045172421
@@ -4321,17 +4313,17 @@ Objects {
   Name: "Cylinder"
   Transform {
     Location {
-      X: 86.3162537
-      Y: 7.21322632
+      X: 10.7243652
+      Y: -12.5197144
       Z: 45.2308655
     }
     Rotation {
       Yaw: 40.5832405
     }
     Scale {
-      X: -0.696767807
+      X: -0.696768
       Y: 0.665952802
-      Z: 0.234082803
+      Z: 0.234082863
     }
   }
   ParentId: 18149345149045172421
@@ -4398,9 +4390,9 @@ Objects {
   Name: "Cylinder"
   Transform {
     Location {
-      X: 59.5940247
-      Y: 30.7859192
-      Z: -1.59185791
+      X: -15.9978027
+      Y: 11.052948
+      Z: -1.5918026
     }
     Rotation {
       Yaw: 9.38985252
@@ -4408,7 +4400,7 @@ Objects {
     Scale {
       X: -1.29600096
       Y: 1.29600096
-      Z: 0.492908418
+      Z: 0.492908537
     }
   }
   ParentId: 18149345149045172421
@@ -4475,19 +4467,19 @@ Objects {
   Name: "Cylinder"
   Transform {
     Location {
-      X: 74.9680786
-      Y: 17.9129372
-      Z: 31.2220192
+      X: -0.623779297
+      Y: -1.81999207
+      Z: 31.2220211
     }
     Rotation {
       Pitch: 37.0692062
-      Yaw: -40.5151062
+      Yaw: -40.5151
       Roll: 0.327690721
     }
     Scale {
-      X: 1.16240096
-      Y: 1.0201298
-      Z: 0.924845457
+      X: 1.16240108
+      Y: 1.02012992
+      Z: 0.924845695
     }
   }
   ParentId: 18149345149045172421
@@ -4563,16 +4555,14 @@ Objects {
   Name: "Cylinder"
   Transform {
     Location {
-      X: 75.5918427
-      Y: 19.7329292
       Z: -0.389308929
     }
     Rotation {
     }
     Scale {
-      X: 1.03418815
-      Y: 1.03418815
-      Z: 0.888162732
+      X: 1.03418827
+      Y: 1.03418827
+      Z: 0.888162851
     }
   }
   ParentId: 18149345149045172421
@@ -4648,17 +4638,15 @@ Objects {
   Name: "Cylinder"
   Transform {
     Location {
-      X: 75.5918884
-      Y: 19.7328796
-      Z: -1.93829346
+      Z: -1.93829155
     }
     Rotation {
-      Yaw: -9.14044189
+      Yaw: -9.14042664
     }
     Scale {
-      X: -0.999999762
-      Y: 0.999999762
-      Z: 0.526536763
+      X: -1
+      Y: 1
+      Z: 0.526536822
     }
   }
   ParentId: 18149345149045172421
@@ -4725,17 +4713,15 @@ Objects {
   Name: "Cylinder"
   Transform {
     Location {
-      X: 75.5918427
-      Y: 19.7329292
-      Z: -1.93828583
+      Z: -1.93829155
     }
     Rotation {
       Yaw: 104.811684
     }
     Scale {
-      X: 0.999999762
-      Y: 0.999999762
-      Z: 0.526536763
+      X: 1
+      Y: 1
+      Z: 0.526536822
     }
   }
   ParentId: 18149345149045172421
@@ -4802,15 +4788,12 @@ Objects {
   Name: "Cylinder"
   Transform {
     Location {
-      X: 75.5918884
-      Y: 19.7328796
-      Z: -6.10351562e-05
     }
     Rotation {
     }
     Scale {
-      X: 0.999999762
-      Y: 0.999999762
+      X: 1
+      Y: 1
       Z: -0.278908134
     }
   }
@@ -5026,8 +5009,8 @@ Objects {
   Name: "Sphere Pinched - Vertical 01"
   Transform {
     Location {
-      X: 59.501236
-      Y: 52.6884918
+      X: 1.71146083
+      Y: 0.116125494
       Z: 117.79686
     }
     Rotation {
@@ -5097,8 +5080,8 @@ Objects {
   Name: "Sphere Pinched - Vertical 01"
   Transform {
     Location {
-      X: 59.501236
-      Y: 52.6884918
+      X: 1.71146083
+      Y: 0.116125494
       Z: 186.54686
     }
     Rotation {
@@ -5234,16 +5217,16 @@ Objects {
   Name: "Sphere Pinched - Vertical 01"
   Transform {
     Location {
-      X: 59.5628548
-      Y: 52.9000816
-      Z: 119.600594
+      X: 1.77307129
+      Y: 0.327713
+      Z: 119.600586
     }
     Rotation {
       Yaw: 120.000008
     }
     Scale {
-      X: 0.0978601351
-      Y: 0.0978601351
+      X: 0.09786015
+      Y: 0.09786015
       Z: 0.0840424746
     }
   }
@@ -5320,16 +5303,16 @@ Objects {
   Name: "Bone Human Femur 01"
   Transform {
     Location {
-      X: 102.141602
-      Y: 26.965807
-      Z: -11.5400133
+      X: 44.3518066
+      Y: -25.6065826
+      Z: -11.5400238
     }
     Rotation {
       Yaw: 149.999954
     }
     Scale {
-      X: 0.213957638
-      Y: 0.213957638
+      X: 0.213957667
+      Y: 0.213957667
       Z: 0.403344452
     }
   }
@@ -5406,16 +5389,16 @@ Objects {
   Name: "Bone Human Femur 01"
   Transform {
     Location {
-      X: 15.3331347
-      Y: 77.0847931
-      Z: -11.5400133
+      X: -42.456665
+      Y: 24.5124054
+      Z: -11.5400238
     }
     Rotation {
       Yaw: 149.999954
     }
     Scale {
-      X: 0.213957638
-      Y: 0.213957638
+      X: 0.213957667
+      Y: 0.213957667
       Z: 0.403344452
     }
   }
@@ -5492,16 +5475,16 @@ Objects {
   Name: "Bone Human Femur 01"
   Transform {
     Location {
-      X: 83.396347
-      Y: 8.22049236
-      Z: -11.5400133
+      X: 25.6065674
+      Y: -44.3518829
+      Z: -11.5400238
     }
     Rotation {
       Yaw: 120.000008
     }
     Scale {
-      X: 0.213957638
-      Y: 0.213957638
+      X: 0.213957667
+      Y: 0.213957667
       Z: 0.403344452
     }
   }
@@ -5578,16 +5561,16 @@ Objects {
   Name: "Bone Human Femur 01"
   Transform {
     Location {
-      X: 33.2773247
-      Y: 95.0290604
-      Z: -11.5400133
+      X: -24.5124512
+      Y: 42.4567108
+      Z: -11.5400238
     }
     Rotation {
       Yaw: 120.000008
     }
     Scale {
-      X: 0.213957638
-      Y: 0.213957638
+      X: 0.213957667
+      Y: 0.213957667
       Z: 0.403344452
     }
   }
@@ -5664,16 +5647,15 @@ Objects {
   Name: "Bone Human Femur 01"
   Transform {
     Location {
-      X: 57.789814
-      Y: 1.35925066
-      Z: -11.5400133
+      Y: -51.2131348
+      Z: -11.5400238
     }
     Rotation {
       Yaw: 89.9999619
     }
     Scale {
-      X: 0.213957638
-      Y: 0.213957638
+      X: 0.213957667
+      Y: 0.213957667
       Z: 0.403344452
     }
   }
@@ -5750,16 +5732,15 @@ Objects {
   Name: "Bone Human Femur 01"
   Transform {
     Location {
-      X: 57.7898064
-      Y: 101.59716
-      Z: -11.5400133
+      Y: 49.0247955
+      Z: -11.5400238
     }
     Rotation {
       Yaw: 89.9999619
     }
     Scale {
-      X: 0.213957638
-      Y: 0.213957638
+      X: 0.213957667
+      Y: 0.213957667
       Z: 0.403344452
     }
   }
@@ -5836,16 +5817,16 @@ Objects {
   Name: "Bone Human Femur 01"
   Transform {
     Location {
-      X: 32.183239
-      Y: 8.2205019
-      Z: -11.5400133
+      X: -25.6065674
+      Y: -44.3518677
+      Z: -11.5400238
     }
     Rotation {
       Yaw: 59.9999695
     }
     Scale {
-      X: 0.213957638
-      Y: 0.213957638
+      X: 0.213957667
+      Y: 0.213957667
       Z: 0.403344452
     }
   }
@@ -5913,16 +5894,16 @@ Objects {
   Name: "Bone Human Femur 01"
   Transform {
     Location {
-      X: 82.3022385
-      Y: 95.0290756
-      Z: -11.5400133
+      X: 24.5124512
+      Y: 42.4567108
+      Z: -11.5400238
     }
     Rotation {
       Yaw: 59.9999695
     }
     Scale {
-      X: 0.213957638
-      Y: 0.213957638
+      X: 0.213957667
+      Y: 0.213957667
       Z: 0.403344452
     }
   }
@@ -5999,16 +5980,16 @@ Objects {
   Name: "Bone Human Femur 01"
   Transform {
     Location {
-      X: 13.4378748
-      Y: 26.9658089
-      Z: -11.5400133
+      X: -44.3519287
+      Y: -25.6065674
+      Z: -11.5400238
     }
     Rotation {
       Yaw: 30.0000191
     }
     Scale {
-      X: 0.213957638
-      Y: 0.213957638
+      X: 0.213957667
+      Y: 0.213957667
       Z: 0.403344452
     }
   }
@@ -6085,16 +6066,16 @@ Objects {
   Name: "Bone Human Femur 01"
   Transform {
     Location {
-      X: 100.246414
-      Y: 77.0847473
-      Z: -11.5400133
+      X: 42.456665
+      Y: 24.5124054
+      Z: -11.5400238
     }
     Rotation {
       Yaw: 30.0000191
     }
     Scale {
-      X: 0.213957638
-      Y: 0.213957638
+      X: 0.213957667
+      Y: 0.213957667
       Z: 0.403344452
     }
   }
@@ -6171,15 +6152,14 @@ Objects {
   Name: "Bone Human Femur 01"
   Transform {
     Location {
-      X: 6.57667685
-      Y: 52.5723839
-      Z: -11.5400133
+      X: -51.2131348
+      Z: -11.5400238
     }
     Rotation {
     }
     Scale {
-      X: 0.213957638
-      Y: 0.213957638
+      X: 0.213957667
+      Y: 0.213957667
       Z: 0.403344452
     }
   }
@@ -6256,15 +6236,14 @@ Objects {
   Name: "Bone Human Femur 01"
   Transform {
     Location {
-      X: 106.814575
-      Y: 52.5723686
-      Z: -11.5400133
+      X: 49.0247803
+      Z: -11.5400238
     }
     Rotation {
     }
     Scale {
-      X: 0.213957638
-      Y: 0.213957638
+      X: 0.213957667
+      Y: 0.213957667
       Z: 0.403344452
     }
   }
@@ -6341,8 +6320,8 @@ Objects {
   Name: "Sphere Pinched - Vertical 01"
   Transform {
     Location {
-      X: 102.141602
-      Y: 26.965807
+      X: 44.3518066
+      Y: -25.6065826
     }
     Rotation {
       Yaw: 149.999969
@@ -6426,8 +6405,8 @@ Objects {
   Name: "Sphere Pinched - Vertical 01"
   Transform {
     Location {
-      X: 15.3331347
-      Y: 77.0847931
+      X: -42.456665
+      Y: 24.5124054
     }
     Rotation {
       Yaw: 149.999969
@@ -6511,8 +6490,8 @@ Objects {
   Name: "Sphere Pinched - Vertical 01"
   Transform {
     Location {
-      X: 83.396347
-      Y: 8.22049236
+      X: 25.6065674
+      Y: -44.3518829
     }
     Rotation {
       Yaw: 120.000008
@@ -6596,8 +6575,8 @@ Objects {
   Name: "Sphere Pinched - Vertical 01"
   Transform {
     Location {
-      X: 33.2773247
-      Y: 95.0290604
+      X: -24.5124512
+      Y: 42.4567108
     }
     Rotation {
       Yaw: 120.000008
@@ -6681,8 +6660,7 @@ Objects {
   Name: "Sphere Pinched - Vertical 01"
   Transform {
     Location {
-      X: 57.789814
-      Y: 1.35925066
+      Y: -51.2131348
     }
     Rotation {
       Yaw: 89.9999847
@@ -6766,8 +6744,7 @@ Objects {
   Name: "Sphere Pinched - Vertical 01"
   Transform {
     Location {
-      X: 57.7898064
-      Y: 101.59716
+      Y: 49.0247955
     }
     Rotation {
       Yaw: 89.9999847
@@ -6851,8 +6828,8 @@ Objects {
   Name: "Sphere Pinched - Vertical 01"
   Transform {
     Location {
-      X: 32.183239
-      Y: 8.2205019
+      X: -25.6065674
+      Y: -44.3518677
     }
     Rotation {
       Yaw: 59.9999847
@@ -6936,8 +6913,8 @@ Objects {
   Name: "Sphere Pinched - Vertical 01"
   Transform {
     Location {
-      X: 82.3022385
-      Y: 95.0290756
+      X: 24.5124512
+      Y: 42.4567108
     }
     Rotation {
       Yaw: 59.9999847
@@ -7021,8 +6998,8 @@ Objects {
   Name: "Sphere Pinched - Vertical 01"
   Transform {
     Location {
-      X: 13.4378748
-      Y: 26.9658089
+      X: -44.3519287
+      Y: -25.6065674
     }
     Rotation {
       Yaw: 30.0000095
@@ -7106,8 +7083,8 @@ Objects {
   Name: "Sphere Pinched - Vertical 01"
   Transform {
     Location {
-      X: 100.246414
-      Y: 77.0847473
+      X: 42.456665
+      Y: 24.5124054
     }
     Rotation {
       Yaw: 30.0000095
@@ -7191,8 +7168,7 @@ Objects {
   Name: "Sphere Pinched - Vertical 01"
   Transform {
     Location {
-      X: 6.57667685
-      Y: 52.5723839
+      X: -51.2131348
     }
     Rotation {
     }
@@ -7275,8 +7251,7 @@ Objects {
   Name: "Sphere Pinched - Vertical 01"
   Transform {
     Location {
-      X: 106.814575
-      Y: 52.5723686
+      X: 49.0247803
     }
     Rotation {
     }
@@ -7359,9 +7334,9 @@ Objects {
   Name: "Cylinder - Bottom-Aligned"
   Transform {
     Location {
-      X: 104.771965
-      Y: 50.8210449
-      Z: 52.4555206
+      X: 46.9821777
+      Y: -1.75132883
+      Z: 52.4555054
     }
     Rotation {
       Pitch: 23.0550022
@@ -7370,7 +7345,7 @@ Objects {
     }
     Scale {
       X: 0.0232499354
-      Y: 0.023250768
+      Y: 0.0232507717
       Z: 0.800046802
     }
   }
@@ -7438,9 +7413,9 @@ Objects {
   Name: "Cylinder - Bottom-Aligned"
   Transform {
     Location {
-      X: 47.3609695
-      Y: 6.30305386
-      Z: 51.3954544
+      X: -10.428812
+      Y: -46.2693367
+      Z: 51.3954468
     }
     Rotation {
       Pitch: -24.8791809
@@ -7449,8 +7424,8 @@ Objects {
     }
     Scale {
       X: 0.0232499354
-      Y: 0.0232507661
-      Z: 0.806649566
+      Y: 0.0232507717
+      Z: 0.806649745
     }
   }
   ParentId: 14295238137463886923
@@ -7517,8 +7492,8 @@ Objects {
   Name: "Cylinder - Bottom-Aligned"
   Transform {
     Location {
-      X: 89.3696442
-      Y: 18.2090282
+      X: 31.579855
+      Y: -34.363369
       Z: 65.6918335
     }
     Rotation {
@@ -7528,7 +7503,7 @@ Objects {
     }
     Scale {
       X: 0.0232499354
-      Y: 0.023250768
+      Y: 0.0232507717
       Z: 0.679105401
     }
   }
@@ -7596,9 +7571,9 @@ Objects {
   Name: "Cylinder - Bottom-Aligned"
   Transform {
     Location {
-      X: 57.1887054
-      Y: 97.5373688
-      Z: 9.07445908
+      X: -0.601071119
+      Y: 44.9650078
+      Z: 9.07446289
     }
     Rotation {
       Pitch: 15.6909313
@@ -7607,8 +7582,8 @@ Objects {
     }
     Scale {
       X: 0.0232499354
-      Y: 0.023250768
-      Z: 1.15660405
+      Y: 0.0232507717
+      Z: 1.15660417
     }
   }
   ParentId: 14295238137463886923
@@ -7675,9 +7650,9 @@ Objects {
   Name: "Cylinder - Bottom-Aligned"
   Transform {
     Location {
-      X: 10.175808
-      Y: 45.5353127
-      Z: 9.42407608
+      X: -47.6139832
+      Y: -7.03706789
+      Z: 9.42407227
     }
     Rotation {
       Pitch: -19.3991699
@@ -7686,8 +7661,8 @@ Objects {
     }
     Scale {
       X: 0.0232499354
-      Y: 0.023250768
-      Z: 1.15660405
+      Y: 0.0232507717
+      Z: 1.15660417
     }
   }
   ParentId: 14295238137463886923
@@ -7754,17 +7729,17 @@ Objects {
   Name: "Cylinder"
   Transform {
     Location {
-      X: 68.5141602
-      Y: 40.0526619
+      X: 10.7243652
+      Y: -12.5197144
       Z: 45.2308655
     }
     Rotation {
       Yaw: 40.5832405
     }
     Scale {
-      X: 0.696767807
+      X: 0.696768
       Y: 0.665952802
-      Z: 0.234082803
+      Z: 0.234082863
     }
   }
   ParentId: 14295238137463886923
@@ -7831,17 +7806,17 @@ Objects {
   Name: "Cylinder"
   Transform {
     Location {
-      X: 68.5140381
-      Y: 40.0526428
-      Z: 45.230957
+      X: 10.7243652
+      Y: -12.5197144
+      Z: 45.2308655
     }
     Rotation {
       Yaw: 40.5832405
     }
     Scale {
-      X: -0.696767807
+      X: -0.696768
       Y: 0.665952802
-      Z: 0.234082803
+      Z: 0.234082863
     }
   }
   ParentId: 14295238137463886923
@@ -7908,9 +7883,9 @@ Objects {
   Name: "Cylinder"
   Transform {
     Location {
-      X: 41.7919922
-      Y: 63.6253357
-      Z: -1.59179688
+      X: -15.9978027
+      Y: 11.052948
+      Z: -1.5918026
     }
     Rotation {
       Yaw: 9.38985252
@@ -7918,7 +7893,7 @@ Objects {
     Scale {
       X: -1.29600096
       Y: 1.29600096
-      Z: 0.492908418
+      Z: 0.492908537
     }
   }
   ParentId: 14295238137463886923
@@ -7985,19 +7960,19 @@ Objects {
   Name: "Cylinder"
   Transform {
     Location {
-      X: 57.1660194
-      Y: 50.7523804
-      Z: 31.2220192
+      X: -0.623779297
+      Y: -1.81999207
+      Z: 31.2220211
     }
     Rotation {
       Pitch: 37.0692062
-      Yaw: -40.5151062
+      Yaw: -40.5151
       Roll: 0.327690721
     }
     Scale {
-      X: 1.16240096
-      Y: 1.0201298
-      Z: 0.924845457
+      X: 1.16240108
+      Y: 1.02012992
+      Z: 0.924845695
     }
   }
   ParentId: 14295238137463886923
@@ -8073,16 +8048,14 @@ Objects {
   Name: "Cylinder"
   Transform {
     Location {
-      X: 57.7897797
-      Y: 52.5723648
       Z: -0.389308929
     }
     Rotation {
     }
     Scale {
-      X: 1.03418815
-      Y: 1.03418815
-      Z: 0.888162732
+      X: 1.03418827
+      Y: 1.03418827
+      Z: 0.888162851
     }
   }
   ParentId: 14295238137463886923
@@ -8158,17 +8131,15 @@ Objects {
   Name: "Cylinder"
   Transform {
     Location {
-      X: 57.7897339
-      Y: 52.5724182
-      Z: -1.93826294
+      Z: -1.93829155
     }
     Rotation {
-      Yaw: -9.14044189
+      Yaw: -9.14042664
     }
     Scale {
-      X: -0.999999762
-      Y: 0.999999762
-      Z: 0.526536763
+      X: -1
+      Y: 1
+      Z: 0.526536822
     }
   }
   ParentId: 14295238137463886923
@@ -8235,17 +8206,15 @@ Objects {
   Name: "Cylinder"
   Transform {
     Location {
-      X: 57.7897797
-      Y: 52.5723648
-      Z: -1.93828583
+      Z: -1.93829155
     }
     Rotation {
       Yaw: 104.811684
     }
     Scale {
-      X: 0.999999762
-      Y: 0.999999762
-      Z: 0.526536763
+      X: 1
+      Y: 1
+      Z: 0.526536822
     }
   }
   ParentId: 14295238137463886923
@@ -8312,14 +8281,12 @@ Objects {
   Name: "Cylinder"
   Transform {
     Location {
-      X: 57.7897339
-      Y: 52.5724182
     }
     Rotation {
     }
     Scale {
-      X: 0.999999762
-      Y: 0.999999762
+      X: 1
+      Y: 1
       Z: -0.278908134
     }
   }
@@ -8387,8 +8354,8 @@ Objects {
   Name: "SitTrigger"
   Transform {
     Location {
-      X: 62.8125
-      Y: -124.828636
+      X: 69.35466
+      Y: 1.71661377e-05
       Z: -45.5670166
     }
     Rotation {
@@ -8437,8 +8404,8 @@ Objects {
   Name: "OuterTrigger"
   Transform {
     Location {
-      X: 65.7309875
-      Y: -124.828613
+      X: 72.2731628
+      Y: 2.28881836e-05
       Z: -45.5670166
     }
     Rotation {
@@ -8595,8 +8562,8 @@ Objects {
   Name: "Guide Cube"
   Transform {
     Location {
-      X: -10.1816368
-      Y: -124.828606
+      X: -3.63951707
+      Y: 3.57627869e-07
       Z: -95.291626
     }
     Rotation {
