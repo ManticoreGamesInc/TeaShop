@@ -2,7 +2,7 @@ Assets {
   Id: 18424275563021461026
   Name: "Ceramic Paint"
   PlatformAssetType: 13
-  SerializationVersion: 103
+  SerializationVersion: 104
   CustomMaterialAsset {
     BaseMaterialId: 18026702587805206047
     ParameterOverrides {

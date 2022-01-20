@@ -43,5 +43,5 @@ Assets {
     Version: "1.0.0"
     Description: "Based on the Object Curve Mover, Object Curve Rotator, and Object Curve Scaler of Core Content, this template can be added into the Hierarchy, given an associated object in a custom property, and change that object\'s transforms according to the curves you specify. "
   }
-  SerializationVersion: 103
+  SerializationVersion: 104
 }

@@ -355,6 +355,7 @@ Objects {
       }
       EnableConcurrentPlayerStorage: true
       EnableConcurrentCreatorStorage: true
+      EnableNetworkedEventsQueuing: true
     }
   }
   NetworkRelevanceDistance {

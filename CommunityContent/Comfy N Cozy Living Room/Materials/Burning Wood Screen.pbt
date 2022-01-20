@@ -2,7 +2,7 @@ Assets {
   Id: 1297760058568703962
   Name: "Burning Wood Screen"
   PlatformAssetType: 13
-  SerializationVersion: 103
+  SerializationVersion: 104
   CustomMaterialAsset {
     BaseMaterialId: 11361212940957956339
     ParameterOverrides {

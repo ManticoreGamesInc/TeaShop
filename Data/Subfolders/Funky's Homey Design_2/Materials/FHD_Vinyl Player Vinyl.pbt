@@ -2,7 +2,7 @@ Assets {
   Id: 15978592384650525149
   Name: "FHD_Vinyl Player Vinyl"
   PlatformAssetType: 13
-  SerializationVersion: 103
+  SerializationVersion: 104
   CustomMaterialAsset {
     BaseMaterialId: 3202444740296431605
     ParameterOverrides {

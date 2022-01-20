@@ -2,7 +2,7 @@ Assets {
   Id: 10699011584776803231
   Name: "FHD_Painting Parchment"
   PlatformAssetType: 13
-  SerializationVersion: 103
+  SerializationVersion: 104
   CustomMaterialAsset {
     BaseMaterialId: 9500141983046024385
     ParameterOverrides {

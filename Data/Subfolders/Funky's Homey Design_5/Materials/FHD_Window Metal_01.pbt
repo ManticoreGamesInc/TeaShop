@@ -2,7 +2,7 @@ Assets {
   Id: 1823495565206320822
   Name: "FHD_Window Metal_01"
   PlatformAssetType: 13
-  SerializationVersion: 103
+  SerializationVersion: 104
   CustomMaterialAsset {
     BaseMaterialId: 8697636423960157756
     ParameterOverrides {

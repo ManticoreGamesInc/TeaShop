@@ -2,7 +2,7 @@ Assets {
   Id: 16455411849150951294
   Name: "FHD_Vinyl Storage Drawer Material"
   PlatformAssetType: 13
-  SerializationVersion: 103
+  SerializationVersion: 104
   CustomMaterialAsset {
     BaseMaterialId: 8489896406460576850
     ParameterOverrides {

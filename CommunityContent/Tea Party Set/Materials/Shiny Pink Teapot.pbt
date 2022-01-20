@@ -2,7 +2,7 @@ Assets {
   Id: 51846220252518596
   Name: "Shiny Pink Teapot"
   PlatformAssetType: 13
-  SerializationVersion: 103
+  SerializationVersion: 104
   CustomMaterialAsset {
     BaseMaterialId: 15377096960086681777
     ParameterOverrides {

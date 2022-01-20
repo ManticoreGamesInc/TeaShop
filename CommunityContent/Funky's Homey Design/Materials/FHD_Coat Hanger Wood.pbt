@@ -2,7 +2,7 @@ Assets {
   Id: 10482586832845150619
   Name: "FHD_Coat Hanger Wood"
   PlatformAssetType: 13
-  SerializationVersion: 103
+  SerializationVersion: 104
   CustomMaterialAsset {
     BaseMaterialId: 2584198119462481458
     ParameterOverrides {

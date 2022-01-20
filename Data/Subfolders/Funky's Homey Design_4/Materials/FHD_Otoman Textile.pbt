@@ -2,7 +2,7 @@ Assets {
   Id: 17835311387202700370
   Name: "FHD_Otoman Textile"
   PlatformAssetType: 13
-  SerializationVersion: 103
+  SerializationVersion: 104
   CustomMaterialAsset {
     BaseMaterialId: 14290021292046440653
     ParameterOverrides {

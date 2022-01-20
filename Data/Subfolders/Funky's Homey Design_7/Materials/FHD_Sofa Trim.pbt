@@ -2,7 +2,7 @@ Assets {
   Id: 7479351376403739609
   Name: "FHD_Sofa Trim"
   PlatformAssetType: 13
-  SerializationVersion: 103
+  SerializationVersion: 104
   CustomMaterialAsset {
     BaseMaterialId: 10711945243373915561
     ParameterOverrides {

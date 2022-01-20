@@ -43,5 +43,5 @@ Assets {
     Version: "1.1.0"
     Description: "It really ties the room together."
   }
-  SerializationVersion: 103
+  SerializationVersion: 104
 }

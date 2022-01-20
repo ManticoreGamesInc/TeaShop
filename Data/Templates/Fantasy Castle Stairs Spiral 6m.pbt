@@ -230,5 +230,5 @@ Assets {
       AssetId: "Fantasy_Castle_Stairs_Spiral_6m"
     }
   }
-  SerializationVersion: 103
+  SerializationVersion: 104
 }

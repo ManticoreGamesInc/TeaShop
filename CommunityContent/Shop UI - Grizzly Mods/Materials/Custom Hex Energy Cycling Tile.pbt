@@ -2,7 +2,7 @@ Assets {
   Id: 6440799968449707456
   Name: "Custom Hex Energy Cycling Tile"
   PlatformAssetType: 13
-  SerializationVersion: 103
+  SerializationVersion: 104
   CustomMaterialAsset {
     BaseMaterialId: 1111091871723569933
     ParameterOverrides {

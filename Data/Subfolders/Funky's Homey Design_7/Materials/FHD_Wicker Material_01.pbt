@@ -2,7 +2,7 @@ Assets {
   Id: 3117484690023551271
   Name: "FHD_Wicker Material_01"
   PlatformAssetType: 13
-  SerializationVersion: 103
+  SerializationVersion: 104
   CustomMaterialAsset {
     BaseMaterialId: 10909947173300103148
     ParameterOverrides {
