@@ -1,4 +1,17 @@
 Assets {
+  Id: 17284952604342755137
+  Name: "TeaShopTriviaConcurrentStorage"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "38e97dce59e94d1cae7ce01c420c41a1"
+      Type {
+        Value: "mc:enetreferencetype:concurrentpersistence"
+      }
+    }
+  }
+}
+Assets {
   Id: 12804754841656115153
   Name: "Cafe Chair"
   PlatformAssetType: 1

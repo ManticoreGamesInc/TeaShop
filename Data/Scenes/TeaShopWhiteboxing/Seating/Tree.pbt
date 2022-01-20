@@ -31,7 +31,7 @@ Objects {
           Name: "Position"
           Vector {
             X: 130
-            Y: 100
+            Y: 225
             Z: -3.01015472
           }
         }
@@ -90,7 +90,7 @@ Objects {
           Name: "Position"
           Vector {
             X: 130
-            Y: -107.818237
+            Y: 17.1817627
             Z: -3.01015472
           }
         }
@@ -149,7 +149,7 @@ Objects {
           Name: "Position"
           Vector {
             X: -460
-            Y: -430
+            Y: -305
             Z: 10
           }
         }
@@ -208,7 +208,7 @@ Objects {
           Name: "Position"
           Vector {
             X: -559.619751
-            Y: -430
+            Y: -305
             Z: 10
           }
         }
@@ -267,7 +267,7 @@ Objects {
           Name: "Position"
           Vector {
             X: -667.027344
-            Y: -430
+            Y: -305
             Z: 10
           }
         }
@@ -326,7 +326,7 @@ Objects {
           Name: "Position"
           Vector {
             X: 150
-            Y: -430
+            Y: -305
             Z: 10
           }
         }
@@ -385,7 +385,7 @@ Objects {
           Name: "Position"
           Vector {
             X: 50.380249
-            Y: -430
+            Y: -305
             Z: 10
           }
         }
@@ -444,7 +444,7 @@ Objects {
           Name: "Position"
           Vector {
             X: -57.0273438
-            Y: -430
+            Y: -305
             Z: 10
           }
         }
@@ -503,7 +503,7 @@ Objects {
           Name: "Position"
           Vector {
             X: 150
-            Y: 833.760742
+            Y: 958.760742
             Z: -3.01015472
           }
         }
@@ -562,7 +562,7 @@ Objects {
           Name: "Position"
           Vector {
             X: 150
-            Y: 733.760742
+            Y: 858.760742
             Z: -3.01015472
           }
         }
@@ -613,7 +613,7 @@ Objects {
           Name: "Position"
           Vector {
             X: 150
-            Y: 625.942505
+            Y: 750.942505
             Z: -3.01015472
           }
         }
@@ -664,15 +664,15 @@ Objects {
           Name: "Position"
           Vector {
             X: 805.071289
-            Y: 1420.85278
+            Y: 1545.85278
             Z: 49.3886108
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Pitch: -0.312528938
-            Yaw: -84.8653793
+            Pitch: -0.312530518
+            Yaw: -84.865387
             Roll: 3.47318077
           }
         }
