@@ -27,7 +27,7 @@ Objects {
   ChildIds: 14644136781892452097
   ChildIds: 8673259939548365020
   ChildIds: 13171140908307388801
-  ChildIds: 4434374835731543035
+  ChildIds: 11418016536381345144
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -46,13 +46,20 @@ Objects {
   }
 }
 Objects {
-  Id: 4434374835731543035
+  Id: 11418016536381345144
   Name: "Trivia Game"
   Transform {
+    Location {
+      X: 225
+      Y: 775
+      Z: 25
+    }
+    Rotation {
+    }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
+      X: 0.25
+      Y: 0.25
+      Z: 0.25
     }
   }
   ParentId: 4781671109827199097
@@ -151,7 +158,7 @@ Objects {
         Overrides {
           Name: "cs:ConcurrentCreatorStorageKey"
           NetReference {
-            Key: "38e97dce59e94d1cae7ce01c420c41a1"
+            Key: "e03066ed4c234deb9a97ca7f7315ee73"
             Type {
               Value: "mc:enetreferencetype:concurrentpersistence"
             }
@@ -164,6 +171,11 @@ Objects {
             Type {
               Value: "mc:enetreferencetype:leaderboard"
             }
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
           }
         }
       }
