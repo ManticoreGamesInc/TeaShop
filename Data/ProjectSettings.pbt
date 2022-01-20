@@ -6,9 +6,20 @@ LeaderboardConfigs {
     FormatType {
       Value: "mc:ecoresdkleaderboardformat:numeric"
     }
-    Name: "Top Tea Drinkers"
-    Id: "ECC0A05BC3123B7E"
-    EntryLimit: 20
+    Name: "Tea Shop Trivia"
+    Id: "7374F39ECA0A7360"
+    EntryLimit: 100
+  }
+  Config {
+    SortType {
+      Value: "mc:ecoresdkleaderboardsorting:higherisbetter"
+    }
+    FormatType {
+      Value: "mc:ecoresdkleaderboardformat:numeric"
+    }
+    Name: "Top Tea"
+    Id: "6A893E132805A9BE"
+    EntryLimit: 10
   }
 }
 MainScene: "TeaShopWhiteboxing"

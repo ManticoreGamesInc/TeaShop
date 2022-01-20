@@ -6,7 +6,7 @@ Objects {
   Transform {
     Location {
       X: 208.173737
-      Y: -148.708862
+      Y: -23.7088623
       Z: 308.477173
     }
     Rotation {
@@ -170,12 +170,12 @@ Objects {
   Name: "Trigger"
   Transform {
     Location {
-      X: -84.4270782
-      Y: -38.6963348
+      X: 40.5690422
+      Y: -39.6817818
       Z: -46.7291183
     }
     Rotation {
-      Yaw: -90.4517
+      Yaw: -90.4516907
     }
     Scale {
       X: 1
@@ -334,9 +334,9 @@ Objects {
   Name: "Ring - Thick"
   Transform {
     Location {
-      X: 0.311507404
-      Y: -0.00220104936
-      Z: 5.45376635
+      X: 125.307632
+      Y: -0.987663269
+      Z: 5.45376587
     }
     Rotation {
       Pitch: -28.9606628
@@ -437,9 +437,9 @@ Objects {
   Name: "Cone - Truncated Concave"
   Transform {
     Location {
-      X: -1.01553607
-      Y: -4.45489359
-      Z: -57.3930702
+      X: 116.212387
+      Y: -47.5460129
+      Z: -62.468811
     }
     Rotation {
       Pitch: -2.27749634
@@ -519,9 +519,9 @@ Objects {
   Name: "Cone - Truncated Concave"
   Transform {
     Location {
-      X: -1.01553607
-      Y: -4.45489359
-      Z: -57.3930702
+      X: 116.212387
+      Y: -47.5460129
+      Z: -62.468811
     }
     Rotation {
       Pitch: -2.27749634
@@ -642,9 +642,9 @@ Objects {
   Name: "Cone - Truncated Concave"
   Transform {
     Location {
-      X: 8.65528774
-      Y: 5.63517904
-      Z: -58.2786217
+      X: 133.619949
+      Y: 4.05886841
+      Z: -55.7588043
     }
     Rotation {
       Pitch: 1.13043034
@@ -724,14 +724,14 @@ Objects {
   Name: "Cone - Truncated Concave"
   Transform {
     Location {
-      X: 8.65527058
-      Y: 5.63518047
-      Z: -58.2786217
+      X: 133.619949
+      Y: 4.05886841
+      Z: -55.7588043
     }
     Rotation {
       Pitch: 1.13043034
-      Yaw: -0.271581411
-      Roll: -10.5916843
+      Yaw: -0.271575928
+      Roll: -10.5916748
     }
     Scale {
       X: 0.675740182
@@ -806,6 +806,8 @@ Objects {
   Name: "Humanoid 1 Rig"
   Transform {
     Location {
+      X: 124.996109
+      Y: -0.985443115
     }
     Rotation {
       Yaw: -179.999985
@@ -963,7 +965,7 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            Y: 524.834534
+            Y: 649.834534
           }
         }
         Overrides {
@@ -1136,7 +1138,7 @@ Objects {
     Overrides {
       Name: "cs:TopTeaDrinkers"
       NetReference {
-        Key: "ECC0A05BC3123B7E"
+        Key: "6A893E132805A9BE"
         Type {
           Value: "mc:enetreferencetype:leaderboard"
         }
@@ -1169,6 +1171,7 @@ Objects {
   Name: "Long Banner Manticore"
   Transform {
     Location {
+      Y: 125
     }
     Rotation {
       Yaw: 89.9999771

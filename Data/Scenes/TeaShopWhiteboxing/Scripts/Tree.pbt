@@ -121,7 +121,7 @@ Objects {
     Overrides {
       Name: "cs:TopTeaDrinkers"
       NetReference {
-        Key: "ECC0A05BC3123B7E"
+        Key: "6A893E132805A9BE"
         Type {
           Value: "mc:enetreferencetype:leaderboard"
         }

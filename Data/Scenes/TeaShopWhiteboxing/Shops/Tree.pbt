@@ -80,11 +80,10 @@ Objects {
   Name: "Exit Trigger"
   Transform {
     Location {
-      X: -6.10351562e-05
-      Y: -156.456924
+      X: 124.999908
+      Y: -156.457123
     }
     Rotation {
-      Yaw: -1.02452814e-05
     }
     Scale {
       X: 5
@@ -123,11 +122,10 @@ Objects {
   Name: "Trigger"
   Transform {
     Location {
-      X: -6.10351562e-05
-      Y: -156.456924
+      X: 124.999908
+      Y: -156.457123
     }
     Rotation {
-      Yaw: -1.02452814e-05
     }
     Scale {
       X: 2.5

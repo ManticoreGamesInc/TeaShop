@@ -19,6 +19,7 @@ Objects {
   ChildIds: 17365238208795494927
   ChildIds: 2303450421041927807
   ChildIds: 18001891815920442520
+  ChildIds: 3409515047238326990
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -33,6 +34,57 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 3409515047238326990
+  Name: "All"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4290641233549094375
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:RankIndex"
+      Int: 99
+    }
+    Overrides {
+      Name: "cs:ChatPrefix"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:ShowChatPrefix"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:UniqueKey"
+      String: "ALL"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 244953123066949362
+    }
   }
 }
 Objects {
@@ -316,71 +368,6 @@ Objects {
   Script {
     ScriptAsset {
       Id: 13763602132604863661
-    }
-  }
-}
-Objects {
-  Id: 6302276028804472304
-  Name: "Client"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 13171140908307388801
-  ChildIds: 14758129555882684581
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  NetworkContext {
-  }
-  IsAdvanced: true
-}
-Objects {
-  Id: 14758129555882684581
-  Name: "ChatCommandsHelp"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 6302276028804472304
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Script {
-    ScriptAsset {
-      Id: 16368379319352390172
     }
   }
 }
