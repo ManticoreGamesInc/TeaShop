@@ -1,5 +1,5 @@
-GameId: "F3E680754A6DA7291DA01E9995CD1311"
-DisplayName: "TeaShop"
+GameId: "600C3D0143D7950540827A881F4F8C4C"
+DisplayName: "TeaShop Trivia"
 GameSerializationVersion: 104
 Framework: "Community"
 SourceGameId: "f27c220e747942d88e156ace81e28d7a"
