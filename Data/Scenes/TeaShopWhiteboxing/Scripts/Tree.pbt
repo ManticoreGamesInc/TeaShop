@@ -208,6 +208,12 @@ Objects {
     }
   }
   ParentId: 13893858550619667414
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Stance"
+      String: "unarmed_sit_ground_crossed"
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -474,6 +480,7 @@ Objects {
   }
   ParentId: 13893858550619667414
   ChildIds: 7064681299111560581
+  ChildIds: 7303888870944731258
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -487,6 +494,42 @@ Objects {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
   NetworkContext {
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 7303888870944731258
+  Name: "ShowCursor"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7419880391237001001
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 3014126190494652808
+    }
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"

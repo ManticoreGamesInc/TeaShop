@@ -1860,15 +1860,6 @@ Objects {
   Id: 8658863382830189737
   Name: "Chair Logic"
   Transform {
-    Location {
-      X: 15114.6504
-      Y: -7312.38574
-      Z: 6014.85645
-    }
-    Rotation {
-      Pitch: -15.3098755
-      Yaw: -158.943527
-    }
     Scale {
       X: 1
       Y: 1
@@ -1909,9 +1900,6 @@ Objects {
     TemplateAsset {
       Id: 3599235406971010506
     }
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {

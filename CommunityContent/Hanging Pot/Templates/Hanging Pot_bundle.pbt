@@ -52,5 +52,5 @@ Assets {
     Version: "1.0.0"
     Description: "Hanging Pot"
   }
-  SerializationVersion: 104
+  SerializationVersion: 105
 }

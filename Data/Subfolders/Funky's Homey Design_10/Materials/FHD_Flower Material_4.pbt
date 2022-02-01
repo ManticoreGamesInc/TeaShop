@@ -2,7 +2,7 @@ Assets {
   Id: 5984160441295054206
   Name: "FHD_Flower Material_4"
   PlatformAssetType: 13
-  SerializationVersion: 104
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 17357208733049193179
     ParameterOverrides {

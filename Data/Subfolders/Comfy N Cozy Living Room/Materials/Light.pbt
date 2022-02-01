@@ -2,7 +2,7 @@ Assets {
   Id: 3491526756278478971
   Name: "Light"
   PlatformAssetType: 13
-  SerializationVersion: 104
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 8919871824294249785
     ParameterOverrides {

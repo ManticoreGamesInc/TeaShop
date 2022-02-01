@@ -5,9 +5,9 @@
 --]]
 
 local ROOT = script:GetCustomProperty("Root"):WaitForObject()
-local STANCE = script:GetCustomProperty("SittingStance")
-local GET_UP_PRIMARY_BINDING = script:GetCustomProperty("GetUpPrimaryBinding")
-local GET_UP_SECONDARY_BINDING = script:GetCustomProperty("GetUpSecondaryBinding")
+local STANCE = ROOT:GetCustomProperty("SittingStance")
+local GET_UP_PRIMARY_BINDING = ROOT:GetCustomProperty("GetUpPrimaryBinding")
+local GET_UP_SECONDARY_BINDING = ROOT:GetCustomProperty("GetUpSecondaryBinding")
 
 local SIT_EVENT_ID = "sit_"..ROOT.id
 local GET_UP_EVENT_ID = "get_up_"..ROOT.id

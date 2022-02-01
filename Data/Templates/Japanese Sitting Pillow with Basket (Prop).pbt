@@ -160,5 +160,5 @@ Assets {
       AssetId: "Japanese_Sitting_Pillow_with_Basket_Prop_"
     }
   }
-  SerializationVersion: 104
+  SerializationVersion: 105
 }

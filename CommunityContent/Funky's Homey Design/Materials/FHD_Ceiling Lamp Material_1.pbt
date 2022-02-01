@@ -2,7 +2,7 @@ Assets {
   Id: 10269733282352882076
   Name: "FHD_Ceiling Lamp Material_1"
   PlatformAssetType: 13
-  SerializationVersion: 104
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 14290021292046440653
     ParameterOverrides {

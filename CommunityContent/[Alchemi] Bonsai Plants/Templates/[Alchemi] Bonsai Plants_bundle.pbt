@@ -46,5 +46,5 @@ Assets {
     Version: "1.0.0"
     Description: "A nice  seasonal collection of starter bonsai !\r\n\r\n"
   }
-  SerializationVersion: 104
+  SerializationVersion: 105
 }

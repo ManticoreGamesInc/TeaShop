@@ -2,7 +2,7 @@ Assets {
   Id: 14651406084851034369
   Name: "FHD_Counter Top Material"
   PlatformAssetType: 13
-  SerializationVersion: 104
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 11728158116257669975
     ParameterOverrides {

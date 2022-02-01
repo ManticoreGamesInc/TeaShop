@@ -2,7 +2,7 @@ Assets {
   Id: 5252556653617605630
   Name: "FHD_Ceiling Lamp Emissive"
   PlatformAssetType: 13
-  SerializationVersion: 104
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 12827530473249900764
     ParameterOverrides {

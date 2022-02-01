@@ -2,7 +2,7 @@ Assets {
   Id: 10536429700420375189
   Name: "Curtain Cloth"
   PlatformAssetType: 13
-  SerializationVersion: 104
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 10926401753489666236
     ParameterOverrides {

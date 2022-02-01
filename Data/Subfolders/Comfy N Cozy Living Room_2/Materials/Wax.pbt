@@ -2,7 +2,7 @@ Assets {
   Id: 17797063653845668878
   Name: "Wax"
   PlatformAssetType: 13
-  SerializationVersion: 104
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 386588422590455033
     ParameterOverrides {

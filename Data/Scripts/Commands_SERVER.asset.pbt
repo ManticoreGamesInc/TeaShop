@@ -12,6 +12,6 @@ Assets {
       }
     }
   }
-  SerializationVersion: 104
+  SerializationVersion: 105
   VirtualFolderPath: "Old Chat Commands"
 }

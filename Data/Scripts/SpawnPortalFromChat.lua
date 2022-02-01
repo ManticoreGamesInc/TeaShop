@@ -38,10 +38,10 @@ function SummonPortal(player, target)
     local portal = World.SpawnAsset(propGamePortal, {position = player:GetWorldPosition() + player:GetViewWorldRotation()*Vector3.FORWARD * 400})
     portal:LookAt(player:GetWorldPosition())
     portal:SetNetworkedCustomProperty("DestinationGame", target)
-    Events.Broadcast("Check ID", target, portal, player)
+    -- Events.Broadcast("Check ID", target, portal, player)
 end
 
-Events.ConnectForPlayer("SummonPortal", SummonPortal)
+-- Events.ConnectForPlayer("SummonPortal", SummonPortal)
 Events.Connect("SummonPortal", SummonPortal)
 -- Chat.receiveMessageHook:Connect(InterpretPortalCommand)
 

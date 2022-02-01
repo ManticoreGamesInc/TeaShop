@@ -2,7 +2,7 @@ Assets {
   Id: 3365033042778721726
   Name: "FHD_Coffee Table Planks_1"
   PlatformAssetType: 13
-  SerializationVersion: 104
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 10711945243373915561
     ParameterOverrides {

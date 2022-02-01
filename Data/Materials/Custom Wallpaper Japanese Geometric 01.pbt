@@ -2,7 +2,7 @@ Assets {
   Id: 10569744178177637196
   Name: "Custom Wallpaper Japanese Geometric 01"
   PlatformAssetType: 13
-  SerializationVersion: 104
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 17580769373492623513
     ParameterOverrides {

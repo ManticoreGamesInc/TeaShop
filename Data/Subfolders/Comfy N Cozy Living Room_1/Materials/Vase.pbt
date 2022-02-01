@@ -2,7 +2,7 @@ Assets {
   Id: 15860915380176185739
   Name: "Vase"
   PlatformAssetType: 13
-  SerializationVersion: 104
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 35364055758434050
     ParameterOverrides {

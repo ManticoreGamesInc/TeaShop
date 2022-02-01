@@ -2,7 +2,7 @@ Assets {
   Id: 15191954420355433098
   Name: "FHD_Vinyl Player Wood"
   PlatformAssetType: 13
-  SerializationVersion: 104
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 2584198119462481458
     ParameterOverrides {

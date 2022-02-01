@@ -52,5 +52,5 @@ Assets {
     Version: "1.0.0"
     Description: "Set of 9 books + 2 open books + 3 piles of books"
   }
-  SerializationVersion: 104
+  SerializationVersion: 105
 }

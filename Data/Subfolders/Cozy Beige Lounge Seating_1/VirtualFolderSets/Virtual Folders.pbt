@@ -2,7 +2,7 @@ Assets {
   Id: 2858868173276237446
   Name: "Virtual Folders"
   PlatformAssetType: 30
-  SerializationVersion: 104
+  SerializationVersion: 105
   VirtualFolderSetAsset {
     Folders {
       VirtualFolderPath: "Community Content Templates"

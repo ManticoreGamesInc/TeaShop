@@ -2,7 +2,7 @@ Assets {
   Id: 15411885032051623794
   Name: "FHD_Bathroom Floor"
   PlatformAssetType: 13
-  SerializationVersion: 104
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 18085109675807045024
     ParameterOverrides {

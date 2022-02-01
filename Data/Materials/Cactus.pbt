@@ -2,7 +2,7 @@ Assets {
   Id: 6285744848669449633
   Name: "Cactus"
   PlatformAssetType: 13
-  SerializationVersion: 104
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 3489509329730504515
     ParameterOverrides {

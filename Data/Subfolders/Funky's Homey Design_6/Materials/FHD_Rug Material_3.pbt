@@ -2,7 +2,7 @@ Assets {
   Id: 17540037313120960512
   Name: "FHD_Rug Material_3"
   PlatformAssetType: 13
-  SerializationVersion: 104
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 14290021292046440653
     ParameterOverrides {

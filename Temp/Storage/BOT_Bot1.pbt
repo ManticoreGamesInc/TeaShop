@@ -1,9 +1,9 @@
 Entries {
   Key {
-    StringVar: "Coins"
+    StringVar: "triviaVersion"
   }
   SimpleValue {
-    IntVar: 36
+    IntVar: 1
   }
 }
 Entries {
@@ -12,5 +12,13 @@ Entries {
   }
   SimpleValue {
     IntVar: 1
+  }
+}
+Entries {
+  Key {
+    StringVar: "Coins"
+  }
+  SimpleValue {
+    IntVar: 38
   }
 }

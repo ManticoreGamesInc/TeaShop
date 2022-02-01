@@ -6,6 +6,6 @@ Assets {
     CustomParameters {
     }
   }
-  SerializationVersion: 104
+  SerializationVersion: 105
   VirtualFolderPath: "Interaction System"
 }

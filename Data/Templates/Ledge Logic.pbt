@@ -15,9 +15,59 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 4781671109827199097
+        ParentId: 12663950926213782937
         ChildIds: 12474089451174585252
         ChildIds: 9089776306393696182
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:SittingStance"
+            String: "unarmed_sit_ground_ledge"
+          }
+          Overrides {
+            Name: "cs:SittingStance:tooltip"
+            String: "The animation stance to use on players who sit in the chair."
+          }
+          Overrides {
+            Name: "cs:SittingStance:isrep"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:SittingStance:ml"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:GetUpPrimaryBinding"
+            String: "ability_extra_33"
+          }
+          Overrides {
+            Name: "cs:GetUpPrimaryBinding:tooltip"
+            String: "Primary binding to leave the chair, default is Spacebar. There is also a movement-hook imeplementation so players can leave the chair simply by moving."
+          }
+          Overrides {
+            Name: "cs:GetUpPrimaryBinding:isrep"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:GetUpPrimaryBinding:ml"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:GetUpSecondaryBinding"
+            String: "ability_extra_17"
+          }
+          Overrides {
+            Name: "cs:GetUpSecondaryBinding:tooltip"
+            String: "Secondary key binding to exit the chair, default is [F]."
+          }
+          Overrides {
+            Name: "cs:GetUpSecondaryBinding:isrep"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:GetUpSecondaryBinding:ml"
+            Bool: false
+          }
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -270,16 +320,16 @@ Assets {
         Name: "OuterTrigger"
         Transform {
           Location {
-            X: 85.0925751
+            X: 85.0925903
             Y: 4.57763672e-05
             Z: -29.6007843
           }
           Rotation {
           }
           Scale {
-            X: 1.24003482
-            Y: 0.672337
-            Z: 1.24003482
+            X: 0.954289079
+            Y: 0.513798058
+            Z: 0.551344931
           }
         }
         ParentId: 9089776306393696182
@@ -313,15 +363,15 @@ Assets {
         Name: "SitTrigger"
         Transform {
           Location {
-            X: 82.174118
-            Y: 4.57763672e-05
+            X: 82.1741333
+            Y: 3.81469727e-05
             Z: -29.6007843
           }
           Rotation {
           }
           Scale {
-            X: 0.476830095
-            Y: 0.0572012067
+            X: 0.579925656
+            Y: 0.0572000705
             Z: 0.476830095
           }
         }
@@ -367,5 +417,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 104
+  SerializationVersion: 105
 }

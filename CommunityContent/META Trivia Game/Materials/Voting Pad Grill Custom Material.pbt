@@ -2,7 +2,7 @@ Assets {
   Id: 802950878636737039
   Name: "Voting Pad Grill Custom Material"
   PlatformAssetType: 13
-  SerializationVersion: 104
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 5247031265766974703
     ParameterOverrides {

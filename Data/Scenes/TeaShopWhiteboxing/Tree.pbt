@@ -27,7 +27,6 @@ Objects {
   ChildIds: 14644136781892452097
   ChildIds: 8673259939548365020
   ChildIds: 13171140908307388801
-  ChildIds: 11418016536381345144
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -43,268 +42,6 @@ Objects {
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 11418016536381345144
-  Name: "Trivia Game"
-  Transform {
-    Location {
-      X: 225
-      Y: 775
-      Z: 25
-    }
-    Rotation {
-    }
-    Scale {
-      X: 0.25
-      Y: 0.25
-      Z: 0.25
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 14030489488786270
-      value {
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: 90
-          }
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -978
-            Y: 595
-            Z: -38.0000153
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 2501791433834607983
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -3587.5459
-            Y: 600
-            Z: -38
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 2551419345949457361
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -978
-            Y: -1105
-            Z: -38
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -90
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 3958962520974176395
-      value {
-        Overrides {
-          Name: "Size"
-          Int: 50
-        }
-        Overrides {
-          Name: "ScaleToFit"
-          Bool: false
-        }
-        Overrides {
-          Name: "AutoWrapText"
-          Bool: true
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 12584630232016374116
-      value {
-        Overrides {
-          Name: "AutoWrapText"
-          Bool: false
-        }
-        Overrides {
-          Name: "ScaleToFit"
-          Bool: true
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 13265406138154405727
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Trivia Game"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 225
-            Y: 775
-            Z: 25
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.25
-            Y: 0.25
-            Z: 0.25
-          }
-        }
-        Overrides {
-          Name: "cs:ConcurrentCreatorStorageKey"
-          NetReference {
-            Key: "e03066ed4c234deb9a97ca7f7315ee73"
-            Type {
-              Value: "mc:enetreferencetype:concurrentpersistence"
-            }
-          }
-        }
-        Overrides {
-          Name: "cs:PlayerScoresLeaderboard"
-          NetReference {
-            Key: "7374F39ECA0A7360"
-            Type {
-              Value: "mc:enetreferencetype:leaderboard"
-            }
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 14613818224740371193
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -1500
-            Y: -4100
-            Z: 1500
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -91.8722534
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.75
-            Y: 0.75
-            Z: 0.75
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 15632463641198013204
-      value {
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -378
-            Y: -305
-            Z: -38.0000153
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 16409840721932615865
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            Y: -4000
-            Z: 1300
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -90
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1.5
-            Y: 1.5
-            Z: 1.5
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 17395745466039579417
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -1978
-            Y: 595
-            Z: -38.0000153
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: 90
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 17537185275188718364
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -1978
-            Y: -1105
-            Z: -38
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -90
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 8038331559018532887
-    }
   }
 }
 Objects {
@@ -1812,6 +1549,12 @@ Objects {
     }
   }
   ParentId: 12663950926213782937
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 35707760520698754
@@ -1839,9 +1582,6 @@ Objects {
     TemplateAsset {
       Id: 7449992736907826705
     }
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {

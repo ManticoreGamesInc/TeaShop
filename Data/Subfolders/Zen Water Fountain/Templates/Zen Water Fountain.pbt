@@ -43,5 +43,5 @@ Assets {
     Version: "1.0.0"
     Description: "For the Comfy and Cozy Jam!"
   }
-  SerializationVersion: 104
+  SerializationVersion: 105
 }

@@ -2,7 +2,7 @@ Assets {
   Id: 5731050753564181120
   Name: "Snowy Glass"
   PlatformAssetType: 13
-  SerializationVersion: 104
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 12876610621177604082
     ParameterOverrides {

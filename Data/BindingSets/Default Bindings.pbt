@@ -2,7 +2,7 @@ Assets {
   Id: 736360303936294653
   Name: "Default Bindings"
   PlatformAssetType: 29
-  SerializationVersion: 104
+  SerializationVersion: 105
   BindingSetAsset {
     Bindings {
       BindingType {
@@ -125,13 +125,13 @@ Assets {
       BasicBindingData {
         BasicInputs {
           KeyboardPrimary {
-            Value: "mc:ebindingkeyboard:tilde"
+            Value: "mc:ebindingkeyboard:rightcontrol"
           }
           KeyboardSecondary {
             Value: "mc:ebindingkeyboard:middleclick"
           }
           Controller {
-            Value: "mc:ebindinggamepad:view"
+            Value: "mc:ebindinggamepad:dpaddown"
           }
         }
       }
@@ -454,7 +454,7 @@ Assets {
       BasicBindingData {
         BasicInputs {
           KeyboardPrimary {
-            Value: "mc:ebindingkeyboard:leftalt"
+            Value: "mc:ebindingkeyboard:tilde"
           }
           KeyboardSecondary {
             Value: "mc:ebindingkeyboard:none"

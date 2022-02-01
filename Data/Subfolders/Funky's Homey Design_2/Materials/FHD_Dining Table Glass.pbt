@@ -2,7 +2,7 @@ Assets {
   Id: 248397037538366150
   Name: "FHD_Dining Table Glass"
   PlatformAssetType: 13
-  SerializationVersion: 104
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 7625382804772008570
     ParameterOverrides {

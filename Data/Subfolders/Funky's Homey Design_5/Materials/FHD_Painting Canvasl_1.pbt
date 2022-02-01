@@ -2,7 +2,7 @@ Assets {
   Id: 17227715335736141939
   Name: "FHD_Painting Canvasl_1"
   PlatformAssetType: 13
-  SerializationVersion: 104
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 14290021292046440653
     ParameterOverrides {

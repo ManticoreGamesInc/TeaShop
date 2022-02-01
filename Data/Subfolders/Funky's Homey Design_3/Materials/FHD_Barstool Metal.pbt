@@ -2,7 +2,7 @@ Assets {
   Id: 3905464820964952135
   Name: "FHD_Barstool Metal"
   PlatformAssetType: 13
-  SerializationVersion: 104
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 15482542269075340086
     ParameterOverrides {

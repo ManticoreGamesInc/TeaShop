@@ -15,9 +15,59 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 4781671109827199097
+        ParentId: 5927654634283812255
         ChildIds: 7310964181714005557
         ChildIds: 13135946883296152103
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:SittingStance"
+            String: "unarmed_sit_chair_upright"
+          }
+          Overrides {
+            Name: "cs:SittingStance:tooltip"
+            String: "The animation stance to use on players who sit in the chair."
+          }
+          Overrides {
+            Name: "cs:SittingStance:isrep"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:SittingStance:ml"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:GetUpPrimaryBinding"
+            String: "ability_extra_33"
+          }
+          Overrides {
+            Name: "cs:GetUpPrimaryBinding:tooltip"
+            String: "Primary binding to leave the chair, default is Spacebar. There is also a movement-hook imeplementation so players can leave the chair simply by moving."
+          }
+          Overrides {
+            Name: "cs:GetUpPrimaryBinding:isrep"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:GetUpPrimaryBinding:ml"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:GetUpSecondaryBinding"
+            String: "ability_extra_17"
+          }
+          Overrides {
+            Name: "cs:GetUpSecondaryBinding:tooltip"
+            String: "Secondary key binding to exit the chair, default is [F]."
+          }
+          Overrides {
+            Name: "cs:GetUpSecondaryBinding:isrep"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:GetUpSecondaryBinding:ml"
+            Bool: false
+          }
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -360,5 +410,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 104
+  SerializationVersion: 105
 }

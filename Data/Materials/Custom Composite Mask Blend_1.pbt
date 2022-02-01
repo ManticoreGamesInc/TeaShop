@@ -2,7 +2,7 @@ Assets {
   Id: 2515482473098859965
   Name: "Stoneworks Ceramic Paint"
   PlatformAssetType: 13
-  SerializationVersion: 104
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 2145909769607171170
     ParameterOverrides {

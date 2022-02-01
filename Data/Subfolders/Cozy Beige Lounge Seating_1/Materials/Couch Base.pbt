@@ -2,7 +2,7 @@ Assets {
   Id: 3706514611645240332
   Name: "Couch Base"
   PlatformAssetType: 13
-  SerializationVersion: 104
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 3892719727578700688
     ParameterOverrides {

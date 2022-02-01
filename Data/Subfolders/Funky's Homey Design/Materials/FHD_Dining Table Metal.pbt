@@ -2,7 +2,7 @@ Assets {
   Id: 9296131818208412338
   Name: "FHD_Dining Table Metal"
   PlatformAssetType: 13
-  SerializationVersion: 104
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 15482542269075340086
     ParameterOverrides {

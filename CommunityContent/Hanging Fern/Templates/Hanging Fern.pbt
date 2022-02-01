@@ -526,6 +526,6 @@ Assets {
   Marketplace {
     Description: "A hanging planter with a fern"
   }
-  SerializationVersion: 104
+  SerializationVersion: 105
   DirectlyPublished: true
 }

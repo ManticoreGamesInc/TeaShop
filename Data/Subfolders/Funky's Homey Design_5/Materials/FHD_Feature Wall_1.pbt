@@ -2,7 +2,7 @@ Assets {
   Id: 8688879601186048777
   Name: "FHD_Feature Wall_1"
   PlatformAssetType: 13
-  SerializationVersion: 104
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 12141039788916732507
     ParameterOverrides {

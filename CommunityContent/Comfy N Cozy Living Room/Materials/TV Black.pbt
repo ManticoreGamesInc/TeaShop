@@ -2,7 +2,7 @@ Assets {
   Id: 14151822011798377171
   Name: "TV Black"
   PlatformAssetType: 13
-  SerializationVersion: 104
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 9610293063756896523
     ParameterOverrides {

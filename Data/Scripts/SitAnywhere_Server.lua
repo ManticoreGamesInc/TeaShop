@@ -1,7 +1,9 @@
+local STANCE = script:GetCustomProperty("Stance")
 
 function SitDownOnGround(whichPlayer, binding)
 	if (binding == "ability_extra_41") then 
-        whichPlayer.animationStance = "unarmed_sit_ground_crossed"
+        --whichPlayer.animationStance = STANCE
+        _G.StanceStack.Add(whichPlayer, STANCE, script.id)
         whichPlayer.serverUserData.sitting = true
 	end
     if whichPlayer.serverUserData.sitting and (
@@ -9,7 +11,8 @@ function SitDownOnGround(whichPlayer, binding)
         or binding == "ability_extra_30" 
         or binding == "ability_extra_31"
         or binding == "ability_extra_32") then
-        whichPlayer.animationStance = "unarmed_stance"
+        --whichPlayer.animationStance = "unarmed_stance"
+        _G.StanceStack.Remove(whichPlayer, STANCE, script.id)
         whichPlayer.serverUserData.sitting = false
     end
 end

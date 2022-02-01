@@ -2,7 +2,7 @@ Assets {
   Id: 13728005808428654762
   Name: "FHD_Armchair Textile_1"
   PlatformAssetType: 13
-  SerializationVersion: 104
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 14290021292046440653
     ParameterOverrides {

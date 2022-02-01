@@ -317,7 +317,6 @@ Objects {
           HighDistance: 9000
         }
       }
-      EnableInGameSocialUI: true
       VoiceChatSettings {
         VoiceChatMode {
           Value: "mc:evoicechatmode:all"

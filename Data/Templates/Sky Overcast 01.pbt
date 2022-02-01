@@ -478,5 +478,5 @@ Assets {
       AssetId: "Sky_Overcast_01"
     }
   }
-  SerializationVersion: 104
+  SerializationVersion: 105
 }

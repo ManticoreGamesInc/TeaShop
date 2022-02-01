@@ -281,12 +281,6 @@ Objects {
       Id: 6132292196422273158
     }
   }
-  InstanceHistory {
-    SelfId: 10925327728818414830
-    SubobjectId: 12278516893292086526
-    InstanceId: 6610334344692662688
-    TemplateId: 14920710657621817856
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -904,9 +898,9 @@ Objects {
   Name: "Hanging Chairs"
   Transform {
     Location {
-      X: 710
+      X: 700
       Y: 515.337646
-      Z: 450
+      Z: 550
     }
     Rotation {
     }
@@ -984,6 +978,69 @@ Objects {
       }
     }
     ParameterOverrideMap {
+      key: 5891380261164497114
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 10.143959
+            Y: 16.7655354
+            Z: 152.507233
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -77.4599609
+            Yaw: 77.5077896
+            Roll: -92.1017761
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.484228224
+            Y: 0.392462134
+            Z: 0.751552284
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 6177341262232700015
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 28.0312424
+            Y: 84.4137878
+            Z: 221.546875
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -95.006073
+            Yaw: 69.4360657
+            Roll: -84.1062317
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 6291225971848240419
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 976.621094
+            Y: 603.222229
+            Z: 48.1020203
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 6975344595630423349
       value {
         Overrides {
@@ -1001,6 +1058,23 @@ Objects {
           Name: "Visible"
           Enum {
             Value: "mc:evisibilitysetting:forceoff"
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 13516921592050193379
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            Y: -6.24389648
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -75.1975403
           }
         }
       }

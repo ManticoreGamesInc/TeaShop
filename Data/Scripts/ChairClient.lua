@@ -7,7 +7,7 @@
 local ROOT = script:GetCustomProperty("Root"):WaitForObject()
 local OUTER_TRIGGER = script:GetCustomProperty("OuterTrigger"):WaitForObject()
 local SIT_TRIGGER = script:GetCustomProperty("SitTrigger"):WaitForObject()
-
+local STANCE = ROOT:GetCustomProperty("SittingStance")
 local SIT_EVENT_ID = "sit_"..ROOT.id
 local GET_UP_EVENT_ID = "get_up_"..ROOT.id
 
@@ -24,7 +24,7 @@ local updateTask = nil
 
 function Update()
 	if activePlayer then
-		if activePlayer.animationStance == "unarmed_sit_chair_upright" then
+		if activePlayer.animationStance == STANCE then
 			SIT_TRIGGER.collision = Collision.FORCE_OFF
 			return
 		end

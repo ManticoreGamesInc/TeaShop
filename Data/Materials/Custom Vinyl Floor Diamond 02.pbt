@@ -2,7 +2,7 @@ Assets {
   Id: 13477606488359817980
   Name: "Plaid Shirt"
   PlatformAssetType: 13
-  SerializationVersion: 104
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 7944368315882382948
     ParameterOverrides {

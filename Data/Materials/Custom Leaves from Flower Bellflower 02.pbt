@@ -2,7 +2,7 @@ Assets {
   Id: 16444180240088049156
   Name: "Custom Leaves from Flower Bellflower 02"
   PlatformAssetType: 13
-  SerializationVersion: 104
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 5736355196203408739
     ParameterOverrides {

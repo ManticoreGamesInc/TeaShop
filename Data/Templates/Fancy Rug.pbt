@@ -7,15 +7,15 @@ Assets {
       RootId: 10398087094508865905
       Objects {
         Id: 10398087094508865905
-        Name: "Rug"
+        Name: "Fancy Rug"
         Transform {
           Scale {
-            X: 0.609953284
-            Y: 0.609953284
-            Z: 0.609953284
+            X: 0.807742715
+            Y: 0.807742715
+            Z: 0.807742715
           }
         }
-        ParentId: 4781671109827199097
+        ParentId: 7753585570916991656
         ChildIds: 7434162226898741028
         ChildIds: 13661284310171159609
         ChildIds: 14573872157845113807
@@ -23,6 +23,7 @@ Assets {
         ChildIds: 13253617068069150332
         ChildIds: 15259853717026695492
         ChildIds: 6336270641666074112
+        ChildIds: 10212917531468186603
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -192,14 +193,14 @@ Assets {
         Name: "2D Basic Shapes Decal"
         Transform {
           Location {
-            Z: 0.557266235
+            Z: 0.557267487
           }
           Rotation {
           }
           Scale {
             X: 3.4
             Y: 2.3
-            Z: 2.3
+            Z: 0.105881698
           }
         }
         ParentId: 10398087094508865905
@@ -272,14 +273,14 @@ Assets {
         Name: "2D Basic Shapes Decal"
         Transform {
           Location {
-            Z: 0.557266235
+            Z: 0.557267487
           }
           Rotation {
           }
           Scale {
             X: 4.5
             Y: 3.3
-            Z: 3.3
+            Z: 0.0789942667
           }
         }
         ParentId: 10398087094508865905
@@ -357,7 +358,7 @@ Assets {
           Scale {
             X: 0.91827178
             Y: 0.91827178
-            Z: 0.91827178
+            Z: 0.0966133401
           }
         }
         ParentId: 10398087094508865905
@@ -882,14 +883,14 @@ Assets {
         Name: "2D Basic Shapes Decal"
         Transform {
           Location {
-            Z: 0.557263672
+            Z: 0.557267487
           }
           Rotation {
           }
           Scale {
             X: 4.17549276
-            Y: 3.06202817
-            Z: 3.06202817
+            Y: 3.06202841
+            Z: 0.0990986675
           }
         }
         ParentId: 10398087094508865905
@@ -956,6 +957,85 @@ Assets {
           Value: "mc:eproxyrelevance:critical"
         }
       }
+      Objects {
+        Id: 10212917531468186603
+        Name: "Pipe - 4-Sided Thin"
+        Transform {
+          Location {
+            X: -1.4566747
+            Y: -0.18661496
+            Z: 0.456107616
+          }
+          Rotation {
+          }
+          Scale {
+            X: 8.75817394
+            Y: 6.59999943
+            Z: 0.001
+          }
+        }
+        ParentId: 10398087094508865905
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 1691846275566626575
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:vtile"
+            Float: 1.18061519
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:utile"
+            Float: 5.46729422
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 1
+              G: 0.656026542
+              B: 0.51
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 4933358279323680597
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+      }
     }
     Assets {
       Id: 8757068560497122517
@@ -1002,10 +1082,29 @@ Assets {
         AssetId: "fxbp_magic_circle_generator_nature"
       }
     }
+    Assets {
+      Id: 4933358279323680597
+      Name: "Pipe - 4-Sided Thin"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_pipe_4_sided_thin_001"
+      }
+    }
+    Assets {
+      Id: 1691846275566626575
+      Name: "Road Markings"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "mi_road_markings_001_ref"
+      }
+    }
     PrimaryAssetId {
       AssetType: "None"
       AssetId: "None"
     }
   }
-  SerializationVersion: 104
+  SerializationVersion: 105
+  DirectlyPublished: true
 }
