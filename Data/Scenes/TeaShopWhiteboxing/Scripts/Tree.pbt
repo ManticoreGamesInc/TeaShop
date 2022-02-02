@@ -514,6 +514,12 @@ Objects {
     }
   }
   ParentId: 7419880391237001001
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Action"
+      String: "ShowCursor"
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

@@ -1,6 +1,2118 @@
 Name: "Tea Shop Geo"
 RootId: 3493414710245218199
 Objects {
+  Id: 14644136781892452097
+  Name: "Stoneworks Mug"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3493414710245218199
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 4034529475239897146
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Stoneworks Mug"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -450.613525
+            Y: -389.499481
+            Z: 215.428085
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 59.4983063
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 5177601641366653124
+      value {
+      }
+    }
+    TemplateAsset {
+      Id: 226831158024691340
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 14212891279526632848
+  Name: "Carpet Tile 02"
+  Transform {
+    Location {
+      X: -414.738586
+      Y: 362.974854
+      Z: 49.2423706
+    }
+    Rotation {
+      Yaw: 1.09691465
+    }
+    Scale {
+      X: 0.783672154
+      Y: 0.783672154
+      Z: 0.783672154
+    }
+  }
+  ParentId: 3493414710245218199
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 18354939327627855324
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.62
+        G: 0.135496691
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:utile"
+      Float: 1
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:vtile"
+      Float: 2
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7982329947889186919
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 10366547844660127274
+  Name: "Communal Table"
+  Transform {
+    Location {
+      X: 340
+      Y: 75
+      Z: 100
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3493414710245218199
+  ChildIds: 3441980095474248033
+  ChildIds: 12663950926213782937
+  ChildIds: 17303118508807483345
+  ChildIds: 1177332189866184776
+  ChildIds: 5259486322547497864
+  ChildIds: 6728827242064963281
+  ChildIds: 13578505489333667872
+  ChildIds: 3156464896291188574
+  ChildIds: 4766713079564902218
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 4766713079564902218
+  Name: "Sittable Stool"
+  Transform {
+    Location {
+      X: -340
+      Y: -7.67334
+      Z: -0.757581711
+    }
+    Rotation {
+      Yaw: -90
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10366547844660127274
+  ChildIds: 13935889516953337478
+  ChildIds: 14955926896783438670
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 14955926896783438670
+  Name: "Ledge Logic"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4766713079564902218
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 35707760520698754
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Ledge Logic"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -126.608322
+            Y: -86.5049286
+            Z: 166.787445
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 89.9999771
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 1183655406519723855
+      value {
+      }
+    }
+    ParameterOverrideMap {
+      key: 1604045183741868086
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 82.174118
+            Y: 4.57763672e-05
+            Z: -29.6007843
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 3983764917510753678
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 85.0925751
+            Y: 4.57763672e-05
+            Z: -29.6007843
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 7449992736907826705
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 13935889516953337478
+  Name: "FHD_Barstool"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4766713079564902218
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 566810623899842696
+      value {
+        Overrides {
+          Name: "Name"
+          String: "FHD_Barstool"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -124.999985
+            Y: 7.62939453e-06
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 5295275545790367186
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 3156464896291188574
+  Name: "Sittable Stool"
+  Transform {
+    Location {
+      X: -136.125671
+      Y: 152.329346
+      Z: -0.757581711
+    }
+    Rotation {
+      Yaw: -179.999985
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10366547844660127274
+  ChildIds: 2832294639190737829
+  ChildIds: 8654434433799600591
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 8654434433799600591
+  Name: "Ledge Logic"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3156464896291188574
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 35707760520698754
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Ledge Logic"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1.60841262
+            Y: -211.504395
+            Z: 166.787445
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 89.9999771
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 1183655406519723855
+      value {
+      }
+    }
+    ParameterOverrideMap {
+      key: 1604045183741868086
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 82.174118
+            Y: 4.57763672e-05
+            Z: -29.6007843
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 3983764917510753678
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 85.0925751
+            Y: 4.57763672e-05
+            Z: -29.6007843
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 7449992736907826705
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 2832294639190737829
+  Name: "FHD_Barstool"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3156464896291188574
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 566810623899842696
+      value {
+        Overrides {
+          Name: "Name"
+          String: "FHD_Barstool"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -4.47034581e-05
+            Y: -124.999908
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 5295275545790367186
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 13578505489333667872
+  Name: "Sittable Stool"
+  Transform {
+    Location {
+      X: 20.0314941
+      Y: 152.329224
+      Z: -0.757581711
+    }
+    Rotation {
+      Yaw: -179.999985
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10366547844660127274
+  ChildIds: 13889869129875308808
+  ChildIds: 9288264719764269772
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 9288264719764269772
+  Name: "Ledge Logic"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13578505489333667872
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 35707760520698754
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Ledge Logic"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1.60847366
+            Y: -211.504395
+            Z: 166.787445
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 89.9999771
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 1183655406519723855
+      value {
+      }
+    }
+    ParameterOverrideMap {
+      key: 1604045183741868086
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 82.174118
+            Y: 4.57763672e-05
+            Z: -29.6007843
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 3983764917510753678
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 85.0925751
+            Y: 4.57763672e-05
+            Z: -29.6007843
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 7449992736907826705
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 13889869129875308808
+  Name: "FHD_Barstool"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13578505489333667872
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 566810623899842696
+      value {
+        Overrides {
+          Name: "Name"
+          String: "FHD_Barstool"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -4.47034581e-05
+            Y: -124.999908
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 5295275545790367186
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 6728827242064963281
+  Name: "Sittable Stool"
+  Transform {
+    Location {
+      X: 139.107666
+      Y: 152.329468
+      Z: -0.757581711
+    }
+    Rotation {
+      Yaw: -179.999985
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10366547844660127274
+  ChildIds: 9157929728677673338
+  ChildIds: 12677611546419379183
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 12677611546419379183
+  Name: "Ledge Logic"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6728827242064963281
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 35707760520698754
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Ledge Logic"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1.60847366
+            Y: -211.504395
+            Z: 166.787445
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 89.9999771
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 1183655406519723855
+      value {
+      }
+    }
+    ParameterOverrideMap {
+      key: 1604045183741868086
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 82.174118
+            Y: 4.57763672e-05
+            Z: -29.6007843
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 3983764917510753678
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 85.0925751
+            Y: 4.57763672e-05
+            Z: -29.6007843
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 7449992736907826705
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 9157929728677673338
+  Name: "FHD_Barstool"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6728827242064963281
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 566810623899842696
+      value {
+        Overrides {
+          Name: "Name"
+          String: "FHD_Barstool"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -4.47034581e-05
+            Y: -124.999908
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 5295275545790367186
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 5259486322547497864
+  Name: "Sittable Stool"
+  Transform {
+    Location {
+      X: 310.348389
+      Y: -7.67334
+      Z: -0.757581711
+    }
+    Rotation {
+      Yaw: 89.9999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10366547844660127274
+  ChildIds: 554573206354962676
+  ChildIds: 4552804276833845196
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 4552804276833845196
+  Name: "Ledge Logic"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5259486322547497864
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 35707760520698754
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Ledge Logic"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 123.391617
+            Y: -86.5048523
+            Z: 166.787445
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 89.9999771
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 1183655406519723855
+      value {
+      }
+    }
+    ParameterOverrideMap {
+      key: 1604045183741868086
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 82.174118
+            Y: 4.57763672e-05
+            Z: -29.6007843
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 3983764917510753678
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 85.0925751
+            Y: 4.57763672e-05
+            Z: -29.6007843
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 7449992736907826705
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 554573206354962676
+  Name: "FHD_Barstool"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5259486322547497864
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 566810623899842696
+      value {
+        Overrides {
+          Name: "Name"
+          String: "FHD_Barstool"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 124.999992
+            Y: 3.05175781e-05
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 5295275545790367186
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 1177332189866184776
+  Name: "Sittable Stool"
+  Transform {
+    Location {
+      X: 147.946533
+      Y: -157.962921
+      Z: -0.757581711
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10366547844660127274
+  ChildIds: 7936370448259217713
+  ChildIds: 1148956131235013637
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 1148956131235013637
+  Name: "Ledge Logic"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1177332189866184776
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 35707760520698754
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Ledge Logic"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1.60839844
+            Y: 38.4950867
+            Z: 166.787445
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 89.9999771
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 1183655406519723855
+      value {
+      }
+    }
+    ParameterOverrideMap {
+      key: 1604045183741868086
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 82.174118
+            Y: 4.57763672e-05
+            Z: -29.6007843
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 3983764917510753678
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 85.0925751
+            Y: 4.57763672e-05
+            Z: -29.6007843
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 7449992736907826705
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 7936370448259217713
+  Name: "FHD_Barstool"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1177332189866184776
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 566810623899842696
+      value {
+        Overrides {
+          Name: "Name"
+          String: "FHD_Barstool"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            Y: 125
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 5295275545790367186
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 17303118508807483345
+  Name: "Sittable Stool"
+  Transform {
+    Location {
+      X: -8.21057129
+      Y: -157.962921
+      Z: -0.757581711
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10366547844660127274
+  ChildIds: 18389004066244035466
+  ChildIds: 6875204479651555324
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 6875204479651555324
+  Name: "Ledge Logic"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17303118508807483345
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 35707760520698754
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Ledge Logic"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1.60839844
+            Y: 38.4950867
+            Z: 166.787445
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 89.9999771
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 1183655406519723855
+      value {
+      }
+    }
+    ParameterOverrideMap {
+      key: 1604045183741868086
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 82.174118
+            Y: 4.57763672e-05
+            Z: -29.6007843
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 3983764917510753678
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 85.0925751
+            Y: 4.57763672e-05
+            Z: -29.6007843
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 7449992736907826705
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 18389004066244035466
+  Name: "FHD_Barstool"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17303118508807483345
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 566810623899842696
+      value {
+        Overrides {
+          Name: "Name"
+          String: "FHD_Barstool"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            Y: 125
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 5295275545790367186
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 12663950926213782937
+  Name: "Sittable Stool"
+  Transform {
+    Location {
+      X: -127.286621
+      Y: -157.962921
+      Z: -0.757581711
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10366547844660127274
+  ChildIds: 14205967334622130567
+  ChildIds: 15451202029656042186
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 15451202029656042186
+  Name: "Ledge Logic"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12663950926213782937
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 35707760520698754
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Ledge Logic"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1.60839844
+            Y: 38.4950867
+            Z: 166.787445
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 89.9999771
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 7449992736907826705
+    }
+  }
+}
+Objects {
+  Id: 14205967334622130567
+  Name: "FHD_Barstool"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12663950926213782937
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 566810623899842696
+      value {
+        Overrides {
+          Name: "Name"
+          String: "FHD_Barstool"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            Y: 125
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 5295275545790367186
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 3441980095474248033
+  Name: "Wood Table"
+  Transform {
+    Location {
+      X: -3.63574219
+      Y: 1.5083313
+      Z: -0.757507324
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10366547844660127274
+  ChildIds: 3396265502547779785
+  ChildIds: 9928598630987449233
+  ChildIds: 6771399709036812178
+  ChildIds: 6606916975236192209
+  ChildIds: 9813399717142923345
+  ChildIds: 10335800472152166537
+  ChildIds: 203350044852283577
+  ChildIds: 9509550002555562061
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 9509550002555562061
+  Name: "Cube - Polished"
+  Transform {
+    Location {
+      X: 1.78759766
+      Y: 199.634979
+      Z: 61.9682
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.109258
+      Y: 0.108577594
+      Z: 1.24437547
+    }
+  }
+  ParentId: 3441980095474248033
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 16115905030413172164
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 1758388402481224558
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 203350044852283577
+  Name: "Cube - Polished"
+  Transform {
+    Location {
+      X: 1.78759766
+      Y: 52.0279236
+      Z: 61.9682
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.109258
+      Y: 0.108577594
+      Z: 1.24437547
+    }
+  }
+  ParentId: 3441980095474248033
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 16115905030413172164
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 1758388402481224558
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 10335800472152166537
+  Name: "Cube - Polished"
+  Transform {
+    Location {
+      X: 232.446289
+      Y: 199.634979
+      Z: 61.9682
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.109258
+      Y: 0.108577594
+      Z: 1.24437547
+    }
+  }
+  ParentId: 3441980095474248033
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 16115905030413172164
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 1758388402481224558
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 9813399717142923345
+  Name: "Cube - Polished"
+  Transform {
+    Location {
+      X: 232.446289
+      Y: 52.0279236
+      Z: 61.9682
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.109258
+      Y: 0.108577594
+      Z: 1.24437547
+    }
+  }
+  ParentId: 3441980095474248033
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 16115905030413172164
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 1758388402481224558
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 6606916975236192209
+  Name: "Cube - Polished"
+  Transform {
+    Location {
+      X: -241.728943
+      Y: 52.0279236
+      Z: 61.9682
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.109258
+      Y: 0.108577594
+      Z: 1.24437547
+    }
+  }
+  ParentId: 3441980095474248033
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 16115905030413172164
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 1758388402481224558
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 6771399709036812178
+  Name: "Cube - Polished"
+  Transform {
+    Location {
+      X: -241.728943
+      Y: 199.634979
+      Z: 61.9682
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.109258
+      Y: 0.108577594
+      Z: 1.24437547
+    }
+  }
+  ParentId: 3441980095474248033
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 16115905030413172164
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 1758388402481224558
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 9928598630987449233
+  Name: "Cube - Polished"
+  Transform {
+    Location {
+      X: -3.90136719
+      Y: 125.607025
+      Z: 125.211456
+    }
+    Rotation {
+    }
+    Scale {
+      X: 4.89331388
+      Y: 1.63524818
+      Z: 0.134758
+    }
+  }
+  ParentId: 3441980095474248033
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 14232399330662554938
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.056
+        G: 0.056
+        B: 0.056
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 1758388402481224558
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 3396265502547779785
+  Name: "Urban Plank Debris 01"
+  Transform {
+    Location {
+      X: -6.55548096
+      Y: 131.501
+      Z: 131.803757
+    }
+    Rotation {
+    }
+    Scale {
+      X: 2.72468042
+      Y: 5.41523695
+      Z: 1
+    }
+  }
+  ParentId: 3441980095474248033
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 15855955449338475049
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:utile"
+      Float: 4
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:vtile"
+      Float: 1.5
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3584007417411989222
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 8673259939548365020
+  Name: "Stoneworks Mug"
+  Transform {
+    Location {
+      X: 227.132599
+      Y: -164.499481
+      Z: 161.643631
+    }
+    Rotation {
+      Yaw: 59.498333
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3493414710245218199
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 4034529475239897146
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Stoneworks Mug"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -383.512268
+            Y: -385.816772
+            Z: 215.621765
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -50.7272263
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 226831158024691340
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
   Id: 4149197258732228308
   Name: "Lights"
   Transform {
@@ -32946,7 +35058,7 @@ Objects {
   Transform {
     Location {
       X: -1549.99976
-      Y: 292.307678
+      Y: 285.718933
       Z: 25.758
     }
     Rotation {

@@ -4,7 +4,7 @@ Assets {
   PlatformAssetType: 13
   SerializationVersion: 105
   CustomMaterialAsset {
-    BaseMaterialId: 6308196352915051448
+    BaseMaterialId: 9225772212614530763
     ParameterOverrides {
       Overrides {
         Name: "color"
@@ -30,14 +30,22 @@ Assets {
         Name: "v_tiles"
         Float: 2
       }
+      Overrides {
+        Name: "desaturation_albedo"
+        Float: 1
+      }
+      Overrides {
+        Name: "brightness_albedo"
+        Float: 3.26699543
+      }
     }
     Assets {
-      Id: 6308196352915051448
-      Name: "Artificial Grass 01"
+      Id: 9225772212614530763
+      Name: "Moss 01"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "mi_grass_artificial_001_uv_ref"
+        AssetId: "mi_moss_001_uv"
       }
     }
   }

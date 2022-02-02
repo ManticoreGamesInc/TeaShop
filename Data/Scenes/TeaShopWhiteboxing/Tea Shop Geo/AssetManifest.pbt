@@ -638,6 +638,15 @@ Assets {
   }
 }
 Assets {
+  Id: 7982329947889186919
+  Name: "Carpet Tile 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_carpet_tile_002"
+  }
+}
+Assets {
   Id: 7567941482912999321
   Name: "Ambience Water Hot Spring Bath Loop 01 SFX"
   PlatformAssetType: 7

@@ -54,7 +54,7 @@ Objects {
     }
     Overrides {
       Name: "cs:rpGained"
-      Int: 25
+      Int: 100
     }
   }
   Collidable_v2 {
@@ -132,7 +132,7 @@ Objects {
     }
     Overrides {
       Name: "cs:rpGained"
-      Int: 25
+      Int: 100
     }
   }
   Collidable_v2 {
@@ -210,7 +210,7 @@ Objects {
     }
     Overrides {
       Name: "cs:rpGained"
-      Int: 20
+      Int: 100
     }
   }
   Collidable_v2 {
@@ -288,7 +288,7 @@ Objects {
     }
     Overrides {
       Name: "cs:rpGained"
-      Int: 20
+      Int: 100
     }
   }
   Collidable_v2 {
@@ -366,7 +366,7 @@ Objects {
     }
     Overrides {
       Name: "cs:rpGained"
-      Int: 10
+      Int: 100
     }
   }
   Collidable_v2 {
@@ -444,7 +444,7 @@ Objects {
     }
     Overrides {
       Name: "cs:rpGained"
-      Int: 10
+      Int: 100
     }
   }
   Collidable_v2 {

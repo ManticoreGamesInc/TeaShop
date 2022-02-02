@@ -1,6 +1,44 @@
 Name: "Interactive Objects"
 RootId: 1005977451243031848
 Objects {
+  Id: 6947938321132415831
+  Name: "Seating"
+  Transform {
+    Location {
+      X: 1490
+      Y: 130
+      Z: 70
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1005977451243031848
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Seating"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
   Id: 7009889687442468799
   Name: "Stage"
   Transform {
@@ -1034,7 +1072,7 @@ Objects {
           Name: "Position"
           Vector {
             X: 976.621094
-            Y: 603.222229
+            Y: 544.818787
             Z: 48.1020203
           }
         }
@@ -1106,44 +1144,6 @@ Objects {
     TemplateAsset {
       Id: 15227937221041304684
     }
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 6947938321132415831
-  Name: "Seating"
-  Transform {
-    Location {
-      X: 1490
-      Y: 130
-      Z: 70
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 1005977451243031848
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Seating"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"

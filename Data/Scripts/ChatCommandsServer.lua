@@ -5,6 +5,9 @@ local CommandParser = require(script:GetCustomProperty("CommandParser"))
 CommandParser.SetOwner(ROOT:GetCustomProperty("OwnerName"), ROOT:GetCustomProperty("AddLocalBot1"))
 CommandParser.SetRanks(RANKS)
 
+local PRESENTATION_SETTINGS = script:GetCustomProperty("PresentationSettings"):WaitForObject()
+local DEFAULT_SETTINGS = script:GetCustomProperty("ThirdPersonPlayerSettings"):WaitForObject()
+
 --------- CREATOR COMMANDS ---------
 
 -- /closeserver
@@ -218,7 +221,7 @@ CommandParser.AddCommand("speakers", {
 
 			for _, player in ipairs(Game.GetPlayers()) do
 				local rank = CommandParser.GetPlayerRank(player)
-
+				PRESENTATION_SETTINGS:ApplyToPlayer(player)
 				if rank == nil or rank.RankIndex > 20 then
 					for i, c in pairs(VoiceChat.GetChannels()) do
 						c:MutePlayer(player)
@@ -240,6 +243,7 @@ CommandParser.AddCommand("speakers", {
 					if rankIndex == nil or rankIndex > 20 then
 						for i, c in pairs(VoiceChat.GetChannels()) do
 							c:MutePlayer(p)
+							PRESENTATION_SETTINGS:ApplyToPlayer(p)
 						end
 					else
 						for i, c in pairs(VoiceChat.GetChannels()) do
@@ -264,6 +268,7 @@ CommandParser.AddCommand("speakers", {
 	off = function(sender, params, status)
 		if CommandParser.HasRank(sender, CommandParser.RANKS.MODERATOR) then
 			for _, player in ipairs(Game.GetPlayers()) do
+				DEFAULT_SETTINGS:ApplyToPlayer(player)
 				for i, c in pairs(VoiceChat.GetChannels()) do
 					c:UnmutePlayer(player)
 				end

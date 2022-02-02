@@ -469,5 +469,28 @@ Assets {
         Value: "mc:ecorebehavior:pushtotalk"
       }
     }
+    Bindings {
+      BindingType {
+        Value: "mc:ebindingtype:basic"
+      }
+      BasicBindingData {
+        BasicInputs {
+          KeyboardPrimary {
+            Value: "mc:ebindingkeyboard:leftshift"
+          }
+          KeyboardSecondary {
+            Value: "mc:ebindingkeyboard:none"
+          }
+          Controller {
+            Value: "mc:ebindinggamepad:none"
+          }
+        }
+      }
+      Action: "ShowCursor"
+      Description: "Make cursor visible"
+      CoreBehavior {
+        Value: "mc:ecorebehavior:none"
+      }
+    }
   }
 }

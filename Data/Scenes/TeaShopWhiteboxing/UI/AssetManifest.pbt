@@ -71,12 +71,30 @@ Assets {
   }
 }
 Assets {
+  Id: 9593413045326225562
+  Name: "Cabin Bold"
+  PlatformAssetType: 28
+  PrimaryAsset {
+    AssetType: "FontAssetRef"
+    AssetId: "CabinBold_ref"
+  }
+}
+Assets {
   Id: 9334007068806665543
   Name: "Germania One"
   PlatformAssetType: 28
   PrimaryAsset {
     AssetType: "FontAssetRef"
     AssetId: "GermaniaOneRegular_ref"
+  }
+}
+Assets {
+  Id: 8937359918529226515
+  Name: "Crosshair 002"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "Crosshair_002"
   }
 }
 Assets {
@@ -98,12 +116,30 @@ Assets {
   }
 }
 Assets {
+  Id: 3630905751149848420
+  Name: "Roboto Black"
+  PlatformAssetType: 28
+  PrimaryAsset {
+    AssetType: "FontAssetRef"
+    AssetId: "RobotoBlack_ref"
+  }
+}
+Assets {
   Id: 3221783385069923703
   Name: "Fantasy Coins 004"
   PlatformAssetType: 9
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "UI_Fantasy_Equip_Coins_004"
+  }
+}
+Assets {
+  Id: 3042721057786815488
+  Name: "BG Flat 006"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "BackgroundNoOutline_015"
   }
 }
 Assets {
