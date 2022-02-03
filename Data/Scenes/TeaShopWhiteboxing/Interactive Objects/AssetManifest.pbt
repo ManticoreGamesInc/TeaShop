@@ -53,15 +53,6 @@ Assets {
   }
 }
 Assets {
-  Id: 10763448173518402156
-  Name: "Fantasy Ability Green 029"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_Fantasy_Ability_Green_029"
-  }
-}
-Assets {
   Id: 9627398425041257709
   Name: "Wallpaper Japanese Rings 01"
   PlatformAssetType: 2

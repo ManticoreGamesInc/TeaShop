@@ -222,6 +222,7 @@ Objects {
     }
   }
   ParentId: 15647470116869858105
+  ChildIds: 15378956737635110284
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -304,6 +305,50 @@ Objects {
         }
       }
     }
+  }
+}
+Objects {
+  Id: 15378956737635110284
+  Name: "CloseButton_CLIENT"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10222143588776770521
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Panel"
+      ObjectReference {
+        SelfId: 13365355389416095753
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 3947001174911199559
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {

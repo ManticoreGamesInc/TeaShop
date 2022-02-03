@@ -6,7 +6,7 @@ CommandParser.SetOwner(ROOT:GetCustomProperty("OwnerName"), ROOT:GetCustomProper
 CommandParser.SetRanks(RANKS)
 
 local PRESENTATION_SETTINGS = script:GetCustomProperty("PresentationSettings"):WaitForObject()
-local DEFAULT_SETTINGS = script:GetCustomProperty("ThirdPersonPlayerSettings"):WaitForObject()
+local DEFAULT_SETTINGS = script:GetCustomProperty("DefaultSettings"):WaitForObject()
 
 --------- CREATOR COMMANDS ---------
 

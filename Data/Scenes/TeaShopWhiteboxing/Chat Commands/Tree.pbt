@@ -352,6 +352,18 @@ Objects {
         SelfId: 13171140908307388801
       }
     }
+    Overrides {
+      Name: "cs:DefaultSettings"
+      ObjectReference {
+        SelfId: 4226120016796708080
+      }
+    }
+    Overrides {
+      Name: "cs:PresentationSettings"
+      ObjectReference {
+        SelfId: 16187278009650146683
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
