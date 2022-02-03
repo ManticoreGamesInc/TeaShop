@@ -932,13 +932,13 @@ Objects {
   }
 }
 Objects {
-  Id: 3631948163741704229
-  Name: "Hanging Chairs"
+  Id: 11310988456251215130
+  Name: "NewFolder"
   Transform {
     Location {
       X: 700
-      Y: 515.337646
-      Z: 550
+      Y: 850
+      Z: 747.233704
     }
     Rotation {
     }
@@ -963,7 +963,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "Hanging Chairs"
+    FilePartitionName: "NewFolder"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"

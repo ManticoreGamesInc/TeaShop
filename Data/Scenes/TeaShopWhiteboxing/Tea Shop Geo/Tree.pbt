@@ -138,7 +138,7 @@ Objects {
     Location {
       X: 340
       Y: 75
-      Z: 100
+      Z: 50
     }
     Rotation {
     }
