@@ -8,12 +8,14 @@ Tags: "Cute"
 Tags: "Relaxing"
 Tags: "Casual"
 ScreenshotPaths: "D:\\Sarah Linkous\\Documents\\My Games\\CORE\\Saved\\Maps\\TeaShop\\Graphics\\Thumbnail.png"
-ReleaseNotes: "- We\'re ready for Trivia Night!"
+ReleaseNotes: "- Quiet mounts for speakers\r\n- Chair fixes\r\n- Shift to use cursor\r\n"
 OwnerId: "3819113b7af34fb786a56960fc08136a"
-SerializationVersion: 2
+SerializationVersion: 3
 PublishedState: Public
 SceneNameToSceneIdMap {
   key: "TeaShopWhiteboxing"
   value: "299151d249dc1d7fdd21559a187787f1"
 }
 MaxPlayersForMainScene: 32
+EnableForPC: true
+EnableForMobile: true
