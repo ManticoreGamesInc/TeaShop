@@ -2242,6 +2242,6 @@ Assets {
   Marketplace {
     Description: "For the Comfy and Cozy Jam!"
   }
-  SerializationVersion: 105
+  SerializationVersion: 107
   DirectlyPublished: true
 }

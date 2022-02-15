@@ -2,7 +2,7 @@ Assets {
   Id: 15755255089114167171
   Name: "FHD_Floor Lamp_2 Steel"
   PlatformAssetType: 13
-  SerializationVersion: 105
+  SerializationVersion: 107
   CustomMaterialAsset {
     BaseMaterialId: 6777447344140592468
     ParameterOverrides {

@@ -2,7 +2,7 @@ Assets {
   Id: 8775253160093787014
   Name: "FHD_Coffee Table Wood"
   PlatformAssetType: 13
-  SerializationVersion: 105
+  SerializationVersion: 107
   CustomMaterialAsset {
     BaseMaterialId: 14231809728886464860
     ParameterOverrides {

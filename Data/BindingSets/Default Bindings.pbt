@@ -2,7 +2,7 @@ Assets {
   Id: 736360303936294653
   Name: "Default Bindings"
   PlatformAssetType: 29
-  SerializationVersion: 105
+  SerializationVersion: 107
   BindingSetAsset {
     Bindings {
       BindingType {
@@ -454,7 +454,7 @@ Assets {
       BasicBindingData {
         BasicInputs {
           KeyboardPrimary {
-            Value: "mc:ebindingkeyboard:tilde"
+            Value: "mc:ebindingkeyboard:leftalt"
           }
           KeyboardSecondary {
             Value: "mc:ebindingkeyboard:none"

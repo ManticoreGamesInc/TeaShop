@@ -216,5 +216,5 @@ Assets {
       AssetId: "Stone_Lantern_Medium__Prop_"
     }
   }
-  SerializationVersion: 105
+  SerializationVersion: 107
 }

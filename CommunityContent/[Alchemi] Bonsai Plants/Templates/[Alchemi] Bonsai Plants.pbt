@@ -1794,6 +1794,6 @@ Assets {
   Marketplace {
     Description: "A nice  seasonal collection of starter bonsai !\r\n\r\n"
   }
-  SerializationVersion: 105
+  SerializationVersion: 107
   DirectlyPublished: true
 }

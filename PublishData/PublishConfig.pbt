@@ -8,7 +8,7 @@ Tags: "Cute"
 Tags: "Relaxing"
 Tags: "Casual"
 ScreenshotPaths: "D:\\Sarah Linkous\\Documents\\My Games\\CORE\\Saved\\Maps\\TeaShop\\Graphics\\Thumbnail.png"
-ReleaseNotes: "- Quiet mounts for speakers\r\n- Chair fixes\r\n- Shift to use cursor\r\n"
+ReleaseNotes: "- RSVP for upcoming events!"
 OwnerId: "3819113b7af34fb786a56960fc08136a"
 SerializationVersion: 3
 PublishedState: Public

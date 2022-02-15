@@ -46,5 +46,5 @@ Assets {
     Version: "1.0.0"
     Description: "Uses the CORETY Keyboard by Seth."
   }
-  SerializationVersion: 105
+  SerializationVersion: 107
 }

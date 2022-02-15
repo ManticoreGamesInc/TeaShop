@@ -2,7 +2,7 @@ Assets {
   Id: 3863080850346983585
   Name: "FHD_Leafy Bush Material_1"
   PlatformAssetType: 13
-  SerializationVersion: 105
+  SerializationVersion: 107
   CustomMaterialAsset {
     BaseMaterialId: 14839762354113834772
     ParameterOverrides {

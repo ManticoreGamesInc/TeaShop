@@ -2,7 +2,7 @@ Assets {
   Id: 16818984211296055762
   Name: "Sugar Cube"
   PlatformAssetType: 13
-  SerializationVersion: 105
+  SerializationVersion: 107
   CustomMaterialAsset {
     BaseMaterialId: 17347676967415622171
     ParameterOverrides {

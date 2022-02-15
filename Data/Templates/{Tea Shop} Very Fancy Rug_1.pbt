@@ -39,5 +39,5 @@ Assets {
     OwnerName: "coreslinkous"
     Description: "Not the most performant rug in the world, but it really ties the room together. Lots of stacked decals and two magic circles give us the fancy rug, as seen in Tea Shop."
   }
-  SerializationVersion: 105
+  SerializationVersion: 107
 }

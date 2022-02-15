@@ -429,6 +429,7 @@ Objects {
         VoiceChatEntryVerticalFlow {
           Value: "mc:ecoreverticalflow:toptobottom"
         }
+        IsVoiceChatWidgetVisible: true
       }
       PlayerInteractDistance: 250
       PlayerInteractAngleDeg: 50

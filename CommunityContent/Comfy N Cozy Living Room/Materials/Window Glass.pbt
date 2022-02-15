@@ -2,7 +2,7 @@ Assets {
   Id: 355587576998119447
   Name: "Window Glass"
   PlatformAssetType: 13
-  SerializationVersion: 105
+  SerializationVersion: 107
   CustomMaterialAsset {
     BaseMaterialId: 8650216181414673073
     ParameterOverrides {

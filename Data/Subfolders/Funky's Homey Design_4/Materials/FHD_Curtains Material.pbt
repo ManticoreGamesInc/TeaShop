@@ -2,7 +2,7 @@ Assets {
   Id: 18418992428262829914
   Name: "FHD_Curtains Material"
   PlatformAssetType: 13
-  SerializationVersion: 105
+  SerializationVersion: 107
   CustomMaterialAsset {
     BaseMaterialId: 17249703107160753986
     ParameterOverrides {

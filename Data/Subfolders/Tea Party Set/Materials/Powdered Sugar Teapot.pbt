@@ -2,7 +2,7 @@ Assets {
   Id: 3918634248444540
   Name: "Powdered Sugar Teapot"
   PlatformAssetType: 13
-  SerializationVersion: 105
+  SerializationVersion: 107
   CustomMaterialAsset {
     BaseMaterialId: 4839982405858241607
     ParameterOverrides {

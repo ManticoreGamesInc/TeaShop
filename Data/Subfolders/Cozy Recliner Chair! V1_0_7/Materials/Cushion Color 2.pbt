@@ -2,7 +2,7 @@ Assets {
   Id: 536299938138100504
   Name: "Cushion Color 2"
   PlatformAssetType: 13
-  SerializationVersion: 105
+  SerializationVersion: 107
   CustomMaterialAsset {
     BaseMaterialId: 15026321509372496281
     ParameterOverrides {

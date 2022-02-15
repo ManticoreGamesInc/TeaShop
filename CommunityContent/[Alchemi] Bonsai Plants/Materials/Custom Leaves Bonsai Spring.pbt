@@ -2,7 +2,7 @@ Assets {
   Id: 18291806959280016542
   Name: "Custom Leaves Bonsai Spring"
   PlatformAssetType: 13
-  SerializationVersion: 105
+  SerializationVersion: 107
   CustomMaterialAsset {
     BaseMaterialId: 5316203432889089866
     ParameterOverrides {

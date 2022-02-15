@@ -2,7 +2,7 @@ Assets {
   Id: 8859822860670424639
   Name: "FHD_TV Screen"
   PlatformAssetType: 13
-  SerializationVersion: 105
+  SerializationVersion: 107
   CustomMaterialAsset {
     BaseMaterialId: 16807072901196286238
     ParameterOverrides {

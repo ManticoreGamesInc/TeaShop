@@ -2,7 +2,7 @@ Assets {
   Id: 17712012538313022579
   Name: "FHD_Nightsand Wood"
   PlatformAssetType: 13
-  SerializationVersion: 105
+  SerializationVersion: 107
   CustomMaterialAsset {
     BaseMaterialId: 14231809728886464860
     ParameterOverrides {

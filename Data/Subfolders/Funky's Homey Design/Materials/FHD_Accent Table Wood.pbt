@@ -2,7 +2,7 @@ Assets {
   Id: 16015489029186779066
   Name: "FHD_Accent Table Wood"
   PlatformAssetType: 13
-  SerializationVersion: 105
+  SerializationVersion: 107
   CustomMaterialAsset {
     BaseMaterialId: 14231809728886464860
     ParameterOverrides {

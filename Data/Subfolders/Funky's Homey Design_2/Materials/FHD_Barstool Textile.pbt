@@ -2,7 +2,7 @@ Assets {
   Id: 9324591815423944264
   Name: "FHD_Barstool Textile"
   PlatformAssetType: 13
-  SerializationVersion: 105
+  SerializationVersion: 107
   CustomMaterialAsset {
     BaseMaterialId: 14290021292046440653
     ParameterOverrides {

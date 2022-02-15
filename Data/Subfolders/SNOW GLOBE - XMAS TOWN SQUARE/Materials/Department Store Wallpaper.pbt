@@ -2,7 +2,7 @@ Assets {
   Id: 4525682323093374396
   Name: "Department Store Wallpaper"
   PlatformAssetType: 13
-  SerializationVersion: 105
+  SerializationVersion: 107
   CustomMaterialAsset {
     BaseMaterialId: 11596129260082674743
     ParameterOverrides {

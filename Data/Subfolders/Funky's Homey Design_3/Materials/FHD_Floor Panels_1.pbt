@@ -2,7 +2,7 @@ Assets {
   Id: 16933630675032426730
   Name: "FHD_Floor Panels_1"
   PlatformAssetType: 13
-  SerializationVersion: 105
+  SerializationVersion: 107
   CustomMaterialAsset {
     BaseMaterialId: 17791116019926925242
     ParameterOverrides {

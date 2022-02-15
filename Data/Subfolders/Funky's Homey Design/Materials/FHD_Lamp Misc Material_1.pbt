@@ -2,7 +2,7 @@ Assets {
   Id: 16663022731413894934
   Name: "FHD_Lamp Misc Material_1"
   PlatformAssetType: 13
-  SerializationVersion: 105
+  SerializationVersion: 107
   CustomMaterialAsset {
     BaseMaterialId: 13161723454287186105
     ParameterOverrides {

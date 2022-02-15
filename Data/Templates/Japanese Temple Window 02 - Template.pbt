@@ -146,5 +146,5 @@ Assets {
       AssetId: "Japanese_Temple_Window_02_-_Template"
     }
   }
-  SerializationVersion: 105
+  SerializationVersion: 107
 }

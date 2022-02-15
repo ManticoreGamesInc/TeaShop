@@ -2,7 +2,7 @@ Assets {
   Id: 428433466315578432
   Name: "Custom Seating Light Bar_1"
   PlatformAssetType: 13
-  SerializationVersion: 105
+  SerializationVersion: 107
   CustomMaterialAsset {
     BaseMaterialId: 8118851538085614543
     ParameterOverrides {

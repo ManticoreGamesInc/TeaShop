@@ -2,7 +2,7 @@ Assets {
   Id: 14858594494151528238
   Name: "Pages"
   PlatformAssetType: 13
-  SerializationVersion: 105
+  SerializationVersion: 107
   CustomMaterialAsset {
     BaseMaterialId: 8705619882595462740
     ParameterOverrides {

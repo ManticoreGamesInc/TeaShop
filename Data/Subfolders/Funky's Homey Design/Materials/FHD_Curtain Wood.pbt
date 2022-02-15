@@ -2,7 +2,7 @@ Assets {
   Id: 14730443598172759333
   Name: "FHD_Curtain Wood"
   PlatformAssetType: 13
-  SerializationVersion: 105
+  SerializationVersion: 107
   CustomMaterialAsset {
     BaseMaterialId: 2584198119462481458
     ParameterOverrides {

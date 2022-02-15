@@ -2047,6 +2047,6 @@ Assets {
   Marketplace {
     Description: "It\'s a table, the cheap kind you might haul to an event."
   }
-  SerializationVersion: 105
+  SerializationVersion: 107
   DirectlyPublished: true
 }

@@ -2,7 +2,7 @@ Assets {
   Id: 12050418426022141518
   Name: "Shiny Pink Teapot Lid Rim"
   PlatformAssetType: 13
-  SerializationVersion: 105
+  SerializationVersion: 107
   CustomMaterialAsset {
     BaseMaterialId: 11403899758037509579
     ParameterOverrides {

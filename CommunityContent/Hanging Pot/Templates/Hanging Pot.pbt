@@ -573,6 +573,6 @@ Assets {
   Marketplace {
     Description: "Hanging Pot"
   }
-  SerializationVersion: 105
+  SerializationVersion: 107
   DirectlyPublished: true
 }

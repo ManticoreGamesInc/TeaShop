@@ -46,5 +46,5 @@ Assets {
     Version: "1.0.0"
     Description: "A hanging planter with a fern"
   }
-  SerializationVersion: 105
+  SerializationVersion: 107
 }

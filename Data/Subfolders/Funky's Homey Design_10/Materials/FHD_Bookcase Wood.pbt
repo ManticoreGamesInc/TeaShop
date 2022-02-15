@@ -2,7 +2,7 @@ Assets {
   Id: 15578516983051352069
   Name: "FHD_Bookcase Wood"
   PlatformAssetType: 13
-  SerializationVersion: 105
+  SerializationVersion: 107
   CustomMaterialAsset {
     BaseMaterialId: 14231809728886464860
     ParameterOverrides {

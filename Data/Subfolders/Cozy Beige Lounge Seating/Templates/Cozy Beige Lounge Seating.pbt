@@ -46,5 +46,5 @@ Assets {
     Version: "1.0.0"
     Description: "One corner couch and one arm chair with decorative pillows. The base is a dark foresty wicker/bamboo material with beige fabric on the cushions. These are oversized for style and can be scaled down as needed."
   }
-  SerializationVersion: 105
+  SerializationVersion: 107
 }

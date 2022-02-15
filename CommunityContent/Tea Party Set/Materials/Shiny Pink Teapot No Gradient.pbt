@@ -2,7 +2,7 @@ Assets {
   Id: 12233357590584247642
   Name: "Shiny Pink Teapot No Gradient"
   PlatformAssetType: 13
-  SerializationVersion: 105
+  SerializationVersion: 107
   CustomMaterialAsset {
     BaseMaterialId: 15377096960086681777
     ParameterOverrides {

@@ -1200,6 +1200,6 @@ Assets {
   Marketplace {
     Description: "Just a Beat Up Comfy Couch #comfyncozy"
   }
-  SerializationVersion: 105
+  SerializationVersion: 107
   DirectlyPublished: true
 }

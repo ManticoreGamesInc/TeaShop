@@ -2,7 +2,7 @@ Assets {
   Id: 13436295855423632802
   Name: "Plain Teapot No Gradient"
   PlatformAssetType: 13
-  SerializationVersion: 105
+  SerializationVersion: 107
   CustomMaterialAsset {
     BaseMaterialId: 13085174305471638229
     ParameterOverrides {
