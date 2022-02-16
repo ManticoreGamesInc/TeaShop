@@ -1,13 +1,13 @@
 GameId: "9e8fb32d8d7a4fb7a28c216e5167bacb"
 ClientVersion: "1.0.224-prod-s"
-Name: "Cozy Tea Shop"
+Name: "Tea House"
 Description: "It\'s a place to drink tea with friends!"
 IsOpenForEdit: true
 Tags: "SocialHub"
 Tags: "Cute"
 Tags: "Relaxing"
 Tags: "Casual"
-ScreenshotPaths: "D:\\Sarah Linkous\\Documents\\My Games\\CORE\\Saved\\Maps\\TeaShop\\Graphics\\Thumbnail.png"
+ScreenshotPaths: "C:\\Users\\Sarah Linkous\\Downloads\\TeaHouse.jpg"
 ReleaseNotes: "- RSVP for upcoming events!"
 OwnerId: "3819113b7af34fb786a56960fc08136a"
 SerializationVersion: 3
