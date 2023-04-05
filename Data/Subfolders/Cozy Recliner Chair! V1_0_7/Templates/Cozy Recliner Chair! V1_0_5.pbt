@@ -29,6 +29,7 @@ Assets {
         NetworkRelevanceDistance {
           Value: "mc:eproxyrelevance:critical"
         }
+        IsReplicationEnabledByDefault: true
       }
     }
     PrimaryAssetId {
@@ -43,5 +44,5 @@ Assets {
     Version: "1.4.0"
     Description: "An interactable cozy recliner chair that works just like real life!\r\n\r\nUse the arrow buttons to control the recline! Jump to exit.\r\n\r\nThanks for downloading!\r\n-Zulu\r\n\r\nv1.0.7"
   }
-  SerializationVersion: 107
+  SerializationVersion: 125
 }

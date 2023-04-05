@@ -2,7 +2,7 @@ Assets {
   Id: 6088582063041709343
   Name: "FHD_Dining Chair Misc Material"
   PlatformAssetType: 13
-  SerializationVersion: 107
+  SerializationVersion: 125
   CustomMaterialAsset {
     BaseMaterialId: 8489896406460576850
     ParameterOverrides {

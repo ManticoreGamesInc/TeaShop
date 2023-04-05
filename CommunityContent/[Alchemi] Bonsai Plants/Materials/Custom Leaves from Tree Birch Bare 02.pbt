@@ -2,7 +2,7 @@ Assets {
   Id: 3550764869571309251
   Name: "Custom Leaves from Tree Birch Bare 02"
   PlatformAssetType: 13
-  SerializationVersion: 107
+  SerializationVersion: 125
   CustomMaterialAsset {
     BaseMaterialId: 2421949790694125918
     ParameterOverrides {

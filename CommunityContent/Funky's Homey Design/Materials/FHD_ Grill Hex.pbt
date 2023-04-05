@@ -2,7 +2,7 @@ Assets {
   Id: 8688633758184974189
   Name: "FHD_ Grill Hex"
   PlatformAssetType: 13
-  SerializationVersion: 107
+  SerializationVersion: 125
   CustomMaterialAsset {
     BaseMaterialId: 12414406386593727961
     ParameterOverrides {

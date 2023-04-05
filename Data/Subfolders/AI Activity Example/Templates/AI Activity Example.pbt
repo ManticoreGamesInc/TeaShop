@@ -29,6 +29,7 @@ Assets {
         NetworkRelevanceDistance {
           Value: "mc:eproxyrelevance:critical"
         }
+        IsReplicationEnabledByDefault: true
       }
     }
     PrimaryAssetId {
@@ -43,5 +44,5 @@ Assets {
     Version: "1.1.0"
     Description: "An example of using the AI Activity feature in the new update.\r\n\r\nIn this example when the player gets close to the NPC, it will run and hide.  If you move out of range it will start walking back to it\'s start."
   }
-  SerializationVersion: 107
+  SerializationVersion: 125
 }

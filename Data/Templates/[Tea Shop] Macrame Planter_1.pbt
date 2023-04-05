@@ -29,6 +29,7 @@ Assets {
         NetworkRelevanceDistance {
           Value: "mc:eproxyrelevance:critical"
         }
+        IsReplicationEnabledByDefault: true
       }
     }
     PrimaryAssetId {
@@ -42,5 +43,5 @@ Assets {
     OwnerName: "disastronaut"
     Description: "For the Comfy and Cozy Jam!\r\n\r\nGive all your potted plants with this macrame planter, allowing them to hang from this knotted work of art! Ferns not included, but try it out with some ferns!"
   }
-  SerializationVersion: 107
+  SerializationVersion: 125
 }

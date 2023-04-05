@@ -2,7 +2,7 @@ Assets {
   Id: 15716914662134768251
   Name: "FHD_Bed Textile_2"
   PlatformAssetType: 13
-  SerializationVersion: 107
+  SerializationVersion: 125
   CustomMaterialAsset {
     BaseMaterialId: 11859290621179098342
     ParameterOverrides {

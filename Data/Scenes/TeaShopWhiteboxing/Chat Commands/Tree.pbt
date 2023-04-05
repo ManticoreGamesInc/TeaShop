@@ -35,6 +35,7 @@ Objects {
   Folder {
     IsGroup: true
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 3409515047238326990
@@ -86,6 +87,7 @@ Objects {
       Id: 244953123066949362
     }
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 18001891815920442520
@@ -137,6 +139,7 @@ Objects {
       Id: 244953123066949362
     }
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 2303450421041927807
@@ -188,6 +191,7 @@ Objects {
       Id: 244953123066949362
     }
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 17365238208795494927
@@ -239,6 +243,7 @@ Objects {
       Id: 244953123066949362
     }
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 630375717225293884
@@ -290,6 +295,7 @@ Objects {
       Id: 244953123066949362
     }
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 13249776811294751694
@@ -323,6 +329,7 @@ Objects {
     Type: Server
   }
   IsAdvanced: true
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 10448803433272113160
@@ -382,4 +389,5 @@ Objects {
       Id: 13763602132604863661
     }
   }
+  IsReplicationEnabledByDefault: true
 }

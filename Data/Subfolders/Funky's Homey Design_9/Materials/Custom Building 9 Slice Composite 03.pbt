@@ -2,7 +2,7 @@ Assets {
   Id: 11726845930964451586
   Name: "Custom Building 9 Slice Composite 03"
   PlatformAssetType: 13
-  SerializationVersion: 107
+  SerializationVersion: 125
   CustomMaterialAsset {
     BaseMaterialId: 8777174543172462988
     ParameterOverrides {

@@ -2,7 +2,7 @@ Assets {
   Id: 13874447976758354624
   Name: "FHD_Counter Wood"
   PlatformAssetType: 13
-  SerializationVersion: 107
+  SerializationVersion: 125
   CustomMaterialAsset {
     BaseMaterialId: 2584198119462481458
     ParameterOverrides {

@@ -29,6 +29,7 @@ Assets {
         NetworkRelevanceDistance {
           Value: "mc:eproxyrelevance:critical"
         }
+        IsReplicationEnabledByDefault: true
       }
     }
     PrimaryAssetId {
@@ -43,5 +44,5 @@ Assets {
     Version: "1.1.0"
     Description: "Just a Beat Up Comfy Couch #comfyncozy"
   }
-  SerializationVersion: 107
+  SerializationVersion: 125
 }

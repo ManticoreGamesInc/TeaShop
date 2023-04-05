@@ -2,7 +2,7 @@ Assets {
   Id: 14577552637543114214
   Name: "Teacup"
   PlatformAssetType: 13
-  SerializationVersion: 107
+  SerializationVersion: 125
   CustomMaterialAsset {
     BaseMaterialId: 13053450962735117579
     ParameterOverrides {

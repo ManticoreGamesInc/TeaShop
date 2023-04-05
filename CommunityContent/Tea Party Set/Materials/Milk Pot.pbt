@@ -2,7 +2,7 @@ Assets {
   Id: 3728769445121859317
   Name: "Milk Pot"
   PlatformAssetType: 13
-  SerializationVersion: 107
+  SerializationVersion: 125
   CustomMaterialAsset {
     BaseMaterialId: 13053450962735117579
     ParameterOverrides {

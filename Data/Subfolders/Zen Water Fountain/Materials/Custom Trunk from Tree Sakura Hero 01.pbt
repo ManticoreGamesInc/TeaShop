@@ -2,7 +2,7 @@ Assets {
   Id: 14427082114558118594
   Name: "Custom Trunk from Tree Sakura Hero 01"
   PlatformAssetType: 13
-  SerializationVersion: 107
+  SerializationVersion: 125
   CustomMaterialAsset {
     BaseMaterialId: 13816402597937997593
     ParameterOverrides {
@@ -31,7 +31,7 @@ Assets {
     }
     Assets {
       Id: 13816402597937997593
-      Name: "Bark Oak 01"
+      Name: "Bark Oak Advanced 01"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"

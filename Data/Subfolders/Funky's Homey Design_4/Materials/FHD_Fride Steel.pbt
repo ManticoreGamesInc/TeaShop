@@ -2,7 +2,7 @@ Assets {
   Id: 3847536075228335360
   Name: "FHD_Fride Steel"
   PlatformAssetType: 13
-  SerializationVersion: 107
+  SerializationVersion: 125
   CustomMaterialAsset {
     BaseMaterialId: 6777447344140592468
     ParameterOverrides {

@@ -2,7 +2,7 @@ Assets {
   Id: 9404781377459517389
   Name: "Duvet"
   PlatformAssetType: 13
-  SerializationVersion: 107
+  SerializationVersion: 125
   CustomMaterialAsset {
     BaseMaterialId: 13469676055399835466
     ParameterOverrides {

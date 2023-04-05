@@ -29,6 +29,7 @@ Assets {
         NetworkRelevanceDistance {
           Value: "mc:eproxyrelevance:critical"
         }
+        IsReplicationEnabledByDefault: true
       }
     }
     PrimaryAssetId {
@@ -42,5 +43,5 @@ Assets {
     OwnerName: "coreslinkous"
     Description: "It\'s a bulletin board that shows some of the Core Game Events that are happening soon from the \"Upcoming\" category.\r\n\r\nIncludes:\r\n- Worldspace bulletin board model by Aggripina (from SNOW GLOBE - XMAS TOWN SQUARE on Community Content)\r\n- Client-side trigger and UI\r\n- RSVP buttons for every event\r\n\r\nThe script tries to prevent multiple events from the same game to avoid looking repetitive. We\'ll make this optional in the future, but today that\'s just how it is.\r\n"
   }
-  SerializationVersion: 107
+  SerializationVersion: 125
 }

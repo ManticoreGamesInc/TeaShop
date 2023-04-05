@@ -2,7 +2,7 @@ Assets {
   Id: 17541753408877340231
   Name: "FHD_Wardrobe Metal"
   PlatformAssetType: 13
-  SerializationVersion: 107
+  SerializationVersion: 125
   CustomMaterialAsset {
     BaseMaterialId: 5740671652278845851
     ParameterOverrides {

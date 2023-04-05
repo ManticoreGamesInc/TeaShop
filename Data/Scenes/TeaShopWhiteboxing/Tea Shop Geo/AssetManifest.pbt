@@ -45,7 +45,7 @@ Assets {
 }
 Assets {
   Id: 17656063950063568952
-  Name: "Curtains Straight"
+  Name: "Urban Curtains Straight 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -225,7 +225,7 @@ Assets {
 }
 Assets {
   Id: 13723442193202479556
-  Name: "Curtains Tied"
+  Name: "Urban Curtains Tied 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -936,7 +936,7 @@ Assets {
 }
 Assets {
   Id: 3998716367353445583
-  Name: "Curtain Rod 01"
+  Name: "Urban Curtain Rod 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"

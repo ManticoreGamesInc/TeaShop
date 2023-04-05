@@ -18,7 +18,7 @@ Assets {
       }
     }
   }
-  SerializationVersion: 107
+  SerializationVersion: 125
   VirtualFolderPath: "Interaction System"
   VirtualFolderPath: "Modules"
 }

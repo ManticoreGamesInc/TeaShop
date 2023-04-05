@@ -2,7 +2,7 @@ Assets {
   Id: 6154222150940572313
   Name: "Steel Lamp Leg"
   PlatformAssetType: 13
-  SerializationVersion: 107
+  SerializationVersion: 125
   CustomMaterialAsset {
     BaseMaterialId: 14175216485169441444
     ParameterOverrides {

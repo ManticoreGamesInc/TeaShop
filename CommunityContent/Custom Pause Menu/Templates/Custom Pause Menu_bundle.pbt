@@ -29,6 +29,7 @@ Assets {
         NetworkRelevanceDistance {
           Value: "mc:eproxyrelevance:critical"
         }
+        IsReplicationEnabledByDefault: true
       }
     }
     PrimaryAssetId {
@@ -43,5 +44,5 @@ Assets {
     Version: "1.0.0"
     Description: "Core has a default pause menu that appears when a player presses the ESC key. This client script demonstrates how to prevent Core\'s default pause from occurring and replace it with a custom menu. As a fallback in case your UI gets stuck, Shift + ESC allows you to access Core\'s default pause, even with the escape hook in place.\r\n\r\nThis is a starting point for creating a menu and only comes with an EXIT button. Pressing it sends players to Core World."
   }
-  SerializationVersion: 107
+  SerializationVersion: 125
 }

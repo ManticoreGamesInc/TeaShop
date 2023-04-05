@@ -2,7 +2,7 @@ Assets {
   Id: 5305832121907361494
   Name: "Gold Metal"
   PlatformAssetType: 13
-  SerializationVersion: 107
+  SerializationVersion: 125
   CustomMaterialAsset {
     BaseMaterialId: 11447958977864096425
     ParameterOverrides {

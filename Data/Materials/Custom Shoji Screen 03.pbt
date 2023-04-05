@@ -2,7 +2,7 @@ Assets {
   Id: 13876519704255310593
   Name: "Opaque Windows"
   PlatformAssetType: 13
-  SerializationVersion: 107
+  SerializationVersion: 125
   CustomMaterialAsset {
     BaseMaterialId: 10250155564136539884
     ParameterOverrides {

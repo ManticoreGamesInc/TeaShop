@@ -2,7 +2,7 @@ Assets {
   Id: 15875976281350567551
   Name: "Reddish Damaged Bricks"
   PlatformAssetType: 13
-  SerializationVersion: 107
+  SerializationVersion: 125
   CustomMaterialAsset {
     BaseMaterialId: 2145909769607171170
     ParameterOverrides {

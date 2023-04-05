@@ -2,7 +2,7 @@ Assets {
   Id: 2798925398559130625
   Name: "FHD_Bed Wood"
   PlatformAssetType: 13
-  SerializationVersion: 107
+  SerializationVersion: 125
   CustomMaterialAsset {
     BaseMaterialId: 14231809728886464860
     ParameterOverrides {

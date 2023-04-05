@@ -2,7 +2,7 @@ Assets {
   Id: 6760674334501140372
   Name: "FDH_Bathroom Sink "
   PlatformAssetType: 13
-  SerializationVersion: 107
+  SerializationVersion: 125
   CustomMaterialAsset {
     BaseMaterialId: 3844894160697332226
     ParameterOverrides {

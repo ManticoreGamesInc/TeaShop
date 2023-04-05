@@ -2,7 +2,7 @@ Assets {
   Id: 15855955449338475049
   Name: "Wood table"
   PlatformAssetType: 13
-  SerializationVersion: 107
+  SerializationVersion: 125
   CustomMaterialAsset {
     BaseMaterialId: 1447695845330508095
     ParameterOverrides {

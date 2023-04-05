@@ -58,7 +58,7 @@ Assets {
 }
 Assets {
   Id: 263718819678945169
-  Name: "Video Stream Material (Slot 1)"
+  Name: "Video Stream Material (Slot 1) Unlit"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"

@@ -2,7 +2,7 @@ Assets {
   Id: 2673476252381888903
   Name: "FHD_Vinyl Storage Wood"
   PlatformAssetType: 13
-  SerializationVersion: 107
+  SerializationVersion: 125
   CustomMaterialAsset {
     BaseMaterialId: 2584198119462481458
     ParameterOverrides {

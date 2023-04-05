@@ -2,7 +2,7 @@ Assets {
   Id: 1182471877417156491
   Name: "FHD_Kitchen Hood Brushed Steel"
   PlatformAssetType: 13
-  SerializationVersion: 107
+  SerializationVersion: 125
   CustomMaterialAsset {
     BaseMaterialId: 6777447344140592468
     ParameterOverrides {

@@ -29,6 +29,7 @@ Assets {
         NetworkRelevanceDistance {
           Value: "mc:eproxyrelevance:critical"
         }
+        IsReplicationEnabledByDefault: true
       }
     }
     PrimaryAssetId {
@@ -43,5 +44,5 @@ Assets {
     Version: "1.1.0"
     Description: "A photo mode for capturing cool, shareable screenshots!\r\n\r\nIncludes 9 filters and 8 frames.\r\n\r\nPlanned features:\r\n - More filters and frames\r\n - More/better camera control\r\n - Custom IK poses\r\n - Stickers??"
   }
-  SerializationVersion: 107
+  SerializationVersion: 125
 }

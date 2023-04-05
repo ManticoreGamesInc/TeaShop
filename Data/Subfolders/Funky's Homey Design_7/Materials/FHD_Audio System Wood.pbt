@@ -2,7 +2,7 @@ Assets {
   Id: 2888795276913319477
   Name: "FHD_Audio System Wood"
   PlatformAssetType: 13
-  SerializationVersion: 107
+  SerializationVersion: 125
   CustomMaterialAsset {
     BaseMaterialId: 2584198119462481458
     ParameterOverrides {

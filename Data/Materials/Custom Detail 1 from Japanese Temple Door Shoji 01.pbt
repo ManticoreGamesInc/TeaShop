@@ -2,7 +2,7 @@ Assets {
   Id: 3601737160093357391
   Name: "Custom Detail 1 from Japanese Temple Door Shoji 01"
   PlatformAssetType: 13
-  SerializationVersion: 107
+  SerializationVersion: 125
   CustomMaterialAsset {
     BaseMaterialId: 16368452509713018404
     ParameterOverrides {

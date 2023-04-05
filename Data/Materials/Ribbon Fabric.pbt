@@ -2,7 +2,7 @@ Assets {
   Id: 4585882782006665358
   Name: "Ribbon Fabric"
   PlatformAssetType: 13
-  SerializationVersion: 107
+  SerializationVersion: 125
   CustomMaterialAsset {
     BaseMaterialId: 4470423922269588744
     ParameterOverrides {

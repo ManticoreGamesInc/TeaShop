@@ -2,7 +2,7 @@ Assets {
   Id: 2339258586735136374
   Name: "FHD_TV Stand Wood"
   PlatformAssetType: 13
-  SerializationVersion: 107
+  SerializationVersion: 125
   CustomMaterialAsset {
     BaseMaterialId: 14231809728886464860
     ParameterOverrides {
