@@ -296,15 +296,6 @@ Assets {
   }
 }
 Assets {
-  Id: 13886093468335490353
-  Name: "Floor Upper 4M Downtown 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_downtown_floor_upper_4m_001"
-  }
-}
-Assets {
   Id: 13874502513103367460
   Name: "Main Street Awning 01"
   PlatformAssetType: 1
@@ -365,6 +356,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_wallpaper_abstract_004_uv"
+  }
+}
+Assets {
+  Id: 12809027731692886234
+  Name: "Craftsman Floor 01 4m x 4m"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_sub_craftsman_floor_001_4x4"
   }
 }
 Assets {
